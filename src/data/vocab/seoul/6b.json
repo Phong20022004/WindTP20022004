@@ -1,7 +1,11 @@
 {
   "book": "SEOUL 6B",
-  "group": "Seoul Korean",
-  "source": "Google Drive › HÀN › SEOUL › SEOUL 6B",
+  "appGroup": "Seoul Korean",
+  "volume": "6B",
+  "source": "HÀN/SEOUL/SEOUL 6B.xlsx",
+  "type": "vocab",
+  "lessonKind": "bài",
+  "status": "ready",
   "lessons": [
     {
       "lesson": 8,

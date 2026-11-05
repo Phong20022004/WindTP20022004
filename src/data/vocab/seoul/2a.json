@@ -1,7 +1,11 @@
 {
   "book": "SEOUL 2A",
-  "group": "Seoul Korean",
-  "source": "Google Drive › HÀN › SEOUL › SEOUL 2A",
+  "appGroup": "Seoul Korean",
+  "volume": "2A",
+  "source": "HÀN/SEOUL/SEOUL 2A.xlsx",
+  "type": "vocab",
+  "lessonKind": "bài",
+  "status": "ready",
   "lessons": [
     {
       "lesson": 1,

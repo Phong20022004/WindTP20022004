@@ -1,7 +1,11 @@
 {
   "book": "SEOUL 1A",
-  "group": "Seoul Korean",
-  "source": "Google Drive › HÀN › SEOUL › SEOUL 1A",
+  "appGroup": "Seoul Korean",
+  "volume": "1A",
+  "source": "HÀN/SEOUL/SEOUL 1A.xlsx",
+  "type": "vocab",
+  "lessonKind": "bài",
+  "status": "ready",
   "lessons": [
     {
       "lesson": 1,
@@ -342,7 +346,7 @@
         {"id": "6.1", "ko": "음식", "vi": "ẩm thực"},
         {"id": "6.2", "ko": "갈비탕", "vi": "canh sườn"},
         {"id": "6.3", "ko": "김밥", "vi": "cơm cuộn"},
-        {"id": "6.4", "ko": "kimchi", "vi": "kim chi", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
+        {"id": "6.4", "ko": "김치", "vi": "kim chi", "ko_source": "kimchi", "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
         {"id": "6.5", "ko": "김치찌개", "vi": "canh kim chi"},
         {"id": "6.6", "ko": "냉면", "vi": "Mì lạnh"},
         {"id": "6.7", "ko": "라면", "vi": "mì tôm"},

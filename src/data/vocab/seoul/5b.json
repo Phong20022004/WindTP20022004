@@ -1,7 +1,11 @@
 {
   "book": "SEOUL 5B",
-  "group": "Seoul Korean",
-  "source": "Google Drive › HÀN › SEOUL › SEOUL 5B",
+  "appGroup": "Seoul Korean",
+  "volume": "5B",
+  "source": "HÀN/SEOUL/SEOUL 5B.xlsx",
+  "type": "vocab",
+  "lessonKind": "bài",
+  "status": "ready",
   "lessons": [
     {
       "lesson": 7,
@@ -158,18 +162,18 @@
         {"id": "7.149", "ko": "지적하다", "vi": "Chỉ ra, nêu rõ"},
         {"id": "7.150", "ko": "해명하다", "vi": "Giải thích, giải trình"},
         {"id": "7.151", "ko": "반박하다", "vi": "Phản bác"},
-        {"id": "7.152", "ko": "củng cố", "vi": "Củng cố, làm vững chắc (가다듬다/강화하다)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
+        {"id": "7.152", "ko": "가다듬다", "vi": "Củng cố, làm vững chắc (가다듬다/강화하다)", "ko_source": "củng cố", "alt": ["강화하다"], "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
         {"id": "7.153", "ko": "실체를 밝히다", "vi": "Làm rõ sự thật / Vạch trần bản chất"},
         {"id": "7.154", "ko": "전개되다", "vi": "Triển khai, diễn biến"},
         {"id": "7.155", "ko": "클라이맥스", "vi": "Cao trào (trong phim/truyện)"},
         {"id": "7.156", "ko": "결말", "vi": "Kết cục, đoạn kết"},
         {"id": "7.157", "ko": "여운이 남다", "vi": "Dư âm còn lắng đọng"},
         {"id": "7.158", "ko": "몰입감", "vi": "Sự tập trung cao độ, cảm giác chìm đắm"},
-        {"id": "7.159", "ko": "Cảm động", "vi": "Cảm động (감동적이다)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
-        {"id": "7.160", "ko": "Bù đắp", "vi": "Bù đắp, làm vơi đi (달래다/보상하다)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
-        {"id": "7.161", "ko": "Khát khao", "vi": "Khát khao, mong mỏi (갈망하다)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
-        {"id": "7.162", "ko": "Tỏa sáng", "vi": "Tỏa sáng (빛나다)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"},
-        {"id": "7.163", "ko": "Kiệt tác", "vi": "Kiệt tác, tuyệt tác (명작/걸작)", "flag": "nguồn: ô KOREAN không phải tiếng Hàn – cần đối chiếu sách"}
+        {"id": "7.159", "ko": "감동적이다", "vi": "Cảm động (감동적이다)", "ko_source": "Cảm động", "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
+        {"id": "7.160", "ko": "달래다", "vi": "Bù đắp, làm vơi đi (달래다/보상하다)", "ko_source": "Bù đắp", "alt": ["보상하다"], "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
+        {"id": "7.161", "ko": "갈망하다", "vi": "Khát khao, mong mỏi (갈망하다)", "ko_source": "Khát khao", "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
+        {"id": "7.162", "ko": "빛나다", "vi": "Tỏa sáng (빛나다)", "ko_source": "Tỏa sáng", "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"},
+        {"id": "7.163", "ko": "명작", "vi": "Kiệt tác, tuyệt tác (명작/걸작)", "ko_source": "Kiệt tác", "alt": ["걸작"], "fix": "ô KOREAN trong sheet không phải tiếng Hàn; từ Hàn lấy từ câu ví dụ/ghi chú trong chính sheet – cần đối chiếu sách"}
       ]
     },
     {

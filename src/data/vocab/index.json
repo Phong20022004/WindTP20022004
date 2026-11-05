@@ -1,489 +1,2393 @@
 {
-  "note": "Danh sách từ vựng lấy từ Google Drive › HÀN. Chỉ lấy từ tiếng Hàn + nghĩa tiếng Việt; id = <số bài>.<thứ tự trong bài>. Số bài theo đúng sách (1B bắt đầu từ bài 9, 2B từ bài 10, ...).",
-  "extracted": [
+  "note": "Danh sách từ vựng lấy từ file Excel trong thư mục HÀN. Mỗi từ có id = <số bài>.<thứ tự trong bài> (ví dụ 2.5 = từ thứ 5 của bài 2). Chỉ lấy từ tiếng Hàn + nghĩa tiếng Việt (ngữ pháp: mẫu câu + công dụng). Giáo trình không có trong HÀN để trống (status \"blank\").",
+  "groups": [
     {
-      "book": "SEOUL 1A",
-      "file": "seoul-1a.json",
-      "lessons": [
+      "appGroup": "Yonsei Tổng hợp",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 43
+          "volume": "1-1",
+          "file": "yonsei/1-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 1-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 65
+            },
+            {
+              "lesson": 2,
+              "count": 105
+            },
+            {
+              "lesson": 3,
+              "count": 120
+            },
+            {
+              "lesson": 4,
+              "count": 128
+            },
+            {
+              "lesson": 5,
+              "count": 96
+            }
+          ],
+          "words": 514
         },
         {
-          "lesson": 2,
-          "count": 64
+          "volume": "1-2",
+          "file": "yonsei/1-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 1-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 98
+            },
+            {
+              "lesson": 7,
+              "count": 103
+            },
+            {
+              "lesson": 8,
+              "count": 100
+            },
+            {
+              "lesson": 9,
+              "count": 98
+            },
+            {
+              "lesson": 10,
+              "count": 115
+            }
+          ],
+          "words": 514
         },
         {
-          "lesson": 3,
-          "count": 51
+          "volume": "2-1",
+          "file": "yonsei/2-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 2-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 68
+            },
+            {
+              "lesson": 2,
+              "count": 88
+            },
+            {
+              "lesson": 3,
+              "count": 79
+            },
+            {
+              "lesson": 4,
+              "count": 65
+            },
+            {
+              "lesson": 5,
+              "count": 78
+            }
+          ],
+          "words": 378
         },
         {
-          "lesson": 4,
-          "count": 46
+          "volume": "2-2",
+          "file": "yonsei/2-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 2-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 83
+            },
+            {
+              "lesson": 7,
+              "count": 64
+            },
+            {
+              "lesson": 8,
+              "count": 88
+            },
+            {
+              "lesson": 9,
+              "count": 106
+            },
+            {
+              "lesson": 10,
+              "count": 90
+            }
+          ],
+          "words": 431
         },
         {
-          "lesson": 5,
-          "count": 98
+          "volume": "3-1",
+          "file": "yonsei/3-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 3-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 51
+            },
+            {
+              "lesson": 2,
+              "count": 70
+            },
+            {
+              "lesson": 3,
+              "count": 68
+            },
+            {
+              "lesson": 4,
+              "count": 53
+            },
+            {
+              "lesson": 5,
+              "count": 58
+            }
+          ],
+          "words": 300
         },
         {
-          "lesson": 6,
-          "count": 35
+          "volume": "3-2",
+          "file": "yonsei/3-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 3-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 56
+            },
+            {
+              "lesson": 7,
+              "count": 57
+            },
+            {
+              "lesson": 8,
+              "count": 64
+            },
+            {
+              "lesson": 9,
+              "count": 51
+            },
+            {
+              "lesson": 10,
+              "count": 74
+            }
+          ],
+          "words": 302
         },
         {
-          "lesson": 7,
-          "count": 55
+          "volume": "4-1",
+          "file": "yonsei/4-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 4-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 42
+            },
+            {
+              "lesson": 2,
+              "count": 62
+            },
+            {
+              "lesson": 3,
+              "count": 52
+            },
+            {
+              "lesson": 4,
+              "count": 31
+            },
+            {
+              "lesson": 5,
+              "count": 46
+            }
+          ],
+          "words": 233
         },
         {
-          "lesson": 8,
-          "count": 50
+          "volume": "4-2",
+          "file": "yonsei/4-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 4-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 32
+            },
+            {
+              "lesson": 7,
+              "count": 53
+            },
+            {
+              "lesson": 8,
+              "count": 67
+            },
+            {
+              "lesson": 9,
+              "count": 50
+            },
+            {
+              "lesson": 10,
+              "count": 46
+            }
+          ],
+          "words": 248
+        },
+        {
+          "volume": "5-1",
+          "file": "yonsei/5-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 5-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 41
+            },
+            {
+              "lesson": 2,
+              "count": 65
+            },
+            {
+              "lesson": 3,
+              "count": 71
+            },
+            {
+              "lesson": 4,
+              "count": 88
+            },
+            {
+              "lesson": 5,
+              "count": 97
+            }
+          ],
+          "words": 362
+        },
+        {
+          "volume": "5-2",
+          "file": "yonsei/5-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 5-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 101
+            },
+            {
+              "lesson": 7,
+              "count": 89
+            },
+            {
+              "lesson": 8,
+              "count": 88
+            },
+            {
+              "lesson": 9,
+              "count": 124
+            },
+            {
+              "lesson": 10,
+              "count": 93
+            }
+          ],
+          "words": 495
+        },
+        {
+          "volume": "6-1",
+          "file": "yonsei/6-1.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 6-1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 51
+            },
+            {
+              "lesson": 2,
+              "count": 41
+            },
+            {
+              "lesson": 3,
+              "count": 46
+            },
+            {
+              "lesson": 4,
+              "count": 50
+            },
+            {
+              "lesson": 5,
+              "count": 51
+            }
+          ],
+          "words": 239
+        },
+        {
+          "volume": "6-2",
+          "file": "yonsei/6-2.json",
+          "status": "ready",
+          "source": "HÀN/YONSEI/YONSEI 6-2.xlsx",
+          "lessons": [
+            {
+              "lesson": 6,
+              "count": 65
+            },
+            {
+              "lesson": 7,
+              "count": 44
+            },
+            {
+              "lesson": 8,
+              "count": 47
+            },
+            {
+              "lesson": 9,
+              "count": 52
+            },
+            {
+              "lesson": 10,
+              "count": 42
+            }
+          ],
+          "words": 250
         }
-      ],
-      "words": 442
+      ]
     },
     {
-      "book": "SEOUL 1B",
-      "file": "seoul-1b.json",
-      "lessons": [
+      "appGroup": "Yonsei Reading / Listening",
+      "volumes": [
         {
-          "lesson": 9,
-          "count": 60
+          "volume": "Reading/Listening 1",
+          "file": "yonsei-reading-listening/reading-listening-1.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         },
         {
-          "lesson": 10,
-          "count": 44
+          "volume": "Reading/Listening 2",
+          "file": "yonsei-reading-listening/reading-listening-2.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         },
         {
-          "lesson": 11,
-          "count": 60
+          "volume": "Reading/Listening 3",
+          "file": "yonsei-reading-listening/reading-listening-3.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         },
         {
-          "lesson": 12,
-          "count": 25
+          "volume": "Reading/Listening 4",
+          "file": "yonsei-reading-listening/reading-listening-4.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         },
         {
-          "lesson": 13,
-          "count": 44
+          "volume": "Reading/Listening 5",
+          "file": "yonsei-reading-listening/reading-listening-5.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         },
         {
-          "lesson": 14,
-          "count": 61
-        },
-        {
-          "lesson": 15,
-          "count": 42
-        },
-        {
-          "lesson": 16,
-          "count": 33
+          "volume": "Reading/Listening 6",
+          "file": "yonsei-reading-listening/reading-listening-6.json",
+          "status": "blank",
+          "source": null,
+          "lessons": [],
+          "words": 0
         }
-      ],
-      "words": 369
+      ]
     },
     {
-      "book": "SEOUL 2A",
-      "file": "seoul-2a.json",
-      "lessons": [
+      "appGroup": "Seoul Korean",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 39
+          "volume": "1A",
+          "file": "seoul/1a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 1A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 43
+            },
+            {
+              "lesson": 2,
+              "count": 64
+            },
+            {
+              "lesson": 3,
+              "count": 51
+            },
+            {
+              "lesson": 4,
+              "count": 46
+            },
+            {
+              "lesson": 5,
+              "count": 98
+            },
+            {
+              "lesson": 6,
+              "count": 35
+            },
+            {
+              "lesson": 7,
+              "count": 55
+            },
+            {
+              "lesson": 8,
+              "count": 50
+            }
+          ],
+          "words": 442
         },
         {
-          "lesson": 2,
-          "count": 23
+          "volume": "1B",
+          "file": "seoul/1b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 1B.xlsx",
+          "lessons": [
+            {
+              "lesson": 9,
+              "count": 60
+            },
+            {
+              "lesson": 10,
+              "count": 44
+            },
+            {
+              "lesson": 11,
+              "count": 60
+            },
+            {
+              "lesson": 12,
+              "count": 25
+            },
+            {
+              "lesson": 13,
+              "count": 44
+            },
+            {
+              "lesson": 14,
+              "count": 61
+            },
+            {
+              "lesson": 15,
+              "count": 42
+            },
+            {
+              "lesson": 16,
+              "count": 33
+            }
+          ],
+          "words": 369
         },
         {
-          "lesson": 3,
-          "count": 51
+          "volume": "2A",
+          "file": "seoul/2a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 2A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 39
+            },
+            {
+              "lesson": 2,
+              "count": 23
+            },
+            {
+              "lesson": 3,
+              "count": 51
+            },
+            {
+              "lesson": 4,
+              "count": 63
+            },
+            {
+              "lesson": 5,
+              "count": 68
+            },
+            {
+              "lesson": 6,
+              "count": 67
+            },
+            {
+              "lesson": 7,
+              "count": 44
+            },
+            {
+              "lesson": 8,
+              "count": 42
+            },
+            {
+              "lesson": 9,
+              "count": 53
+            }
+          ],
+          "words": 450
         },
         {
-          "lesson": 4,
-          "count": 63
+          "volume": "2B",
+          "file": "seoul/2b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 2B.xlsx",
+          "lessons": [
+            {
+              "lesson": 10,
+              "count": 46
+            },
+            {
+              "lesson": 11,
+              "count": 64
+            },
+            {
+              "lesson": 12,
+              "count": 44
+            },
+            {
+              "lesson": 13,
+              "count": 58
+            },
+            {
+              "lesson": 14,
+              "count": 32
+            },
+            {
+              "lesson": 15,
+              "count": 35
+            },
+            {
+              "lesson": 16,
+              "count": 34
+            },
+            {
+              "lesson": 17,
+              "count": 44
+            },
+            {
+              "lesson": 18,
+              "count": 27
+            }
+          ],
+          "words": 384
         },
         {
-          "lesson": 5,
-          "count": 68
+          "volume": "3A",
+          "file": "seoul/3a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 3A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 67
+            },
+            {
+              "lesson": 2,
+              "count": 50
+            },
+            {
+              "lesson": 3,
+              "count": 46
+            },
+            {
+              "lesson": 4,
+              "count": 65
+            },
+            {
+              "lesson": 5,
+              "count": 38
+            },
+            {
+              "lesson": 6,
+              "count": 53
+            },
+            {
+              "lesson": 7,
+              "count": 46
+            },
+            {
+              "lesson": 8,
+              "count": 24
+            },
+            {
+              "lesson": 9,
+              "count": 41
+            }
+          ],
+          "words": 430
         },
         {
-          "lesson": 6,
-          "count": 67
+          "volume": "3B",
+          "file": "seoul/3b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 3B.xlsx",
+          "lessons": [
+            {
+              "lesson": 10,
+              "count": 49
+            },
+            {
+              "lesson": 11,
+              "count": 63
+            },
+            {
+              "lesson": 12,
+              "count": 52
+            },
+            {
+              "lesson": 13,
+              "count": 100
+            },
+            {
+              "lesson": 14,
+              "count": 51
+            },
+            {
+              "lesson": 15,
+              "count": 56
+            },
+            {
+              "lesson": 16,
+              "count": 81
+            },
+            {
+              "lesson": 17,
+              "count": 62
+            },
+            {
+              "lesson": 18,
+              "count": 34
+            }
+          ],
+          "words": 548
         },
         {
-          "lesson": 7,
-          "count": 44
+          "volume": "4A",
+          "file": "seoul/4a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 4A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 113
+            },
+            {
+              "lesson": 2,
+              "count": 99
+            },
+            {
+              "lesson": 3,
+              "count": 100
+            },
+            {
+              "lesson": 4,
+              "count": 92
+            },
+            {
+              "lesson": 5,
+              "count": 74
+            },
+            {
+              "lesson": 6,
+              "count": 91
+            },
+            {
+              "lesson": 7,
+              "count": 99
+            },
+            {
+              "lesson": 8,
+              "count": 82
+            },
+            {
+              "lesson": 9,
+              "count": 71
+            }
+          ],
+          "words": 821
         },
         {
-          "lesson": 8,
-          "count": 42
+          "volume": "4B",
+          "file": "seoul/4b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 4B.xlsx",
+          "lessons": [
+            {
+              "lesson": 10,
+              "count": 100
+            },
+            {
+              "lesson": 11,
+              "count": 66
+            },
+            {
+              "lesson": 12,
+              "count": 98
+            },
+            {
+              "lesson": 13,
+              "count": 61
+            },
+            {
+              "lesson": 14,
+              "count": 68
+            },
+            {
+              "lesson": 15,
+              "count": 118
+            },
+            {
+              "lesson": 16,
+              "count": 97
+            },
+            {
+              "lesson": 17,
+              "count": 82
+            },
+            {
+              "lesson": 18,
+              "count": 50
+            }
+          ],
+          "words": 740
         },
         {
-          "lesson": 9,
-          "count": 53
+          "volume": "5A",
+          "file": "seoul/5a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 5A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 100
+            },
+            {
+              "lesson": 2,
+              "count": 77
+            },
+            {
+              "lesson": 3,
+              "count": 140
+            },
+            {
+              "lesson": 4,
+              "count": 100
+            },
+            {
+              "lesson": 5,
+              "count": 149
+            },
+            {
+              "lesson": 6,
+              "count": 57
+            }
+          ],
+          "words": 623
+        },
+        {
+          "volume": "5B",
+          "file": "seoul/5b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 5B.xlsx",
+          "lessons": [
+            {
+              "lesson": 7,
+              "count": 163
+            },
+            {
+              "lesson": 8,
+              "count": 170
+            },
+            {
+              "lesson": 9,
+              "count": 119
+            },
+            {
+              "lesson": 10,
+              "count": 92
+            },
+            {
+              "lesson": 11,
+              "count": 103
+            },
+            {
+              "lesson": 12,
+              "count": 100
+            },
+            {
+              "lesson": 13,
+              "count": 58
+            }
+          ],
+          "words": 805
+        },
+        {
+          "volume": "6A",
+          "file": "seoul/6a.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 6A.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 72
+            },
+            {
+              "lesson": 2,
+              "count": 120
+            },
+            {
+              "lesson": 3,
+              "count": 116
+            },
+            {
+              "lesson": 4,
+              "count": 80
+            },
+            {
+              "lesson": 5,
+              "count": 74
+            },
+            {
+              "lesson": 6,
+              "count": 67
+            },
+            {
+              "lesson": 7,
+              "count": 64
+            }
+          ],
+          "words": 593
+        },
+        {
+          "volume": "6B",
+          "file": "seoul/6b.json",
+          "status": "ready",
+          "source": "HÀN/SEOUL/SEOUL 6B.xlsx",
+          "lessons": [
+            {
+              "lesson": 8,
+              "count": 30
+            },
+            {
+              "lesson": 9,
+              "count": 63
+            },
+            {
+              "lesson": 10,
+              "count": 46
+            },
+            {
+              "lesson": 11,
+              "count": 53
+            },
+            {
+              "lesson": 12,
+              "count": 66
+            },
+            {
+              "lesson": 13,
+              "count": 78
+            },
+            {
+              "lesson": 14,
+              "count": 75
+            },
+            {
+              "lesson": 15,
+              "count": 53
+            }
+          ],
+          "words": 464
         }
-      ],
-      "words": 450
+      ]
     },
     {
-      "book": "SEOUL 2B",
-      "file": "seoul-2b.json",
-      "lessons": [
+      "appGroup": "TOPIK I",
+      "volumes": [
         {
-          "lesson": 10,
-          "count": 46
-        },
-        {
-          "lesson": 11,
-          "count": 64
-        },
-        {
-          "lesson": 12,
-          "count": 44
-        },
-        {
-          "lesson": 13,
-          "count": 58
-        },
-        {
-          "lesson": 14,
-          "count": 32
-        },
-        {
-          "lesson": 15,
-          "count": 35
-        },
-        {
-          "lesson": 16,
-          "count": 34
-        },
-        {
-          "lesson": 17,
-          "count": 44
-        },
-        {
-          "lesson": 18,
-          "count": 27
+          "volume": "Luyện thi TOPIK I",
+          "file": "topik/topik-1.json",
+          "status": "ready",
+          "source": "HÀN/TOPIK/TOPIK  I.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 25
+            },
+            {
+              "lesson": 2,
+              "count": 25
+            },
+            {
+              "lesson": 3,
+              "count": 25
+            },
+            {
+              "lesson": 4,
+              "count": 25
+            },
+            {
+              "lesson": 5,
+              "count": 25
+            },
+            {
+              "lesson": 6,
+              "count": 25
+            },
+            {
+              "lesson": 7,
+              "count": 25
+            },
+            {
+              "lesson": 8,
+              "count": 25
+            },
+            {
+              "lesson": 9,
+              "count": 25
+            },
+            {
+              "lesson": 10,
+              "count": 25
+            },
+            {
+              "lesson": 11,
+              "count": 25
+            },
+            {
+              "lesson": 12,
+              "count": 25
+            },
+            {
+              "lesson": 13,
+              "count": 34
+            },
+            {
+              "lesson": 14,
+              "count": 26
+            },
+            {
+              "lesson": 15,
+              "count": 25
+            },
+            {
+              "lesson": 16,
+              "count": 25
+            },
+            {
+              "lesson": 17,
+              "count": 25
+            },
+            {
+              "lesson": 18,
+              "count": 25
+            },
+            {
+              "lesson": 19,
+              "count": 25
+            },
+            {
+              "lesson": 20,
+              "count": 25
+            },
+            {
+              "lesson": 21,
+              "count": 11
+            },
+            {
+              "lesson": 22,
+              "count": 29
+            },
+            {
+              "lesson": 23,
+              "count": 25
+            },
+            {
+              "lesson": 24,
+              "count": 25
+            },
+            {
+              "lesson": 25,
+              "count": 25
+            },
+            {
+              "lesson": 26,
+              "count": 25
+            },
+            {
+              "lesson": 27,
+              "count": 25
+            },
+            {
+              "lesson": 28,
+              "count": 25
+            },
+            {
+              "lesson": 29,
+              "count": 25
+            },
+            {
+              "lesson": 30,
+              "count": 25
+            },
+            {
+              "lesson": 31,
+              "count": 30
+            },
+            {
+              "lesson": 32,
+              "count": 50
+            },
+            {
+              "lesson": 33,
+              "count": 50
+            },
+            {
+              "lesson": 34,
+              "count": 60
+            },
+            {
+              "lesson": 35,
+              "count": 60
+            }
+          ],
+          "words": 1000
         }
-      ],
-      "words": 384
+      ]
     },
     {
-      "book": "SEOUL 3A",
-      "file": "seoul-3a.json",
-      "lessons": [
+      "appGroup": "TOPIK II",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 67
-        },
-        {
-          "lesson": 2,
-          "count": 50
-        },
-        {
-          "lesson": 3,
-          "count": 46
-        },
-        {
-          "lesson": 4,
-          "count": 65
-        },
-        {
-          "lesson": 5,
-          "count": 38
-        },
-        {
-          "lesson": 6,
-          "count": 53
-        },
-        {
-          "lesson": 7,
-          "count": 46
-        },
-        {
-          "lesson": 8,
-          "count": 24
-        },
-        {
-          "lesson": 9,
-          "count": 41
+          "volume": "Luyện thi TOPIK II",
+          "file": "topik/topik-2.json",
+          "status": "ready",
+          "source": "HÀN/TOPIK/TOPIK II.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 15
+            },
+            {
+              "lesson": 2,
+              "count": 35
+            },
+            {
+              "lesson": 3,
+              "count": 25
+            },
+            {
+              "lesson": 4,
+              "count": 25
+            },
+            {
+              "lesson": 5,
+              "count": 22
+            },
+            {
+              "lesson": 6,
+              "count": 27
+            },
+            {
+              "lesson": 7,
+              "count": 25
+            },
+            {
+              "lesson": 8,
+              "count": 25
+            },
+            {
+              "lesson": 9,
+              "count": 25
+            },
+            {
+              "lesson": 10,
+              "count": 25
+            },
+            {
+              "lesson": 11,
+              "count": 25
+            },
+            {
+              "lesson": 12,
+              "count": 25
+            },
+            {
+              "lesson": 13,
+              "count": 25
+            },
+            {
+              "lesson": 14,
+              "count": 25
+            },
+            {
+              "lesson": 15,
+              "count": 25
+            },
+            {
+              "lesson": 16,
+              "count": 25
+            },
+            {
+              "lesson": 17,
+              "count": 25
+            },
+            {
+              "lesson": 18,
+              "count": 25
+            },
+            {
+              "lesson": 19,
+              "count": 25
+            },
+            {
+              "lesson": 20,
+              "count": 26
+            },
+            {
+              "lesson": 21,
+              "count": 25
+            },
+            {
+              "lesson": 22,
+              "count": 25
+            },
+            {
+              "lesson": 23,
+              "count": 25
+            },
+            {
+              "lesson": 24,
+              "count": 25
+            },
+            {
+              "lesson": 25,
+              "count": 25
+            },
+            {
+              "lesson": 26,
+              "count": 25
+            },
+            {
+              "lesson": 27,
+              "count": 25
+            },
+            {
+              "lesson": 28,
+              "count": 25
+            },
+            {
+              "lesson": 29,
+              "count": 25
+            },
+            {
+              "lesson": 30,
+              "count": 25
+            },
+            {
+              "lesson": 31,
+              "count": 25
+            },
+            {
+              "lesson": 32,
+              "count": 25
+            },
+            {
+              "lesson": 33,
+              "count": 25
+            },
+            {
+              "lesson": 34,
+              "count": 25
+            },
+            {
+              "lesson": 35,
+              "count": 25
+            },
+            {
+              "lesson": 36,
+              "count": 25
+            },
+            {
+              "lesson": 37,
+              "count": 25
+            },
+            {
+              "lesson": 38,
+              "count": 25
+            },
+            {
+              "lesson": 39,
+              "count": 25
+            },
+            {
+              "lesson": 40,
+              "count": 26
+            },
+            {
+              "lesson": 41,
+              "count": 25
+            },
+            {
+              "lesson": 42,
+              "count": 25
+            },
+            {
+              "lesson": 43,
+              "count": 20
+            },
+            {
+              "lesson": 44,
+              "count": 20
+            },
+            {
+              "lesson": 45,
+              "count": 20
+            },
+            {
+              "lesson": 46,
+              "count": 20
+            },
+            {
+              "lesson": 47,
+              "count": 20
+            },
+            {
+              "lesson": 48,
+              "count": 20
+            },
+            {
+              "lesson": 49,
+              "count": 20
+            },
+            {
+              "lesson": 50,
+              "count": 20
+            },
+            {
+              "lesson": 51,
+              "count": 20
+            },
+            {
+              "lesson": 52,
+              "count": 20
+            },
+            {
+              "lesson": 53,
+              "count": 20
+            },
+            {
+              "lesson": 54,
+              "count": 20
+            },
+            {
+              "lesson": 55,
+              "count": 20
+            },
+            {
+              "lesson": 56,
+              "count": 20
+            },
+            {
+              "lesson": 57,
+              "count": 20
+            },
+            {
+              "lesson": 58,
+              "count": 20
+            },
+            {
+              "lesson": 59,
+              "count": 20
+            },
+            {
+              "lesson": 60,
+              "count": 20
+            },
+            {
+              "lesson": 61,
+              "count": 20
+            },
+            {
+              "lesson": 62,
+              "count": 20
+            },
+            {
+              "lesson": 63,
+              "count": 20
+            },
+            {
+              "lesson": 64,
+              "count": 30
+            },
+            {
+              "lesson": 65,
+              "count": 45
+            },
+            {
+              "lesson": 66,
+              "count": 25
+            },
+            {
+              "lesson": 67,
+              "count": 30
+            },
+            {
+              "lesson": 68,
+              "count": 20
+            },
+            {
+              "lesson": 69,
+              "count": 20
+            },
+            {
+              "lesson": 70,
+              "count": 20
+            },
+            {
+              "lesson": 71,
+              "count": 15
+            },
+            {
+              "lesson": 72,
+              "count": 15
+            },
+            {
+              "lesson": 73,
+              "count": 15
+            },
+            {
+              "lesson": 74,
+              "count": 15
+            },
+            {
+              "lesson": 75,
+              "count": 12
+            },
+            {
+              "lesson": 76,
+              "count": 15
+            },
+            {
+              "lesson": 77,
+              "count": 15
+            },
+            {
+              "lesson": 78,
+              "count": 15
+            },
+            {
+              "lesson": 79,
+              "count": 15
+            },
+            {
+              "lesson": 80,
+              "count": 15
+            },
+            {
+              "lesson": 81,
+              "count": 15
+            },
+            {
+              "lesson": 82,
+              "count": 15
+            },
+            {
+              "lesson": 83,
+              "count": 15
+            },
+            {
+              "lesson": 84,
+              "count": 15
+            },
+            {
+              "lesson": 85,
+              "count": 15
+            },
+            {
+              "lesson": 86,
+              "count": 15
+            },
+            {
+              "lesson": 87,
+              "count": 15
+            },
+            {
+              "lesson": 88,
+              "count": 15
+            },
+            {
+              "lesson": 89,
+              "count": 15
+            },
+            {
+              "lesson": 90,
+              "count": 15
+            },
+            {
+              "lesson": 91,
+              "count": 15
+            },
+            {
+              "lesson": 92,
+              "count": 15
+            },
+            {
+              "lesson": 93,
+              "count": 13
+            }
+          ],
+          "words": 2001
         }
-      ],
-      "words": 430
+      ]
     },
     {
-      "book": "SEOUL 3B",
-      "file": "seoul-3b.json",
-      "lessons": [
+      "appGroup": "EPS-TOPIK",
+      "volumes": [
         {
-          "lesson": 10,
-          "count": 49
+          "volume": "Bài 1–10",
+          "file": "eps-topik/1-10.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 1-10.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 43
+            },
+            {
+              "lesson": 2,
+              "count": 47
+            },
+            {
+              "lesson": 3,
+              "count": 30
+            },
+            {
+              "lesson": 4,
+              "count": 28
+            },
+            {
+              "lesson": 5,
+              "count": 36
+            },
+            {
+              "lesson": 6,
+              "count": 42
+            },
+            {
+              "lesson": 7,
+              "count": 34
+            },
+            {
+              "lesson": 8,
+              "count": 59
+            },
+            {
+              "lesson": 9,
+              "count": 41
+            },
+            {
+              "lesson": 10,
+              "count": 48
+            }
+          ],
+          "words": 408
         },
         {
-          "lesson": 11,
-          "count": 63
+          "volume": "Bài 11–20",
+          "file": "eps-topik/11-20.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 11-20.xlsx",
+          "lessons": [
+            {
+              "lesson": 11,
+              "count": 50
+            },
+            {
+              "lesson": 12,
+              "count": 42
+            },
+            {
+              "lesson": 13,
+              "count": 45
+            },
+            {
+              "lesson": 16,
+              "count": 38
+            },
+            {
+              "lesson": 17,
+              "count": 38
+            },
+            {
+              "lesson": 18,
+              "count": 43
+            },
+            {
+              "lesson": 19,
+              "count": 46
+            },
+            {
+              "lesson": 20,
+              "count": 34
+            }
+          ],
+          "words": 336
         },
         {
-          "lesson": 12,
-          "count": 52
+          "volume": "Bài 21–30",
+          "file": "eps-topik/21-30.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 21-30.xlsx",
+          "lessons": [
+            {
+              "lesson": 21,
+              "count": 53
+            },
+            {
+              "lesson": 22,
+              "count": 35
+            },
+            {
+              "lesson": 23,
+              "count": 36
+            },
+            {
+              "lesson": 24,
+              "count": 40
+            },
+            {
+              "lesson": 25,
+              "count": 46
+            },
+            {
+              "lesson": 26,
+              "count": 43
+            },
+            {
+              "lesson": 27,
+              "count": 42
+            },
+            {
+              "lesson": 28,
+              "count": 30
+            },
+            {
+              "lesson": 29,
+              "count": 44
+            },
+            {
+              "lesson": 30,
+              "count": 33
+            }
+          ],
+          "words": 402
         },
         {
-          "lesson": 13,
-          "count": 100
+          "volume": "Bài 31–40",
+          "file": "eps-topik/31-40.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 31-40.xlsx",
+          "lessons": [
+            {
+              "lesson": 31,
+              "count": 43
+            },
+            {
+              "lesson": 32,
+              "count": 30
+            },
+            {
+              "lesson": 33,
+              "count": 42
+            },
+            {
+              "lesson": 34,
+              "count": 43
+            },
+            {
+              "lesson": 35,
+              "count": 38
+            },
+            {
+              "lesson": 36,
+              "count": 47
+            },
+            {
+              "lesson": 37,
+              "count": 48
+            },
+            {
+              "lesson": 38,
+              "count": 49
+            },
+            {
+              "lesson": 39,
+              "count": 45
+            },
+            {
+              "lesson": 40,
+              "count": 45
+            }
+          ],
+          "words": 430
         },
         {
-          "lesson": 14,
-          "count": 51
+          "volume": "Bài 41–50",
+          "file": "eps-topik/41-50.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 41-50.xlsx",
+          "lessons": [
+            {
+              "lesson": 41,
+              "count": 48
+            },
+            {
+              "lesson": 42,
+              "count": 42
+            },
+            {
+              "lesson": 43,
+              "count": 40
+            },
+            {
+              "lesson": 45,
+              "count": 41
+            },
+            {
+              "lesson": 46,
+              "count": 40
+            },
+            {
+              "lesson": 47,
+              "count": 41
+            },
+            {
+              "lesson": 48,
+              "count": 51
+            },
+            {
+              "lesson": 49,
+              "count": 40
+            },
+            {
+              "lesson": 50,
+              "count": 50
+            }
+          ],
+          "words": 393
         },
         {
-          "lesson": 15,
-          "count": 56
-        },
-        {
-          "lesson": 16,
-          "count": 81
-        },
-        {
-          "lesson": 17,
-          "count": 62
-        },
-        {
-          "lesson": 18,
-          "count": 34
+          "volume": "Bài 51–60",
+          "file": "eps-topik/51-60.json",
+          "status": "ready",
+          "source": "HÀN/EPS/EPS 51-60.xlsx",
+          "lessons": [
+            {
+              "lesson": 51,
+              "count": 54
+            },
+            {
+              "lesson": 52,
+              "count": 54
+            },
+            {
+              "lesson": 53,
+              "count": 70
+            },
+            {
+              "lesson": 54,
+              "count": 59
+            },
+            {
+              "lesson": 55,
+              "count": 49
+            },
+            {
+              "lesson": 56,
+              "count": 53
+            },
+            {
+              "lesson": 57,
+              "count": 44
+            },
+            {
+              "lesson": 58,
+              "count": 46
+            },
+            {
+              "lesson": 59,
+              "count": 49
+            },
+            {
+              "lesson": 60,
+              "count": 40
+            }
+          ],
+          "words": 518
         }
-      ],
-      "words": 548
+      ]
     },
     {
-      "book": "SEOUL 4A",
-      "file": "seoul-4a.json",
-      "lessons": [
+      "appGroup": "Từ vựng Sơ cấp",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 113
+          "volume": "Quyển 1",
+          "file": "tu-vung-so-cap/quyen-1.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/SƠ CẤP 1.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 54
+            },
+            {
+              "lesson": 2,
+              "count": 55
+            },
+            {
+              "lesson": 3,
+              "count": 58
+            },
+            {
+              "lesson": 4,
+              "count": 56
+            },
+            {
+              "lesson": 5,
+              "count": 51
+            },
+            {
+              "lesson": 6,
+              "count": 53
+            },
+            {
+              "lesson": 7,
+              "count": 46
+            },
+            {
+              "lesson": 8,
+              "count": 74
+            },
+            {
+              "lesson": 9,
+              "count": 66
+            },
+            {
+              "lesson": 10,
+              "count": 63
+            },
+            {
+              "lesson": 11,
+              "count": 55
+            },
+            {
+              "lesson": 12,
+              "count": 58
+            },
+            {
+              "lesson": 13,
+              "count": 54
+            },
+            {
+              "lesson": 14,
+              "count": 77
+            },
+            {
+              "lesson": 15,
+              "count": 57
+            }
+          ],
+          "words": 877
         },
         {
-          "lesson": 2,
-          "count": 99
-        },
-        {
-          "lesson": 3,
-          "count": 100
-        },
-        {
-          "lesson": 4,
-          "count": 92
-        },
-        {
-          "lesson": 5,
-          "count": 74
-        },
-        {
-          "lesson": 6,
-          "count": 91
-        },
-        {
-          "lesson": 7,
-          "count": 99
-        },
-        {
-          "lesson": 8,
-          "count": 82
-        },
-        {
-          "lesson": 9,
-          "count": 71
+          "volume": "Quyển 2",
+          "file": "tu-vung-so-cap/quyen-2.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/SƠ CẤP 2.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 49
+            },
+            {
+              "lesson": 2,
+              "count": 54
+            },
+            {
+              "lesson": 3,
+              "count": 55
+            },
+            {
+              "lesson": 4,
+              "count": 87
+            },
+            {
+              "lesson": 5,
+              "count": 35
+            },
+            {
+              "lesson": 6,
+              "count": 50
+            },
+            {
+              "lesson": 7,
+              "count": 49
+            },
+            {
+              "lesson": 8,
+              "count": 56
+            },
+            {
+              "lesson": 9,
+              "count": 51
+            },
+            {
+              "lesson": 10,
+              "count": 38
+            },
+            {
+              "lesson": 11,
+              "count": 40
+            },
+            {
+              "lesson": 12,
+              "count": 35
+            },
+            {
+              "lesson": 13,
+              "count": 42
+            },
+            {
+              "lesson": 14,
+              "count": 48
+            },
+            {
+              "lesson": 15,
+              "count": 53
+            }
+          ],
+          "words": 742
         }
-      ],
-      "words": 821
+      ]
     },
     {
-      "book": "SEOUL 4B",
-      "file": "seoul-4b.json",
-      "lessons": [
+      "appGroup": "Từ vựng Trung cấp",
+      "volumes": [
         {
-          "lesson": 10,
-          "count": 100
+          "volume": "Quyển 3",
+          "file": "tu-vung-trung-cap/quyen-3.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/TRUNG CẤP 3.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 61
+            },
+            {
+              "lesson": 2,
+              "count": 59
+            },
+            {
+              "lesson": 3,
+              "count": 48
+            },
+            {
+              "lesson": 4,
+              "count": 65
+            },
+            {
+              "lesson": 5,
+              "count": 114
+            },
+            {
+              "lesson": 6,
+              "count": 45
+            },
+            {
+              "lesson": 7,
+              "count": 61
+            },
+            {
+              "lesson": 8,
+              "count": 57
+            },
+            {
+              "lesson": 9,
+              "count": 63
+            },
+            {
+              "lesson": 10,
+              "count": 60
+            },
+            {
+              "lesson": 11,
+              "count": 75
+            },
+            {
+              "lesson": 12,
+              "count": 51
+            },
+            {
+              "lesson": 13,
+              "count": 86
+            },
+            {
+              "lesson": 14,
+              "count": 68
+            },
+            {
+              "lesson": 15,
+              "count": 44
+            }
+          ],
+          "words": 957
         },
         {
-          "lesson": 11,
-          "count": 66
-        },
-        {
-          "lesson": 12,
-          "count": 98
-        },
-        {
-          "lesson": 13,
-          "count": 61
-        },
-        {
-          "lesson": 14,
-          "count": 68
-        },
-        {
-          "lesson": 15,
-          "count": 118
-        },
-        {
-          "lesson": 16,
-          "count": 97
-        },
-        {
-          "lesson": 17,
-          "count": 82
-        },
-        {
-          "lesson": 18,
-          "count": 50
+          "volume": "Quyển 4",
+          "file": "tu-vung-trung-cap/quyen-4.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/TRUNG CẤP 4.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 98
+            },
+            {
+              "lesson": 2,
+              "count": 90
+            },
+            {
+              "lesson": 3,
+              "count": 107
+            },
+            {
+              "lesson": 4,
+              "count": 113
+            },
+            {
+              "lesson": 5,
+              "count": 89
+            },
+            {
+              "lesson": 6,
+              "count": 90
+            },
+            {
+              "lesson": 7,
+              "count": 108
+            },
+            {
+              "lesson": 8,
+              "count": 80
+            },
+            {
+              "lesson": 9,
+              "count": 97
+            },
+            {
+              "lesson": 10,
+              "count": 102
+            },
+            {
+              "lesson": 11,
+              "count": 87
+            },
+            {
+              "lesson": 12,
+              "count": 96
+            },
+            {
+              "lesson": 13,
+              "count": 96
+            },
+            {
+              "lesson": 14,
+              "count": 104
+            },
+            {
+              "lesson": 15,
+              "count": 72
+            }
+          ],
+          "words": 1429
         }
-      ],
-      "words": 740
+      ]
     },
     {
-      "book": "SEOUL 5A",
-      "file": "seoul-5a.json",
-      "lessons": [
+      "appGroup": "Từ vựng Cao cấp",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 100
+          "volume": "Quyển 5",
+          "file": "tu-vung-cao-cap/quyen-5.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/CAO CẤP 5.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 70
+            },
+            {
+              "lesson": 2,
+              "count": 86
+            },
+            {
+              "lesson": 3,
+              "count": 47
+            },
+            {
+              "lesson": 4,
+              "count": 69
+            },
+            {
+              "lesson": 5,
+              "count": 70
+            },
+            {
+              "lesson": 6,
+              "count": 72
+            },
+            {
+              "lesson": 7,
+              "count": 62
+            },
+            {
+              "lesson": 8,
+              "count": 68
+            },
+            {
+              "lesson": 9,
+              "count": 85
+            },
+            {
+              "lesson": 10,
+              "count": 102
+            },
+            {
+              "lesson": 11,
+              "count": 90
+            },
+            {
+              "lesson": 12,
+              "count": 68
+            },
+            {
+              "lesson": 13,
+              "count": 98
+            },
+            {
+              "lesson": 14,
+              "count": 62
+            },
+            {
+              "lesson": 15,
+              "count": 69
+            }
+          ],
+          "words": 1118
         },
         {
-          "lesson": 2,
-          "count": 77
-        },
-        {
-          "lesson": 3,
-          "count": 140
-        },
-        {
-          "lesson": 4,
-          "count": 100
-        },
-        {
-          "lesson": 5,
-          "count": 149
-        },
-        {
-          "lesson": 6,
-          "count": 57
+          "volume": "Quyển 6",
+          "file": "tu-vung-cao-cap/quyen-6.json",
+          "status": "ready",
+          "source": "HÀN/GIÁO TRÌNH TỔNG HỢP/CAO CẤP 6.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 58
+            },
+            {
+              "lesson": 2,
+              "count": 62
+            },
+            {
+              "lesson": 3,
+              "count": 57
+            },
+            {
+              "lesson": 4,
+              "count": 62
+            },
+            {
+              "lesson": 5,
+              "count": 79
+            },
+            {
+              "lesson": 6,
+              "count": 73
+            },
+            {
+              "lesson": 7,
+              "count": 68
+            },
+            {
+              "lesson": 8,
+              "count": 60
+            },
+            {
+              "lesson": 9,
+              "count": 87
+            },
+            {
+              "lesson": 10,
+              "count": 79
+            },
+            {
+              "lesson": 11,
+              "count": 94
+            },
+            {
+              "lesson": 12,
+              "count": 83
+            },
+            {
+              "lesson": 13,
+              "count": 57
+            },
+            {
+              "lesson": 14,
+              "count": 82
+            },
+            {
+              "lesson": 15,
+              "count": 112
+            }
+          ],
+          "words": 1113
         }
-      ],
-      "words": 623
+      ]
     },
     {
-      "book": "SEOUL 5B",
-      "file": "seoul-5b.json",
-      "lessons": [
+      "appGroup": "Từ vựng theo chủ đề",
+      "volumes": [
         {
-          "lesson": 7,
-          "count": 163
-        },
-        {
-          "lesson": 8,
-          "count": 170
-        },
-        {
-          "lesson": 9,
-          "count": 119
-        },
-        {
-          "lesson": 10,
-          "count": 92
-        },
-        {
-          "lesson": 11,
-          "count": 103
-        },
-        {
-          "lesson": 12,
-          "count": 100
-        },
-        {
-          "lesson": 13,
-          "count": 58
+          "volume": "Tổng hợp",
+          "file": "tu-vung-theo-chu-de/tong-hop.json",
+          "status": "ready",
+          "source": "HÀN/TIẾNG HÀN THEO CHỦ ĐỀ/CHỦ ĐỀ.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 50
+            },
+            {
+              "lesson": 2,
+              "count": 50
+            },
+            {
+              "lesson": 3,
+              "count": 50
+            },
+            {
+              "lesson": 4,
+              "count": 50
+            },
+            {
+              "lesson": 5,
+              "count": 50
+            },
+            {
+              "lesson": 6,
+              "count": 50
+            },
+            {
+              "lesson": 7,
+              "count": 50
+            },
+            {
+              "lesson": 8,
+              "count": 50
+            },
+            {
+              "lesson": 9,
+              "count": 50
+            },
+            {
+              "lesson": 10,
+              "count": 50
+            },
+            {
+              "lesson": 11,
+              "count": 50
+            },
+            {
+              "lesson": 12,
+              "count": 50
+            },
+            {
+              "lesson": 13,
+              "count": 50
+            },
+            {
+              "lesson": 14,
+              "count": 50
+            },
+            {
+              "lesson": 15,
+              "count": 50
+            },
+            {
+              "lesson": 16,
+              "count": 50
+            },
+            {
+              "lesson": 17,
+              "count": 50
+            },
+            {
+              "lesson": 18,
+              "count": 50
+            },
+            {
+              "lesson": 19,
+              "count": 50
+            },
+            {
+              "lesson": 20,
+              "count": 50
+            },
+            {
+              "lesson": 21,
+              "count": 50
+            },
+            {
+              "lesson": 22,
+              "count": 50
+            },
+            {
+              "lesson": 23,
+              "count": 50
+            },
+            {
+              "lesson": 24,
+              "count": 50
+            },
+            {
+              "lesson": 25,
+              "count": 50
+            },
+            {
+              "lesson": 26,
+              "count": 50
+            },
+            {
+              "lesson": 27,
+              "count": 50
+            },
+            {
+              "lesson": 28,
+              "count": 50
+            },
+            {
+              "lesson": 29,
+              "count": 50
+            },
+            {
+              "lesson": 30,
+              "count": 50
+            },
+            {
+              "lesson": 31,
+              "count": 50
+            },
+            {
+              "lesson": 32,
+              "count": 50
+            },
+            {
+              "lesson": 33,
+              "count": 50
+            },
+            {
+              "lesson": 34,
+              "count": 50
+            },
+            {
+              "lesson": 35,
+              "count": 50
+            },
+            {
+              "lesson": 36,
+              "count": 50
+            },
+            {
+              "lesson": 37,
+              "count": 50
+            }
+          ],
+          "words": 1850
         }
-      ],
-      "words": 805
+      ]
     },
     {
-      "book": "SEOUL 6A",
-      "file": "seoul-6a.json",
-      "lessons": [
+      "appGroup": "Cấu trúc ngữ pháp",
+      "volumes": [
         {
-          "lesson": 1,
-          "count": 72
-        },
-        {
-          "lesson": 2,
-          "count": 120
-        },
-        {
-          "lesson": 3,
-          "count": 116
-        },
-        {
-          "lesson": 4,
-          "count": 80
-        },
-        {
-          "lesson": 5,
-          "count": 74
-        },
-        {
-          "lesson": 6,
-          "count": 67
-        },
-        {
-          "lesson": 7,
-          "count": 64
+          "volume": "Ngữ pháp tổng hợp",
+          "file": "cau-truc-ngu-phap/tong-hop.json",
+          "status": "ready",
+          "source": "HÀN/CẤU TRÚC NGỮ PHÁP/CẤU TRÚC NGỮ PHÁP.xlsx",
+          "lessons": [
+            {
+              "lesson": 1,
+              "count": 50
+            },
+            {
+              "lesson": 2,
+              "count": 46
+            },
+            {
+              "lesson": 3,
+              "count": 55
+            },
+            {
+              "lesson": 4,
+              "count": 61
+            },
+            {
+              "lesson": 5,
+              "count": 68
+            },
+            {
+              "lesson": 6,
+              "count": 88
+            },
+            {
+              "lesson": 7,
+              "count": 150
+            }
+          ],
+          "words": 518
         }
-      ],
-      "words": 593
-    },
-    {
-      "book": "SEOUL 6B",
-      "file": "seoul-6b.json",
-      "lessons": [
-        {
-          "lesson": 8,
-          "count": 30
-        },
-        {
-          "lesson": 9,
-          "count": 63
-        },
-        {
-          "lesson": 10,
-          "count": 46
-        },
-        {
-          "lesson": 11,
-          "count": 53
-        },
-        {
-          "lesson": 12,
-          "count": 66
-        },
-        {
-          "lesson": 13,
-          "count": 78
-        },
-        {
-          "lesson": 14,
-          "count": 75
-        },
-        {
-          "lesson": 15,
-          "count": 53
-        }
-      ],
-      "words": 464
+      ]
     }
   ],
-  "pending": [
-    "YONSEI",
-    "TOPIK",
-    "EPS",
-    "TIẾNG HÀN THEO CHỦ ĐỀ",
-    "CẤU TRÚC NGỮ PHÁP",
-    "GIÁO TRÌNH TỔNG HỢP"
+  "missingInSource": [
+    {
+      "book": "EPS 11-20",
+      "lessons": [
+        14,
+        15
+      ],
+      "note": "file Excel nhảy từ bài 13 sang bài 16"
+    },
+    {
+      "book": "EPS 41-50",
+      "lessons": [
+        44
+      ],
+      "note": "file Excel nhảy từ bài 43 sang bài 45"
+    }
   ]
 }
