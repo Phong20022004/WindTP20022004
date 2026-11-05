@@ -1,0 +1,26 @@
+/*@file game/css/13-patch-v16.css
+ * Patch CSS «patch-v16»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+/* v16: đút 3 bích, lủng, lật bài thối */
+.z3{position:absolute;left:50%;top:50%;z-index:60;pointer-events:none;width:0;height:0}
+.z3 .pc{position:absolute;left:-58px;top:-84px;width:116px;height:168px;border-radius:12px;font-size:1px;transform-origin:50% 50%;animation:z3in 3s cubic-bezier(.2,.9,.25,1.1) forwards;box-shadow:0 0 0 3px #ffd36a,0 0 40px 10px rgba(255,205,70,.9),0 14px 30px rgba(0,0,0,.7)}
+.z3 .pc i{font-size:34px;left:9px;top:5px}.z3 .pc s{top:42px;left:11px;font-size:26px}.z3 .pc u{font-size:78px}
+.z3 .rg{position:absolute;left:-90px;top:-90px;width:180px;height:180px;border-radius:50%;border:3px solid rgba(255,220,120,.9);animation:z3r 1.6s ease-out infinite}
+.z3 .rg.b{animation-delay:.55s}
+.z3 b{position:absolute;left:-170px;width:340px;top:100px;white-space:nowrap;text-align:center;font:900 19px/1 Georgia,serif;letter-spacing:2px;color:#ffe9a0;text-shadow:0 0 14px #ff9d1c,0 3px 0 #6a3d00;animation:z3t 3s forwards}
+.z3 i.sp{position:absolute;font-style:normal;color:#fff3b0;text-shadow:0 0 8px #ffc83a;animation:z3s 1.6s ease-out infinite;animation-delay:var(--dl)}
+@keyframes z3in{0%{transform:translate(var(--sx),var(--sy)) scale(.25) rotate(-40deg);opacity:0}18%{transform:scale(1.55) rotate(6deg);opacity:1}30%{transform:scale(1.3) rotate(-3deg)}78%{transform:scale(1.4) rotate(2deg);opacity:1}100%{transform:scale(2.2) rotate(0);opacity:0}}
+@keyframes z3r{from{transform:scale(.4);opacity:.9}to{transform:scale(2.4);opacity:0}}
+@keyframes z3t{0%,15%{opacity:0;transform:translateY(10px)}30%,78%{opacity:1;transform:none}100%{opacity:0}}
+@keyframes z3s{0%{transform:translate(0,0) scale(.3);opacity:1}100%{transform:translate(var(--x),var(--y)) scale(1.4);opacity:0}}
+.rvl{position:absolute;z-index:34;pointer-events:none;translate:-50% 0;display:flex;flex-direction:column;align-items:center;gap:3px;animation:rvIn .5s ease-out both}
+.rvl .rw2{display:flex;justify-content:center}
+.rvl .pc{width:30px;height:43px;margin-left:-12px;border-radius:4px;animation:rvF .55s ease-out both;animation-delay:var(--d)}
+.rvl .pc:first-child{margin-left:0}
+.rvl .pc i{font-size:13px;left:3px;top:1px}.rvl .pc s{display:none}.rvl .pc u{font-size:17px}
+.rvl .pc.th{z-index:2;margin-top:-5px;box-shadow:0 0 0 2px #ff3b30,0 0 14px 3px rgba(255,59,48,.95);animation:rvF .55s ease-out both,thoi 1s ease-in-out .7s 3;animation-delay:var(--d),calc(var(--d) + .6s)}
+.rvl .tg2{display:flex;gap:3px;flex-wrap:wrap;justify-content:center;max-width:180px}
+.rvl .tg2 em{font:900 10px/1 Georgia,serif;font-style:normal;color:#fff;background:#b3261e;border:1px solid #ffd36a;border-radius:4px;padding:2px 5px;animation:rvIn .4s ease-out 1s both}
+@keyframes rvIn{from{opacity:0;transform:translateY(-8px) scale(.85)}to{opacity:1;transform:none}}
+@keyframes rvF{from{transform:rotateY(90deg) scale(.7);opacity:0}to{transform:none;opacity:1}}
+@keyframes thoi{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-6px) scale(1.18) rotate(-4deg)}}

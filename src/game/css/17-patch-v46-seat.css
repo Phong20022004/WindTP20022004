@@ -1,0 +1,4 @@
+/*@file game/css/17-patch-v46-seat.css
+ * Patch CSS «patch-v46-seat»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+#tb .pl>div:not(.av){min-width:0}#tb .pl .pin{font-size:8.5px;white-space:normal;line-height:1.15}

@@ -1,0 +1,24 @@
+/*@file game/css/18-v41-css.css
+ * Patch CSS «v41-css»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+.ppk{position:absolute;inset:0;z-index:50;display:grid;place-items:center;background:rgba(10,4,2,.62);backdrop-filter:blur(2px);animation:ppIn .25s ease-out}
+.ppk[hidden]{display:none}
+.ppc{width:min(92%,380px);padding:16px 14px 12px;border-radius:18px;background:linear-gradient(160deg,#3a1a0e,#1d0b06);border:2px solid #e0b44f;box-shadow:0 0 0 3px rgba(224,180,79,.25),0 0 40px rgba(255,200,90,.45);text-align:center;color:#f6e7c8}
+.ppt{font:900 20px/1.2 Georgia,serif;color:#ffe27a;text-shadow:0 0 12px rgba(255,200,80,.8)}
+.pps{font-size:12px;opacity:.8;margin:2px 0 12px}
+.ppr{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.ppb{border:1px solid #8a5a3a;background:radial-gradient(circle at 50% 30%,#fff7df,#e2d1a3);border-radius:14px;padding:6px 2px 4px;display:grid;justify-items:center;gap:2px;color:#3b2f22;font-weight:800;font-size:12px;animation:ppPop .45s cubic-bezier(.2,1.4,.4,1) both;box-shadow:0 3px 0 #8a5a3a}
+.ppb:active{transform:translateY(2px);box-shadow:none}
+.ppi{width:52px;height:52px;display:block;animation:ppFloat 1.6s ease-in-out infinite alternate}
+.ppi svg{width:100%;height:100%;display:block}
+.ppx{margin-top:10px;background:none;border:0;color:#d9cfb4;font-size:12px;text-decoration:underline}
+@keyframes ppIn{from{opacity:0}to{opacity:1}}
+@keyframes ppPop{from{opacity:0;transform:translateY(24px) scale(.5)}to{opacity:1;transform:none}}
+@keyframes ppFloat{to{transform:translateY(-4px) rotate(3deg)}}
+.fadd{position:absolute;left:50%;right:auto;bottom:-10px;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;border:1.5px solid #fff3b0;background:linear-gradient(#34d399,#059669);color:#fff;font:900 14px/15px system-ui,sans-serif;padding:0;display:grid;place-items:center;z-index:5;box-shadow:0 2px 4px rgba(0,0,0,.5);cursor:pointer}
+.fadd::after{content:'';position:absolute;inset:-8px}
+.fadd.ok{background:linear-gradient(#94a3b8,#64748b);font-size:11px}.fadd.pend{background:linear-gradient(#fbbf24,#d97706);font-size:10px;line-height:1}.fadd:not(.ok):not(.pend){animation:faddPulse 2.2s ease-in-out infinite}@keyframes faddPulse{0%,100%{box-shadow:0 2px 4px rgba(0,0,0,.5),0 0 0 0 rgba(52,211,153,.55)}50%{box-shadow:0 2px 4px rgba(0,0,0,.5),0 0 0 5px rgba(52,211,153,0)}}
+#tb.spec .fadd{display:none}
+#chp{padding-top:40px!important}
+#chp .chx{position:absolute;top:6px;right:6px;width:28px;height:28px;border-radius:50%;padding:0;font-size:15px;line-height:1;display:grid;place-items:center;background:#7a1c36;border:1px solid #d9a45a;color:#f6e7c8;cursor:pointer}

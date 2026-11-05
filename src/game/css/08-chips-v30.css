@@ -1,0 +1,8 @@
+/*@file game/css/08-chips-v30.css
+ * Patch CSS «chips-v30»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+.pchip{--c:#c62828;display:inline-block;width:1em;height:1em;border-radius:50%;vertical-align:-.15em;position:relative;box-sizing:border-box;border:.07em solid rgba(0,0,0,.45);background:radial-gradient(circle,#f4ecd6 0 24%,transparent 25%),radial-gradient(circle,var(--c) 0 56%,#fff 57% 61%,var(--c) 62%);box-shadow:0 .05em .1em rgba(0,0,0,.5)}
+.pchip::before,.cn i::before{content:"";position:absolute;inset:0;border-radius:50%;background:repeating-conic-gradient(#fff 0 14deg,transparent 14deg 45deg);-webkit-mask:radial-gradient(circle,transparent 0 66%,#000 67%);mask:radial-gradient(circle,transparent 0 66%,#000 67%)}
+.cn i{position:relative;background:radial-gradient(circle,#f4ecd6 0 24%,transparent 25%),radial-gradient(circle,var(--pc,#c62828) 0 56%,#fff 57% 61%,var(--pc,#c62828) 62%)!important;border:1px solid rgba(0,0,0,.5)!important;box-shadow:none!important}
+.chips::before{content:"";display:inline-block;width:.95em;height:.95em;margin-right:6px;vertical-align:-.14em;border-radius:50%;background:radial-gradient(circle,#f4ecd6 0 24%,transparent 25%),radial-gradient(circle,#c62828 0 56%,#fff 57% 61%,#c62828 62%);box-shadow:0 0 0 1px rgba(0,0,0,.4)}

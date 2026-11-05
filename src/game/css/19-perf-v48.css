@@ -1,0 +1,7 @@
+/*@file game/css/19-perf-v48.css
+ * Patch CSS «perf-v48»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* v48: giảm giật - bỏ filter blur trên vòng khung avatar, bỏ text-shadow hạt hiệu ứng nhỏ */
+.pfw .rf-ring2,.pfw .rf-halo{filter:none!important}
+.pfw .rf-p{text-shadow:none!important}

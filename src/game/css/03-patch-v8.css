@@ -1,0 +1,36 @@
+/*@file game/css/03-patch-v8.css
+ * Patch CSS «patch-v8»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+.flp{animation:flp .6s ease-out;backface-visibility:hidden}
+@keyframes flp{0%{transform:perspective(520px) rotateY(-100deg) scale(1.12);filter:brightness(1.4)}55%{transform:perspective(520px) rotateY(14deg)}100%{transform:perspective(520px) rotateY(0);filter:none}}
+.hand2{touch-action:none}
+#qc,#pc{margin-top:26px}
+body{background:radial-gradient(ellipse at 50% -8%,#8a6428 0,#33220d 42%,#0a0604 100%) fixed}
+body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 12% 30%,rgba(255,215,130,.22) 0 36px,transparent 72px),radial-gradient(circle at 86% 18%,rgba(255,200,100,.2) 0 48px,transparent 92px),radial-gradient(circle at 74% 74%,rgba(255,220,150,.15) 0 58px,transparent 104px),radial-gradient(circle at 22% 84%,rgba(255,190,90,.18) 0 44px,transparent 82px)}
+.wrap{position:relative;z-index:1}
+.lbd{position:fixed;z-index:0;pointer-events:none;width:92px;height:92px;border-radius:22px;background:linear-gradient(140deg,#e9d3a3,#9b7a45);opacity:.22;filter:blur(1.2px);box-shadow:inset 0 0 0 3px rgba(255,255,255,.2)}
+.lbd i{position:absolute;width:15px;height:15px;border-radius:50%;background:#2a1a08}
+header{background:linear-gradient(#4a3216,#1f1409 55%,#150d05);border:2px solid #d9b25f;box-shadow:0 4px 0 #5a3a0c,0 8px 16px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.25)}
+#lobby{perspective:900px;gap:18px 14px}
+.gt{border:3px solid #ffe29a;border-radius:24px;box-shadow:0 9px 0 #5e3d0b,0 16px 24px rgba(0,0,0,.7),inset 0 0 0 2px rgba(255,255,255,.22),inset 0 -26px 34px rgba(0,0,0,.4);transition:transform .14s,box-shadow .14s}
+.gt:active{transform:translateY(7px);box-shadow:0 2px 0 #5e3d0b,0 6px 10px rgba(0,0,0,.6),inset 0 0 0 2px rgba(255,255,255,.22),inset 0 -26px 34px rgba(0,0,0,.4)}
+.gt::before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(circle at 50% 18%,rgba(255,255,255,.4),transparent 52%),repeating-linear-gradient(115deg,rgba(255,255,255,.05) 0 3px,transparent 3px 9px)}
+.gt::after{z-index:1;background:linear-gradient(172deg,rgba(255,255,255,.5),rgba(255,255,255,0) 40%)}
+.gt .ca{width:32%;box-shadow:0 8px 14px rgba(0,0,0,.65)}
+.gt .nm{z-index:2}
+.gt .pcs,.gt .wh{filter:drop-shadow(0 8px 8px rgba(0,0,0,.55))}
+.dock{border-top:3px solid #d9b25f;background:linear-gradient(#2d1f0f,#0b0704);box-shadow:0 -6px 16px rgba(0,0,0,.6)}
+.dock button b{filter:drop-shadow(0 4px 3px rgba(0,0,0,.7));font-size:34px}
+.promo{box-shadow:0 5px 0 #5a3a0c,0 10px 18px rgba(0,0,0,.55)}
+#vq2{overflow:auto;justify-content:flex-start}
+.vqw{width:min(80vw,320px,calc(100dvh - 450px));min-width:190px}
+button.hub{padding:0;cursor:pointer;font-family:inherit;letter-spacing:1px;transition:scale .1s}
+button.hub:active{scale:.92}
+.vqn{font-size:12px;color:#d8c49a;text-align:center}
+.vqmn{width:100%;max-width:420px;background:rgba(0,0,0,.35);border:1px solid #7a5a2a;border-radius:14px;padding:8px 10px;flex:none}
+.vqmn h4{margin:0 0 6px;color:#ffd978;font-size:14px}
+.msn{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 0;border-top:1px solid rgba(255,255,255,.08);font-size:13px}
+.msn small{display:block;color:#b9a77f;font-size:11px}
+.msn button{border:2px solid #fff3b0;border-radius:999px;padding:6px 12px;font-weight:800;font-size:12px;color:#3a1a00;background:linear-gradient(#ffd978,#d08a1c);white-space:nowrap}
+.msn button:disabled{filter:grayscale(.8);opacity:.5}

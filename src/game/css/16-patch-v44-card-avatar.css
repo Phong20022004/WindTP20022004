@@ -1,0 +1,15 @@
+/*@file game/css/16-patch-v44-card-avatar.css
+ * Patch CSS «patch-v44-card-avatar»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* v44: avatar game bài giống game cờ (tròn, khung + hiệu ứng cảnh giới) + vòng thời gian bao phía ngoài khung */
+#tb .pl .av{width:42px;height:42px;min-width:42px;min-height:42px;flex:0 0 auto;aspect-ratio:1/1;border-radius:50%;font-size:24px;box-sizing:border-box}
+#tb .sp .av{width:40px;height:40px;min-width:40px;min-height:40px;font-size:23px}
+#tb .me .av{width:44px;height:44px;min-width:44px;min-height:44px;font-size:26px}
+#tb .sp{width:118px}
+#tb .sp.tp{width:118px}
+#tb .sp .pl{padding:3px 12px 3px 6px;gap:8px}
+#tb .pl .av.pfa{border:0!important;box-shadow:none!important;background:transparent!important}
+#tb .pl .av .tmr{left:-9px;top:-9px;width:calc(100% + 18px);height:calc(100% + 18px);box-sizing:border-box;z-index:6;filter:drop-shadow(0 0 2px rgba(0,0,0,.7))}
+#tb .pl .av .tmr circle{stroke-width:5.5}
+#tb .pl .av .tmr::before{content:none}

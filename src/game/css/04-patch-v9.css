@@ -1,0 +1,155 @@
+/*@file game/css/04-patch-v9.css
+ * Patch CSS «patch-v9»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* ================= PATCH v9 ================= */
+
+/* ---- 1. Tên game: Hoa Sơn Luận Kiếm + hiệu ứng kiếm khí ---- */
+.hs{font-size:clamp(16px,4.4vw,24px);text-shadow:none;display:flex;align-items:center;gap:6px;white-space:nowrap;min-width:0;letter-spacing:0;position:relative}
+.hst,.promo b.hst{background:linear-gradient(100deg,#a8731a 0%,#ffe9a0 16%,#ffffff 26%,#ffd36a 38%,#a8731a 58%,#ffe9a0 78%,#a8731a 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;text-shadow:none;animation:hsShine 4.8s linear infinite;filter:drop-shadow(0 2px 0 #4a2c05) drop-shadow(0 0 7px rgba(255,190,70,.4));font-weight:900}
+.promo b.hst{font-size:21px;line-height:1.12;text-wrap:balance;letter-spacing:.2px}
+@keyframes hsShine{from{background-position:0 0}to{background-position:-260% 0}}
+.hs::after{content:'';position:absolute;top:-35%;bottom:-35%;left:-12%;width:3px;background:linear-gradient(transparent,#fff,transparent);transform:skewX(-24deg);box-shadow:0 0 10px 3px rgba(255,236,170,.85);opacity:0;pointer-events:none;animation:hsSlash 5.2s ease-in-out infinite}
+@keyframes hsSlash{0%,62%{left:-12%;opacity:0}64%{opacity:1}76%{left:108%;opacity:1}78%,100%{left:108%;opacity:0}}
+.hss{width:26px;height:26px;flex:none;filter:drop-shadow(0 1px 1px rgba(0,0,0,.75))}
+.hss .s1{transform-origin:20px 20px;transform:rotate(45deg);animation:hsA 5.2s ease-in-out infinite}
+.hss .s2{transform-origin:20px 20px;transform:rotate(-45deg);animation:hsB 5.2s ease-in-out infinite}
+.hss .spk{transform-origin:20px 20px;opacity:0;animation:hsK 5.2s ease-in-out infinite}
+@keyframes hsA{0%,58%{transform:rotate(45deg)}66%{transform:rotate(78deg)}73%,100%{transform:rotate(45deg)}}
+@keyframes hsB{0%,58%{transform:rotate(-45deg)}66%{transform:rotate(-78deg)}73%,100%{transform:rotate(-45deg)}}
+@keyframes hsK{0%,70%{opacity:0;transform:scale(.2)}73%{opacity:1;transform:scale(1.5)}84%,100%{opacity:0;transform:scale(2)}}
+header .chips{padding:5px 11px;font-size:13px}
+header .hr{gap:6px}
+@media(max-width:380px){.hss{display:none}}
+
+/* ---- 2. Nút loa hiện đại ---- */
+.spkb,#mu{display:grid;place-items:center;padding:0;color:#ffe08a;border:1px solid rgba(255,224,138,.65);background:radial-gradient(circle at 30% 22%,rgba(255,255,255,.3),rgba(255,255,255,0) 55%),linear-gradient(160deg,#3d2611,#150b04);box-shadow:0 3px 8px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.35),0 0 0 3px rgba(0,0,0,.18);transition:transform .12s,box-shadow .12s}
+.spkb{width:36px;height:36px}
+.spkb:active,#mu:active{transform:scale(.92)}
+.spkb svg,#mu svg{width:20px;height:20px;display:block;filter:drop-shadow(0 0 4px rgba(255,200,80,.6));pointer-events:none}
+.ico .w1{animation:wv 1.6s ease-in-out infinite}
+.ico .w2{animation:wv 1.6s ease-in-out .3s infinite}
+@keyframes wv{0%,100%{opacity:.35}50%{opacity:1}}
+.ico.off{color:#b9a27a;filter:none}
+.ico.off .x{stroke:#ff7b7b}
+
+/* ---- 3. Bảng tên sang trọng ---- */
+.pl{position:relative;isolation:isolate;gap:7px;padding:4px 13px 4px 5px;border:1px solid #e9c46a;border-radius:14px;
+  background:linear-gradient(180deg,#38240f 0,#1b1006 46%,#0d0703 100%);
+  box-shadow:0 0 0 2px #170d05,0 0 0 3px rgba(233,196,106,.55),0 8px 16px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,238,180,.55),inset 0 -10px 14px rgba(0,0,0,.45)}
+.pl>*{position:relative;z-index:1}
+.pl::before{content:'';position:absolute;inset:0;border-radius:inherit;z-index:0;pointer-events:none;background:linear-gradient(105deg,transparent 36%,rgba(255,236,170,.26) 48%,transparent 60%);background-size:260% 100%;background-position:130% 0;animation:plSh 6.5s ease-in-out infinite}
+@keyframes plSh{0%,55%{background-position:130% 0}100%{background-position:-60% 0}}
+.pl::after{content:'';position:absolute;right:5px;top:50%;width:5px;height:5px;translate:0 -50%;rotate:45deg;background:#e9c46a;box-shadow:0 0 6px rgba(255,210,100,.9);z-index:1;pointer-events:none}
+.pl b{background:linear-gradient(180deg,#fff8dc,#f4d27c 55%,#c99a3a);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-weight:800;letter-spacing:.3px;line-height:1.2;padding-bottom:1px;margin-bottom:1px;border-bottom:1px solid rgba(233,196,106,.28);filter:drop-shadow(0 1px 0 rgba(0,0,0,.85))}
+.pl span{display:inline-flex;align-items:center;gap:4px;font-weight:800;color:#ffe9a8;letter-spacing:.2px;text-shadow:0 1px 1px #000}
+.pl span::before{content:'';flex:none;width:.95em;height:.95em;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff7bd,#f2c43f 50%,#a8730a);border:1px solid #8a5c08;box-shadow:0 0 5px rgba(255,200,60,.7)}
+:where(.pl)>.av{border:2px solid #f6d57a;background:radial-gradient(circle at 35% 28%,#fff,#eadcbc);box-shadow:0 0 0 2px #2a1707,0 3px 7px rgba(0,0,0,.6)}
+.sx .pl{padding-right:13px}
+.sp.on .pl,.me.on .pl{box-shadow:0 0 0 2px #170d05,0 0 0 3px #ffd36a,0 0 18px 4px rgba(255,200,80,.5),0 8px 16px rgba(0,0,0,.7),inset 0 1px 0 rgba(255,238,180,.55)}
+.pcard{position:relative;padding:6px 14px 6px 8px;border-radius:14px;
+  background:linear-gradient(180deg,#38240f,#120a04)!important;border:1px solid #e9c46a!important;
+  box-shadow:0 0 0 2px #170d05,0 0 0 3px rgba(233,196,106,.5),0 8px 16px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,238,180,.5)}
+.pcard b{background:linear-gradient(180deg,#fff8dc,#f4d27c 55%,#c99a3a);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-weight:800}
+.pcard small{color:#d8c49a}
+#cv2 .av2,.gx .av2{border:2px solid #f6d57a;box-shadow:0 0 0 2px #2a1707,0 3px 7px rgba(0,0,0,.6)}
+
+/* ---- 4. Nút Xem / Lật bài / Tố ---- */
+#tb[data-g="lieng"] .bt2,#tb[data-g="pk"] .bt2{bottom:142px}
+#tb[data-g="lieng"] .vsl,#tb[data-g="pk"] .vsl{bottom:204px}
+#flp.b2{padding:5px 13px;font-size:11.5px;letter-spacing:.3px;border-width:1.2px;box-shadow:0 3px 0 var(--c3),0 6px 10px rgba(0,0,0,.5),0 0 12px var(--cg),inset 0 1px 0 rgba(255,255,255,.7)}
+#flp.b2::after{display:none}
+
+/* ---- 5. Ngựa cờ vua to hơn ---- */
+.gt{container-type:inline-size}
+.gt .pcs.kn{font-size:100cqw;top:45%}
+
+/* ---- 6. Vòng quay kiểu casino ---- */
+#vq2{background:radial-gradient(ellipse at 50% 26%,#7d1030 0,#3b0719 40%,#13020b 76%,#050106 100%)}
+#vq2>*:not(.vqbg){position:relative;z-index:1}
+.vqbg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.vqbg .rays{position:absolute;left:50%;top:30%;width:150vmax;height:150vmax;translate:-50% -50%;background:repeating-conic-gradient(from 0deg,rgba(255,205,100,.16) 0 5deg,transparent 5deg 18deg);-webkit-mask:radial-gradient(circle,#000 0,transparent 55%);mask:radial-gradient(circle,#000 0,transparent 55%);animation:vqRay 70s linear infinite}
+@keyframes vqRay{to{rotate:360deg}}
+.vqbg .spot{position:absolute;top:-6%;width:62%;height:74%;background:linear-gradient(180deg,rgba(255,232,170,.26),transparent 78%);clip-path:polygon(44% 0,56% 0,100% 100%,0 100%);filter:blur(5px);transform-origin:50% 0;animation:vqSw 7s ease-in-out infinite alternate}
+.vqbg .spot.a{left:-16%;rotate:-14deg}
+.vqbg .spot.b{right:-16%;rotate:14deg;animation-delay:-3.5s}
+@keyframes vqSw{from{transform:rotate(-7deg)}to{transform:rotate(7deg)}}
+.vqbg::after{content:'';position:absolute;inset:8px;border-radius:22px;border:2px solid rgba(255,214,120,.55);box-shadow:0 0 18px rgba(255,170,60,.45),inset 0 0 18px rgba(255,170,60,.3);animation:vqNeon 5s steps(1) infinite}
+@keyframes vqNeon{0%,90%,94%,100%{opacity:1}92%,96%{opacity:.45}}
+.vqbg .vf{position:absolute;bottom:-8%;font-style:normal;color:rgba(255,215,130,.3);text-shadow:0 0 8px rgba(255,190,70,.5);animation:vqUp linear infinite}
+@keyframes vqUp{from{transform:translateY(0) rotate(0);opacity:0}12%{opacity:1}to{transform:translateY(-120vh) rotate(220deg);opacity:0}}
+#vq2 .gtop b{color:#ffe08a;text-shadow:0 0 10px rgba(255,190,70,.6);letter-spacing:.5px}
+.vqw{background:conic-gradient(from 0deg,#8a5a0a,#ffeaa6,#b9801f,#fff3c0,#8a5a0a,#ffeaa6,#b9801f,#fff3c0,#8a5a0a);box-shadow:0 0 0 4px #3a1f04,0 0 0 7px #e9c46a,0 0 44px rgba(255,190,70,.5),0 16px 30px rgba(0,0,0,.7)}
+.vqw::before{border-width:7px;inset:2px}
+.vqw::after{content:'';position:absolute;inset:2px;border-radius:50%;border:7px dotted #ff7a1a;animation:bl2 1.2s steps(1) -.6s infinite;pointer-events:none}
+.vqw .ptr{border:0;width:26px;height:34px;top:-16px;background:linear-gradient(180deg,#ff7a7a,#c3121f 60%,#7a0a12);clip-path:polygon(50% 100%,2% 22%,16% 0,84% 0,98% 22%);filter:drop-shadow(0 3px 3px #000) drop-shadow(0 0 7px rgba(255,80,80,.85))}
+#vq2 button.hub{width:28%;border:3px solid #ffe08a;background:radial-gradient(circle at 50% 28%,#ff8294 0,#e0123a 38%,#8c0a22 80%,#4a0412 100%);color:#fff;font:900 clamp(13px,4.2vw,17px)/1 "Be Vietnam Pro",system-ui,sans-serif;letter-spacing:.08em;text-shadow:0 0 6px rgba(255,255,255,.85),0 0 14px #ff2d55,0 2px 2px rgba(0,0,0,.6);box-shadow:0 0 0 3px #4a0412,0 0 0 6px #f6d57a,0 0 0 8px #7a4a10,0 6px 14px rgba(0,0,0,.7),0 0 26px rgba(255,70,100,.7),inset 0 -7px 10px rgba(60,0,10,.6),inset 0 4px 6px rgba(255,255,255,.55);animation:hubGlow 1.8s ease-in-out infinite}
+#vq2 button.hub::before{content:'';position:absolute;left:14%;right:14%;top:6%;height:40%;border-radius:50%;background:linear-gradient(rgba(255,255,255,.7),rgba(255,255,255,0));pointer-events:none}
+#vq2 button.hub::after{content:'';position:absolute;inset:-12px;border-radius:50%;border:2px dashed rgba(255,230,150,.85);animation:spin 8s linear infinite;pointer-events:none}
+@keyframes hubGlow{0%,100%{box-shadow:0 0 0 3px #4a0412,0 0 0 6px #f6d57a,0 0 0 8px #7a4a10,0 6px 14px rgba(0,0,0,.7),0 0 18px rgba(255,70,100,.55),inset 0 -7px 10px rgba(60,0,10,.6),inset 0 4px 6px rgba(255,255,255,.55)}50%{box-shadow:0 0 0 3px #4a0412,0 0 0 6px #f6d57a,0 0 0 8px #7a4a10,0 6px 14px rgba(0,0,0,.7),0 0 36px rgba(255,90,120,.95),inset 0 -7px 10px rgba(60,0,10,.6),inset 0 4px 6px rgba(255,255,255,.55)}}
+#vq2:has(#vqb:disabled) button.hub{animation:none;filter:saturate(.55) brightness(.8)}
+#vq2:has(#vqb:disabled) button.hub::after{animation-play-state:paused}
+#vq2 .vqb{position:relative;overflow:hidden;border:2px solid #ffe08a;border-radius:999px;background:linear-gradient(180deg,#ff5a6e 0,#d3122c 48%,#8f0a1d 100%);color:#fff;font-weight:900;letter-spacing:1.5px;padding:14px 16px;text-shadow:0 2px 3px rgba(0,0,0,.6);box-shadow:0 5px 0 #4a0511,0 10px 20px rgba(0,0,0,.6),0 0 24px rgba(255,60,90,.55),inset 0 2px 0 rgba(255,255,255,.55)}
+#vq2 .vqb::after{content:'';position:absolute;top:-25%;bottom:-25%;left:0;width:30%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.65),transparent);transform:translateX(-170%) skewX(-22deg);animation:shim 3.2s ease-in-out infinite;pointer-events:none}
+#vq2 .vqb:active{translate:0 3px;box-shadow:0 2px 0 #4a0511,0 5px 10px rgba(0,0,0,.6),0 0 16px rgba(255,60,90,.5),inset 0 2px 0 rgba(255,255,255,.45)}
+#vq2 .vqb:disabled{background:linear-gradient(180deg,#6a5a5a,#3a3030);border-color:#9a8660;box-shadow:0 4px 0 #1a1010,0 6px 10px rgba(0,0,0,.5);text-shadow:none;opacity:.8}
+#vq2 .vqb:disabled::after{display:none}
+#vq2 .vqmn,#vq2 .vqh span{border-color:rgba(233,196,106,.45);background:rgba(10,2,6,.55)}
+
+/* ---- 7. Hiệu ứng nước đi: Heo (Tiến lên) ---- */
+.heo{position:absolute;left:50%;top:46%;translate:-50% -50%;z-index:34;display:flex;align-items:center;justify-content:center;gap:12px;pointer-events:none}
+.heo .hg{position:absolute;left:50%;top:50%;width:280px;height:280px;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,rgba(255,226,140,.55) 0,transparent 60%),repeating-conic-gradient(from 0deg,rgba(255,214,110,.5) 0 5deg,transparent 5deg 20deg);-webkit-mask:radial-gradient(circle,#000 18%,transparent 68%);mask:radial-gradient(circle,#000 18%,transparent 68%);opacity:0;animation:heoGlow 2.3s ease-out forwards}
+@keyframes heoGlow{0%{opacity:0;scale:.3;rotate:0deg}18%{opacity:1;scale:1}80%{opacity:.8}100%{opacity:0;scale:1.25;rotate:50deg}}
+.hc2{position:relative;width:calc(70px*var(--sc,1));height:calc(98px*var(--sc,1));border-radius:9px;background:linear-gradient(160deg,#fffdf6,#efe6cf);color:#15130f;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 0 0 2px var(--c),0 0 22px 4px var(--c),0 10px 18px rgba(0,0,0,.6);opacity:0;rotate:var(--r,0deg);animation:heoIn 2.3s cubic-bezier(.2,.9,.25,1.2) forwards;animation-delay:calc(var(--k)*110ms)}
+.hc2.r{color:#c4161c}
+.hc2 b{font:900 calc(46px*var(--sc,1))/.95 Georgia,serif}
+.hc2 u{text-decoration:none;font-size:calc(34px*var(--sc,1));line-height:1;font-family:"DejaVu Sans","Noto Sans Symbols2","Segoe UI Symbol",serif}
+.hc2 em{position:absolute;left:-6px;right:-6px;bottom:-12px;font:900 calc(11px*var(--sc,1))/1 "Be Vietnam Pro",Georgia,sans-serif;font-style:normal;letter-spacing:.12em;text-align:center;padding:4px 0;border-radius:999px;background:var(--c);color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6);box-shadow:0 3px 8px rgba(0,0,0,.5)}
+@keyframes heoIn{0%{opacity:0;transform:translateY(40px) scale(.3) rotate(-30deg)}16%{opacity:1;transform:translateY(0) scale(1.28) rotate(4deg)}26%{transform:scale(1) rotate(0)}78%{opacity:1;transform:translateY(-4px) scale(1)}100%{opacity:0;transform:translateY(-34px) scale(1.12)}}
+.heo .hpt{position:absolute;left:50%;top:50%;font-style:normal;font-size:16px;opacity:0;animation:hpt 1.3s ease-out .15s forwards}
+@keyframes hpt{0%{opacity:1;transform:rotate(var(--a)) translateY(-34px)}100%{opacity:0;transform:rotate(var(--a)) translateY(-120px)}}
+.heo .hrg{position:absolute;left:50%;top:50%;width:70px;height:70px;translate:-50% -50%;border-radius:50%;border:3px solid #ffd36a;box-shadow:0 0 14px #ffd36a;opacity:0;animation:hrg .9s ease-out .1s forwards}
+@keyframes hrg{from{opacity:1;scale:.3}to{opacity:0;scale:3.4}}
+
+/* ---- 8. Hiệu ứng chiếu tướng (cờ vua + cờ tướng) ---- */
+.chk{--u:var(--bs,var(--xs,380px));position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:8}
+.chk .ck-v{position:absolute;inset:0;animation:ckV 1.5s ease-out forwards}
+@keyframes ckV{0%{box-shadow:inset 0 0 70px 24px rgba(255,20,20,.85)}100%{box-shadow:inset 0 0 70px 24px rgba(255,20,20,0)}}
+.chk .ck-r{position:absolute;aspect-ratio:1;translate:-50% -50%;border-radius:50%;border:3px solid #ff3b30;box-shadow:0 0 14px #ff3b30,inset 0 0 14px #ff3b30;opacity:0;animation:ckR .8s ease-out both}
+@keyframes ckR{0%{scale:.3;opacity:1}100%{scale:2.4;opacity:0}}
+.chk .ck-s{position:absolute;top:-10%;bottom:-10%;left:-10%;width:5%;background:linear-gradient(90deg,transparent,#fff,transparent);transform:skewX(-20deg);filter:blur(1px);animation:ckS .7s .1s ease-in forwards}
+@keyframes ckS{to{left:110%}}
+.chk .ck-b{position:absolute;left:-6%;right:-6%;top:50%;translate:0 -50%;rotate:-5deg;text-align:center;padding:calc(var(--u)*.025) 0;background:linear-gradient(90deg,transparent,rgba(110,0,0,.92) 14%,rgba(165,8,8,.96) 50%,rgba(110,0,0,.92) 86%,transparent);animation:ckB 2.2s cubic-bezier(.2,.8,.2,1) forwards}
+.chk .ck-b b{display:block;font:900 calc(var(--u)*.112)/1.05 "Be Vietnam Pro",Georgia,serif;letter-spacing:.08em;color:#fff;text-shadow:0 0 8px #ff3b30,0 0 22px #ff3b30,0 3px 0 rgba(0,0,0,.55)}
+.chk .ck-b small{display:block;margin-top:.3em;font:700 calc(var(--u)*.036)/1.2 "Be Vietnam Pro",sans-serif;color:#ffd9d4;letter-spacing:.04em}
+@keyframes ckB{0%{opacity:0;transform:scale(2.6)}14%{opacity:1;transform:scale(1)}18%{transform:translateX(-6px)}22%{transform:translateX(6px)}26%{transform:none}80%{opacity:1}100%{opacity:0;transform:scaleX(1.1)}}
+.chk.mate .ck-b{background:linear-gradient(90deg,transparent,rgba(90,56,0,.94) 14%,rgba(150,98,0,.97) 50%,rgba(90,56,0,.94) 86%,transparent);animation-duration:2.8s}
+.chk.mate .ck-b b{color:#fff4c2;text-shadow:0 0 8px #ffb300,0 0 24px #ffb300,0 3px 0 rgba(0,0,0,.55)}
+.chk.mate .ck-b small{color:#ffeab0}
+.cpc.chkd,.xpc.chkd{animation:ckK .45s 3;filter:drop-shadow(0 0 6px #ff2a2a) drop-shadow(0 0 12px #ff2a2a)}
+@keyframes ckK{25%{translate:-3px 0;scale:1.12}75%{translate:3px 0;scale:1.12}}
+
+/* ---- 9. Tên môn bài trong nền, mỗi môn một hiệu ứng ---- */
+#tb[data-g] .tlf::after{display:grid;place-items:center;inset:0;letter-spacing:.14em;text-indent:.14em;font:900 max(40px,5vmax)/1 "Be Vietnam Pro",Georgia,serif;white-space:nowrap;background-size:240% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;opacity:.55;pointer-events:none}
+#tb[data-g="tl"] .tlf::after{content:'TIẾN LÊN';background-image:linear-gradient(105deg,rgba(255,215,120,.4) 0 38%,#fff6c8 47%,#ffd36a 52%,rgba(255,215,120,.4) 62% 100%);animation:gnFoil 4.2s linear infinite}
+@keyframes gnFoil{from{background-position:120% 0}to{background-position:-120% 0}}
+#tb[data-g="phom"] .tlf::after{content:'PHỎM';background:none;-webkit-background-clip:border-box;background-clip:border-box;-webkit-text-fill-color:#f6e4ff;color:#f6e4ff;text-shadow:0 0 6px #d58bff,0 0 16px #a24dff,0 0 34px #7a1fff;animation:gnNeon 3.6s infinite}
+@keyframes gnNeon{0%,18%,22%,60%,64%,100%{opacity:.62}20%,62%{opacity:.18}}
+#tb[data-g="c3"] .tlf::after{content:'BA CÂY';background-image:linear-gradient(180deg,#e9f6ff 0,#7cc4ff 38%,#1e5fb8 50%,#9fd8ff 62%,#eaf7ff 100%);background-size:100% 100%;filter:drop-shadow(0 0 10px rgba(80,170,255,.55));animation:gnBreath 4s ease-in-out infinite}
+@keyframes gnBreath{0%,100%{letter-spacing:.1em;opacity:.45}50%{letter-spacing:.24em;opacity:.7}}
+#tb[data-g="lieng"] .tlf::after{content:'LIÊNG';background-image:linear-gradient(0deg,#ff3b1a 0,#ff8a1a 30%,#ffe066 55%,#ff8a1a 75%,#ff3b1a 100%);background-size:100% 300%;filter:drop-shadow(0 0 12px rgba(255,90,20,.7));opacity:.7;animation:gnFire 2.4s linear infinite}
+@keyframes gnFire{from{background-position:0 0}to{background-position:0 -300%}}
+#tb[data-g="pk"] .tlf::after{content:'POKER';background:none;-webkit-background-clip:border-box;background-clip:border-box;-webkit-text-fill-color:#eafff9;color:#eafff9;text-shadow:2px 0 #ff2d6f,-2px 0 #19e3ff;animation:gnGlitch 3.2s steps(1) infinite}
+@keyframes gnGlitch{0%,86%,100%{text-shadow:2px 0 #ff2d6f,-2px 0 #19e3ff;translate:0 0}88%{text-shadow:-5px 0 #ff2d6f,5px 0 #19e3ff;translate:-4px 1px}90%{text-shadow:6px 0 #ff2d6f,-6px 0 #19e3ff;translate:5px -1px}92%{text-shadow:2px 0 #ff2d6f,-2px 0 #19e3ff;translate:0 0}94%{translate:-2px 0}96%{translate:0 0}}
+#tb[data-g="phom"] #dcr .glow{filter:hue-rotate(240deg)}
+#tb[data-g="c3"] #dcr .glow{filter:hue-rotate(175deg)}
+#tb[data-g="lieng"] #dcr .glow{filter:hue-rotate(-28deg) saturate(1.4)}
+#tb[data-g="pk"] #dcr .glow{filter:hue-rotate(130deg)}
+#cv2::before{content:'CỜ VUA';position:absolute;left:0;right:0;bottom:calc(92px + env(safe-area-inset-bottom,0px));z-index:-1;text-align:center;font:900 46px/1 "Be Vietnam Pro",Georgia,serif;letter-spacing:.16em;text-indent:.16em;white-space:nowrap;background:conic-gradient(#f4efe2 25%,#2a2a2a 0 50%,#f4efe2 0 75%,#2a2a2a 0) 0 0/14px 14px;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;opacity:.55;filter:drop-shadow(0 0 10px rgba(255,255,255,.25));animation:gnChess 5s linear infinite}
+@keyframes gnChess{to{background-position:28px 14px}}
+#xq2::after{content:'CỜ TƯỚNG';position:absolute;left:0;right:0;bottom:calc(92px + env(safe-area-inset-bottom,0px));z-index:-1;text-align:center;font:900 46px/1 "Be Vietnam Pro",Georgia,serif;letter-spacing:.14em;text-indent:.14em;white-space:nowrap;background:linear-gradient(180deg,#ffe2a8,#e0452d 55%,#7a1010);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;opacity:.6;animation:gnEmber 3s ease-in-out infinite}
+@keyframes gnEmber{0%,100%{filter:drop-shadow(0 0 5px rgba(255,80,30,.5));translate:0 0}50%{filter:drop-shadow(0 0 18px rgba(255,120,40,.95));translate:0 -4px}}
+
+@media (prefers-reduced-motion:reduce){
+.hst,.hs::after,.hss .s1,.hss .s2,.hss .spk,.pl::before,.ico .w1,.ico .w2,.vqbg .rays,.vqbg .spot,.vqbg::after,.vqbg .vf,#vq2 button.hub,#vq2 button.hub::after,#vq2 .vqb::after,#tb[data-g] .tlf::after,#cv2::before,#xq2::after{animation:none!important}
+}

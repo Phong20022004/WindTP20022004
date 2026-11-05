@@ -1,0 +1,50 @@
+<!-- TOP HEADER -->
+<header id="main-header" class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-sky-100 shadow-sm">
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 py-2.5 flex items-center justify-between gap-1.5">
+    <div data-action="open-settings" class="flex items-center gap-2.5 cursor-pointer group select-none" role="button" tabindex="0" aria-label="Mở cài đặt">
+      <div id="logo-circle" class="w-10 h-10 rounded-full bg-gradient-to-tr from-sky-500 via-blue-500 to-indigo-600 p-0.5 shadow-md shadow-sky-200 group-hover:scale-105 transition-all duration-500 flex items-center justify-center">
+        <div class="w-full h-full bg-white keep-white rounded-full flex items-center justify-center">
+          <span id="logo-char" class="font-black text-sky-600 text-lg transition-colors duration-500">风</span>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center gap-1">
+          <span id="brand-text" class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-sky-600 via-indigo-600 to-blue-600 bg-clip-text text-transparent transition-all duration-500">WINDTP</span>
+          <span class="hidden sm:inline text-[10px] font-bold px-1.5 py-0.5 bg-sky-100 text-sky-700 rounded-full uppercase tracking-wider">Super</span>
+        </div>
+        <p class="text-[10px] text-slate-500 -mt-1 hidden sm:block">Một nền tảng - Nhiều tiện ích</p>
+      </div>
+    </div>
+
+    <!-- DESKTOP SEARCH -->
+    <div class="hidden md:flex flex-1 max-w-md mx-6">
+      <div class="relative w-full">
+        <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm">🔍</span>
+        <input id="search-input" type="search" autocomplete="off" placeholder="Tìm khóa học, sản phẩm, đồ thanh lý, từ vựng..." class="w-full pl-9 pr-4 py-1.5 text-sm rounded-full border border-sky-200 bg-white/90 focus:outline-none focus:ring-2 focus:ring-sky-400 focus:border-transparent transition-all shadow-inner">
+      </div>
+    </div>
+
+    <div class="flex items-center gap-1 sm:gap-3 min-w-0">
+      <button data-action="toggle-search" class="md:hidden p-2 rounded-full text-slate-600 hover:bg-sky-100/70" aria-label="Tìm kiếm">🔍</button>
+      <button data-action="goto" data-tab="wallet" class="flex items-center gap-2 bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200/90 px-2.5 sm:px-3 py-1.5 rounded-full hover:shadow-md transition-all active:scale-95" aria-label="Mở ví WIND Coin">
+        <div class="w-6 h-6 rounded-full bg-gradient-to-tr from-amber-500 via-yellow-400 to-amber-300 flex items-center justify-center shadow-sm border border-yellow-200">
+          <span class="wind-coin-letter" aria-hidden="true">W</span>
+        </div>
+        <div class="text-left">
+          <p class="text-[9px] uppercase font-extrabold text-amber-700 leading-none hidden sm:block">Ví Biểu Tượng</p>
+          <p class="text-xs font-black text-amber-900 leading-tight"><span data-bind="balance">0</span> <span class="text-[10px] text-amber-600 font-bold">Xu</span></p>
+        </div>
+      </button>
+
+      <button data-action="toggle-notices" class="relative p-2 rounded-full text-slate-600 hover:bg-sky-100/70 transition-colors" aria-label="Thông báo">
+        <span class="text-lg">🔔</span>
+        <span id="notice-dot" class="hidden absolute top-0.5 right-0.5 min-w-[16px] h-4 px-1 bg-red-500 text-white text-[9px] font-bold rounded-full ring-2 ring-white keep-white items-center justify-center"></span>
+      </button>
+
+      <div data-action="open-settings" class="flex items-center gap-2 border-l border-slate-200 pl-1.5 sm:pl-3 cursor-pointer shrink-0" role="button" tabindex="0" aria-label="Tài khoản">
+        <div id="header-avatar"></div>
+        <span id="header-name" class="hidden lg:inline text-xs font-semibold text-slate-700 max-w-[100px] truncate"></span>
+      </div>
+    </div>
+  </div>
+

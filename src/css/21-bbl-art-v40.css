@@ -1,0 +1,35 @@
+/*@file css/21-bbl-art-v40.css
+ * Tranh Thanh Long - Bạch Hổ trên thẻ game (ảnh: assets/images/game/).
+ */
+
+/* v40: thẻ game có tranh Thanh Long - Bạch Hổ; chữ tiêu đề không bị cắt dấu */
+.bbl-title b{line-height:1.3;padding:.22em .1em .12em;margin:-.1em 0 0}
+.bbl-art{position:relative;margin:-20px -18px 10px;aspect-ratio:1408/768;overflow:hidden;background:#0a1f1d;border-bottom:2px solid rgba(255,230,160,.55)}
+.bbl-art i{position:absolute;pointer-events:none;font-style:normal}
+.bbl-art .ba-i{inset:0;background:url(@@asset:game/bbl-art-thanh-long-bach-ho.jpg@@) center/100% 100% no-repeat;transform-origin:50% 50%;animation:baKen 14s ease-in-out infinite alternate;filter:saturate(1.14) contrast(1.06)}
+@keyframes baKen{from{transform:scale(1.012)}to{transform:scale(1.055) translateX(-.8%)}}
+.bbl-art .ba-mist{left:-30%;width:160%;height:46%;mix-blend-mode:screen;opacity:.5;background:radial-gradient(ellipse at 20% 50%,rgba(255,255,255,.7),transparent 60%),radial-gradient(ellipse at 65% 40%,rgba(210,255,245,.6),transparent 55%);animation:baMist 16s linear infinite}
+.bbl-art .ba-mist.m1{top:40%}.bbl-art .ba-mist.m2{top:4%;opacity:.35;animation-duration:24s;animation-direction:reverse}
+@keyframes baMist{from{transform:translateX(-8%)}to{transform:translateX(8%)}}
+.bbl-art .ba-gl{border-radius:50%;mix-blend-mode:screen;width:28%;aspect-ratio:1}
+.bbl-art .ba-gl.dr{left:33%;top:16%;background:radial-gradient(circle,rgba(60,255,200,.75),transparent 65%);animation:baPulse 2.6s ease-in-out infinite}
+.bbl-art .ba-gl.tg{left:58%;top:34%;background:radial-gradient(circle,rgba(255,255,255,.85),transparent 65%);animation:baPulse 2.6s ease-in-out 1.3s infinite}
+@keyframes baPulse{0%,100%{opacity:.2;transform:scale(.85)}50%{opacity:.85;transform:scale(1.15)}}
+.bbl-art .ba-rg{width:22%;aspect-ratio:1;border-radius:50%;border:3px solid;opacity:0;mix-blend-mode:screen}
+.bbl-art .ba-rg.dr{left:35%;top:18%;border-color:rgba(90,255,214,.95);box-shadow:0 0 20px rgba(80,255,210,.9),inset 0 0 20px rgba(80,255,210,.7);animation:baRing 5.2s ease-out infinite}
+.bbl-art .ba-rg.tg{left:62%;top:40%;border-color:#fff;box-shadow:0 0 20px rgba(255,255,255,.95),inset 0 0 20px rgba(210,235,255,.8);animation:baRing 5.2s ease-out .12s infinite}
+@keyframes baRing{0%,62%{opacity:0;transform:scale(.25)}67%{opacity:1}100%{opacity:0;transform:scale(2.4)}}
+.bbl-art .ba-sw{inset:0;background:linear-gradient(105deg,transparent 38%,rgba(255,244,200,.5) 50%,transparent 62%);mix-blend-mode:overlay;transform:translateX(-120%);animation:baSweep 6.5s ease-in-out infinite}
+@keyframes baSweep{0%,52%{transform:translateX(-120%)}86%,100%{transform:translateX(120%)}}
+.bbl-art .ba-bk{left:50%;top:42%;translate:-50% -50%;font-size:34px;opacity:0;filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #5dffd4);animation:baBolt 5.2s ease-out infinite}
+@keyframes baBolt{0%,64%{opacity:0;scale:.3}68%{opacity:1;scale:1.5}80%,100%{opacity:0;scale:2}}
+.bbl-names{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:4px;font-size:13px}
+.bbl-names em{font-style:normal;font-weight:800;letter-spacing:.3px;font-family:"Noto Serif SC","Noto Serif TC","Songti SC","Noto Serif CJK SC",Georgia,serif}
+.bbl-names .tl{color:#8ff7da;animation:baTl 2.6s ease-in-out infinite}
+.bbl-names .bh{color:#fff;animation:baBh 2.6s ease-in-out 1.3s infinite}
+.bbl-names i{font-style:normal;color:#ffd36a;filter:drop-shadow(0 0 6px #ffb300);animation:baSw 5.2s ease-in-out infinite}
+@keyframes baTl{0%,100%{text-shadow:0 0 4px #15c99a,0 0 10px rgba(21,201,154,.5)}50%{text-shadow:0 0 8px #5dffd4,0 0 20px #15c99a}}
+@keyframes baBh{0%,100%{text-shadow:0 0 4px #bcd3e6,0 0 10px rgba(255,255,255,.4)}50%{text-shadow:0 0 8px #fff,0 0 20px #cfe6ff}}
+@keyframes baSw{0%,60%,100%{transform:none}68%{transform:scale(1.5) rotate(20deg)}78%{transform:none}}
+@media (prefers-reduced-motion:reduce){.bbl-art *,.bbl-names *{animation:none!important}}
+

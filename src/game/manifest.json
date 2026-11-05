@@ -1,0 +1,194 @@
+{
+ "items": [
+  {
+   "raw": "html/head-start.html"
+  },
+  {
+   "style": "css/01-base.css"
+  },
+  {
+   "style": "css/02-patch-v5.css",
+   "attrs": " id=\"patch-v5\"",
+   "after": "\n\n"
+  },
+  {
+   "style": "css/03-patch-v8.css",
+   "attrs": " id=\"patch-v8\""
+  },
+  {
+   "style": "css/04-patch-v9.css",
+   "attrs": " id=\"patch-v9\""
+  },
+  {
+   "style": "css/05-patch-v10.css",
+   "attrs": " id=\"patch-v10\""
+  },
+  {
+   "style": "css/06-patch-v11.css",
+   "attrs": " id=\"patch-v11\""
+  },
+  {
+   "style": "css/07-patch-v12.css",
+   "attrs": " id=\"patch-v12\""
+  },
+  {
+   "style": "css/08-chips-v30.css",
+   "attrs": " id=\"chips-v30\""
+  },
+  {
+   "script": "js/01-need-chips.js"
+  },
+  {
+   "script": "js/02-chip-colors.js"
+  },
+  {
+   "style": "css/09-host-v31.css",
+   "attrs": " id=\"host-v31\""
+  },
+  {
+   "script": "js/03-tl-drop.js"
+  },
+  {
+   "style": "css/10-spec-v37.css",
+   "attrs": " id=\"spec-v37\""
+  },
+  {
+   "style": "css/11-perf-v39.css",
+   "attrs": " id=\"perf-v39\"",
+   "after": ""
+  },
+  {
+   "raw": [
+    "html/body.html"
+   ]
+  },
+  {
+   "script": [
+    "js/04a-core-and-tien-len-engine.js",
+    "js/04b-phom.js",
+    "js/04c-chess-xiangqi.js",
+    "js/04d-poker.js",
+    "js/04e-tien-len-ui-effects.js",
+    "js/04f-sound-3-cay-lieng-poker-config.js"
+   ]
+  },
+  {
+   "script": "js/05-patch-v5-roulette.js"
+  },
+  {
+   "script": "js/06-patch-3-cay-chuong.js"
+  },
+  {
+   "script": "js/07-chess-xiangqi-v2.js"
+  },
+  {
+   "script": "js/08-patch-v7.js",
+   "after": "\n\n"
+  },
+  {
+   "script": "js/09-patch-v8.js",
+   "after": "\n\n"
+  },
+  {
+   "script": "js/10-wind-bridge.js",
+   "attrs": " id=\"wind-bridge\""
+  },
+  {
+   "script": "js/11-patch-v9-js.js",
+   "attrs": " id=\"patch-v9-js\"",
+   "after": "\n\n"
+  },
+  {
+   "script": "js/12-patch-v10-js.js",
+   "attrs": " id=\"patch-v10-js\""
+  },
+  {
+   "script": "js/13-patch-v13-js.js",
+   "attrs": " id=\"patch-v13-js\""
+  },
+  {
+   "script": "js/14-patch-v14-js.js",
+   "attrs": " id=\"patch-v14-js\""
+  },
+  {
+   "style": "css/12-patch-v15.css",
+   "attrs": " id=\"patch-v15\"",
+   "after": ""
+  },
+  {
+   "script": "js/15-patch-v15-js.js",
+   "attrs": " id=\"patch-v15-js\""
+  },
+  {
+   "style": "css/13-patch-v16.css",
+   "attrs": " id=\"patch-v16\"",
+   "after": ""
+  },
+  {
+   "script": "js/16-patch-v16-js.js",
+   "attrs": " id=\"patch-v16-js\""
+  },
+  {
+   "style": "css/14-patch-v28.css",
+   "attrs": " id=\"patch-v28\""
+  },
+  {
+   "script": [
+    "js/17a-lobby-rooms-and-invites.js",
+    "js/17b-age-gate-and-chip-shop.js",
+    "js/17c-ready-and-spectator.js",
+    "js/17d-table-panel-and-host.js"
+   ],
+   "attrs": " id=\"patch-v28-js\""
+  },
+  {
+   "script": "js/18-patch-v39-js.js",
+   "attrs": " id=\"patch-v39-js\""
+  },
+  {
+   "style": "css/15-patch-v40.css",
+   "attrs": " id=\"patch-v40\""
+  },
+  {
+   "style": "css/16-patch-v44-card-avatar.css",
+   "attrs": " id=\"patch-v44-card-avatar\""
+  },
+  {
+   "style": "css/17-patch-v46-seat.css",
+   "attrs": " id=\"patch-v46-seat\""
+  },
+  {
+   "script": "js/19-patch-v45-js.js",
+   "attrs": " id=\"patch-v45-js\""
+  },
+  {
+   "script": "js/20-patch-v40-js.js",
+   "attrs": " id=\"patch-v40-js\""
+  },
+  {
+   "script": "js/21-chips-token-replace.js",
+   "after": "\n\n"
+  },
+  {
+   "style": "css/18-v41-css.css",
+   "attrs": " id=\"v41-css\""
+  },
+  {
+   "script": "js/22-v41-js.js",
+   "attrs": " id=\"v41-js\""
+  },
+  {
+   "script": "js/23-v42-leave-js.js",
+   "attrs": " id=\"v42-leave-js\""
+  },
+  {
+   "script": "js/24-v43-imm-js.js",
+   "attrs": " id=\"v43-imm-js\""
+  },
+  {
+   "style": "css/19-perf-v48.css",
+   "attrs": " id=\"perf-v48\"",
+   "after": "\n</body>\n</html>\n"
+  }
+ ]
+}

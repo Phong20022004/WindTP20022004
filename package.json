@@ -1,0 +1,12 @@
+{
+  "name": "windtp-super-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "WINDTP Super-App: mã nguồn tách file, build thành dist/index.html",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  },
+  "engines": { "node": ">=18" }
+}

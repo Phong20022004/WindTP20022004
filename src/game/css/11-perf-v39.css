@@ -1,0 +1,8 @@
+/*@file game/css/11-perf-v39.css
+ * Patch CSS «perf-v39»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* giảm giật: khi đang ngồi bàn thì tạm dừng hiệu ứng nền ở sảnh (đang bị che), bỏ hiệu ứng filter chạy liên tục */
+body:has(#tb:not([hidden]),#cv2:not([hidden]),#xq2:not([hidden]),#game:not([hidden])) .wrap *,body:has(#tb:not([hidden]),#cv2:not([hidden]),#xq2:not([hidden]),#game:not([hidden])) .wrap *::before,body:has(#tb:not([hidden]),#cv2:not([hidden]),#xq2:not([hidden]),#game:not([hidden])) .wrap *::after{animation-play-state:paused!important}
+@keyframes hostRing{0%,100%{outline-color:#36c8ff;outline-offset:3px}50%{outline-color:#a8f2ff;outline-offset:6px}}
+#tb .av.host{filter:drop-shadow(0 0 6px #36c8ff)}

@@ -1,0 +1,4 @@
+/*@file js/extras/tab-fade-in.js
+ * Hiệu ứng mờ dần khi vào tab Học/Cộng đồng.
+ */
+(function(){["tab-learn","tab-community"].forEach(function(id){var el=document.getElementById(id);if(!el)return;var t;new MutationObserver(function(){if(!el.classList.contains("hidden")&&!el.dataset.v43){el.dataset.v43=1;el.classList.add("v43-in");clearTimeout(t);t=setTimeout(function(){el.classList.remove("v43-in")},900)}else if(el.classList.contains("hidden")){delete el.dataset.v43}}).observe(el,{attributes:true,attributeFilter:["class"]})})})();

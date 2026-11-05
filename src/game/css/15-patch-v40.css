@@ -1,0 +1,87 @@
+/*@file game/css/15-patch-v40.css
+ * Patch CSS «patch-v40»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* ===== v40: tiêu đề Long Tranh Hổ Đấu không bị cắt dấu + banner Thanh Long - Bạch Hổ + khung người chơi + mời bạn ===== */
+.promo.pt{width:auto!important;height:auto!important}
+/* chữ tô màu bằng background-clip:text bị cắt dấu (Ổ, Ấ) vì dòng quá sát: nới vùng vẽ, bù lại bằng margin âm để không đổi bố cục */
+.hst,.promo b.hst{display:inline-block;padding:.24em .12em .14em;margin:-.24em -.12em -.14em;line-height:1.3}
+.pt .ptx b.hst{display:block!important;line-height:1.35;padding:.26em .1em .16em;margin:-.1em 0 0}
+/* banner tranh */
+.pt .ptimg{aspect-ratio:1408/768!important;background:#0a1f1d}
+.pt .ptimg::before{inset:0!important;background:url(@@asset:game/bbl-art-thanh-long-bach-ho.jpg@@) center/100% 100% no-repeat!important;translate:calc(var(--px,0)*-7px) calc(var(--py,0)*-5px);transform-origin:50% 50%;animation:ptKen2 14s ease-in-out infinite alternate!important;filter:saturate(1.14) contrast(1.06)!important}
+@keyframes ptKen2{from{transform:scale(1.012)}to{transform:scale(1.055) translateX(-.8%)}}
+.pt .ptimg::after{background:linear-gradient(180deg,rgba(0,0,0,0) 78%,rgba(4,30,28,.7))!important}
+.pt .glow.dr{left:33%;top:16%;width:28%}
+.pt .glow.tg{left:58%;top:34%;width:28%}
+.pt .ptg{position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 38%,rgba(255,244,200,.5) 50%,transparent 62%);mix-blend-mode:overlay;transform:translateX(-120%);animation:ptSweep 6.5s ease-in-out infinite}
+@keyframes ptSweep{0%,52%{transform:translateX(-120%)}86%,100%{transform:translateX(120%)}}
+.pt .pte{position:absolute;width:22%;aspect-ratio:1;border-radius:50%;pointer-events:none;border:3px solid;opacity:0;mix-blend-mode:screen;translate:calc(var(--px,0)*12px) calc(var(--py,0)*8px)}
+.pt .pte.dr{left:35%;top:18%;border-color:rgba(90,255,214,.95);box-shadow:0 0 20px rgba(80,255,210,.9),inset 0 0 20px rgba(80,255,210,.7);animation:ptRing 5.2s ease-out infinite}
+.pt .pte.tg{left:62%;top:40%;border-color:rgba(255,255,255,.98);box-shadow:0 0 20px rgba(255,255,255,.95),inset 0 0 20px rgba(210,235,255,.8);animation:ptRing 5.2s ease-out .12s infinite}
+@keyframes ptRing{0%,62%{opacity:0;transform:scale(.25)}67%{opacity:1}100%{opacity:0;transform:scale(2.4)}}
+.pt .lgz{top:42%!important}
+.pt .ptx span.ptn{display:flex;align-items:center;justify-content:center;gap:10px;margin:3px 0 2px;font-size:14px;color:inherit}
+.pt .ptn em{font-style:normal;font-weight:800;letter-spacing:.4px;font-family:"Noto Serif SC","Noto Serif TC","Songti SC","Noto Serif CJK SC",Georgia,serif}
+.pt .ptn em.tl{color:#8ff7da;animation:ptTl 2.6s ease-in-out infinite}
+.pt .ptn em.bh{color:#fff;animation:ptBh 2.6s ease-in-out 1.3s infinite}
+.pt .ptn i{font-style:normal;color:#ffd36a;filter:drop-shadow(0 0 6px #ffb300);animation:ptSw 5.2s ease-in-out infinite}
+@keyframes ptTl{0%,100%{text-shadow:0 0 4px #15c99a,0 0 10px rgba(21,201,154,.5)}50%{text-shadow:0 0 8px #5dffd4,0 0 20px #15c99a,0 0 30px rgba(21,201,154,.7)}}
+@keyframes ptBh{0%,100%{text-shadow:0 0 4px #bcd3e6,0 0 10px rgba(255,255,255,.4)}50%{text-shadow:0 0 8px #fff,0 0 20px #cfe6ff,0 0 30px rgba(255,255,255,.7)}}
+@keyframes ptSw{0%,60%,100%{transform:none}68%{transform:scale(1.5) rotate(20deg)}78%{transform:scale(1) rotate(0)}}
+.pt .ptx span.pts{margin-bottom:8px}
+@media (prefers-reduced-motion:reduce){.pt .ptimg::before,.pt .ptg,.pt .pte,.pt .ptn em,.pt .ptn i{animation:none!important}}
+/* danh sách bạn bè WINDTP khi mời */
+.frl{max-height:46vh;overflow:auto;margin:8px 0;display:grid;gap:6px;text-align:left;pointer-events:auto;position:static;animation:none;white-space:normal;font-size:inherit;text-shadow:none}
+.fr{display:flex;align-items:center;gap:10px;padding:6px 8px;border-radius:12px;background:rgba(255,255,255,.07);border:1px solid rgba(240,196,106,.35)}
+.fr .fa{flex:none;width:38px;height:38px;display:grid;place-items:center}
+.fr .fn{flex:1;min-width:0;display:flex;flex-direction:column}
+.fr .fn b{font-size:14px;color:#fff3cf;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fr .fn small{font-size:11px;color:#cdbf9c}
+.fr .fn .on{color:#6dff9c;font-style:normal}
+.fr button{flex:none;padding:7px 14px;border-radius:10px;border:2px solid #ffe9a8;background:linear-gradient(#ffd36a,#d98a1c);color:#3a2203;font-weight:800;font-size:13px;cursor:pointer}
+.fr button:disabled{opacity:.55;filter:grayscale(.5);cursor:default}
+.fa0{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#f3ebd7;color:#5a3b0b;font-weight:800}
+.rtx{width:100%;box-sizing:border-box;border-radius:10px;padding:8px;background:#120b05;color:#ffe9a8;border:1px solid #d9a45a;font:13px/1.4 monospace;resize:none}
+.rjid{margin-top:10px;padding:10px 18px;border-radius:12px;border:2px solid #ffe9a8;background:linear-gradient(#ffd36a,#d98a1c);color:#3a2203;font-weight:800;cursor:pointer}
+#ag select#agg{width:100%}
+/* khung người chơi: khung avatar + avatar + cảnh giới + giới tính + tuổi */
+.av.pfa,.av2.pfa{border-color:transparent!important;background:transparent!important;color:transparent!important;text-shadow:none!important;overflow:visible!important;position:relative}
+.av.pfa .pfw,.av2.pfa .pfw{position:absolute;left:50%;top:50%;translate:-50% -50%;pointer-events:none;z-index:1;display:block}
+.pin{display:block;font-style:normal;font-weight:700;font-size:9.5px;line-height:1.25;color:#f3dca0;white-space:nowrap;margin-top:1px;text-shadow:0 1px 2px #000}
+.pin .g{font-weight:900}.pin .g.nam{color:#7cc4ff}.pin .g.nu{color:#ff9ccf}.pin .g.khac{color:#c9b8ff}
+.pin .r{color:#7ff3d2}
+/* tiêu đề đầu trang không đè lên số Chips */
+header .hs{flex:none;white-space:nowrap;font-size:clamp(13px,3.5vw,19px)}
+header .hs .hst{white-space:nowrap}
+header .chips{flex:1 1 0;min-width:0;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-left:6px}
+
+
+/* giảm lag: tắt hiệu ứng lặp vô hạn ở sảnh bàn */
+.rs.o,.rs.e,.rt.t2,.rt.t3,.rt.t3::before{animation:none!important}
+.rs.o{box-shadow:0 2px 0 rgba(0,0,0,.45)!important}
+.rt{contain:layout paint}
+.rcol{content-visibility:auto;contain-intrinsic-size:auto 800px}
+
+.wind-coin-mark{display:inline-flex;align-items:center;justify-content:center;position:relative;flex:0 0 auto;box-sizing:border-box;width:1.08em;height:1.08em;min-width:1.08em;border-radius:9999px;vertical-align:-.14em;border:.065em solid #b77905;background:radial-gradient(circle at 28% 22%,#fff7c2 0,#fbd34d 31%,#e8a90b 66%,#b87506 100%);box-shadow:inset 0 .055em .055em rgba(255,255,255,.7),inset 0 -.07em .09em rgba(113,63,18,.24),0 .035em .09em rgba(120,53,15,.22);color:#713f12;-webkit-text-stroke:0}
+.wind-coin-mark::before{content:"";position:absolute;inset:.13em;border:.045em solid rgba(120,72,0,.4);border-radius:inherit}
+.wind-coin-mark__w{position:relative;font-family:Inter,ui-sans-serif,system-ui,sans-serif;font-weight:900;font-size:.58em;line-height:1;letter-spacing:-.11em;padding-right:.08em;color:#713f12;text-shadow:0 1px 0 rgba(255,255,255,.48);-webkit-text-stroke:0}
+
+/* đồng chip kiểu Roll Poker: viền màu, khía trắng, tâm đen vòng vàng */
+.pchip{--c:#c62828;width:1.15em;height:1.15em;vertical-align:-.2em;border:.05em solid rgba(0,0,0,.6);background:radial-gradient(circle,#14110c 0 27%,#e6bd52 28% 33%,#14110c 34% 45%,var(--c) 46% 100%);box-shadow:0 .05em .1em rgba(0,0,0,.55),inset 0 0 .06em rgba(255,255,255,.35)}
+.pchip::before{background:repeating-conic-gradient(#fff 0 16deg,transparent 16deg 45deg);-webkit-mask:radial-gradient(circle,transparent 0 72%,#000 73%);mask:radial-gradient(circle,transparent 0 72%,#000 73%)}
+
+/* đồng chip đồ họa SVG */
+.pchip{width:1.2em;height:1.2em;vertical-align:-.22em;border:0;background:url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Cdefs%3E%3CradialGradient id=%22b%22 cx=%2235%25%22 cy=%2228%25%22 r=%2280%25%22%3E%3Cstop offset=%220%22 stop-color=%22%23ff6b5e%22/%3E%3Cstop offset=%22.55%22 stop-color=%22%23d32f2f%22/%3E%3Cstop offset=%221%22 stop-color=%22%237f1010%22/%3E%3C/radialGradient%3E%3CradialGradient id=%22d%22 cx=%2240%25%22 cy=%2230%25%22 r=%2280%25%22%3E%3Cstop offset=%220%22 stop-color=%22%233a3225%22/%3E%3Cstop offset=%221%22 stop-color=%22%230d0a06%22/%3E%3C/radialGradient%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff2b0%22/%3E%3Cstop offset=%22.5%22 stop-color=%22%23e6bd52%22/%3E%3Cstop offset=%221%22 stop-color=%22%23a87a1c%22/%3E%3C/linearGradient%3E%3ClinearGradient id=%22s%22 x1=%220%22 y1=%220%22 x2=%220%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%23fff%22 stop-opacity=%22.55%22/%3E%3Cstop offset=%221%22 stop-color=%22%23fff%22 stop-opacity=%220%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2248.5%22 fill=%22url(%23b)%22 stroke=%22%232a0606%22 stroke-width=%223%22/%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2240%22 fill=%22none%22 stroke=%22%23fff%22 stroke-width=%2211%22 stroke-dasharray=%2215.7 15.7%22 stroke-dashoffset=%227.8%22/%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2240%22 fill=%22none%22 stroke=%22%232a0606%22 stroke-opacity=%22.35%22 stroke-width=%2211%22 stroke-dasharray=%221 30.4%22 /%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2232%22 fill=%22url(%23b)%22 stroke=%22%232a0606%22 stroke-opacity=%22.6%22 stroke-width=%221.5%22/%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2229%22 fill=%22url(%23d)%22 stroke=%22url(%23g)%22 stroke-width=%223.2%22/%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2222.5%22 fill=%22none%22 stroke=%22url(%23g)%22 stroke-width=%221.6%22 stroke-dasharray=%223.2 3.2%22/%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2215%22 fill=%22%2317120a%22 stroke=%22url(%23g)%22 stroke-width=%221.8%22/%3E%3Cpath d=%22M50 38.5l3.4 8.1 8.8.7-6.7 5.7 2.1 8.6-7.6-4.6-7.6 4.6 2.1-8.6-6.7-5.7 8.8-.7z%22 fill=%22url(%23g)%22/%3E%3Cellipse cx=%2236%22 cy=%2227%22 rx=%2222%22 ry=%2211%22 fill=%22url(%23s)%22 transform=%22rotate(-28 36 27)%22/%3E%3C/svg%3E') center/100% 100% no-repeat;box-shadow:none;filter:drop-shadow(0 .06em .06em rgba(0,0,0,.55))}
+.pchip::before{content:none}
+
+/* Tiến lên: bảng tên cố định như các game khác + vòng thời gian bao đúng avatar */
+.sp{width:104px;align-items:center}
+.sp.tp{width:104px;left:0;right:0;margin-left:auto;margin-right:auto}
+.sp .pl{width:100%;box-sizing:border-box;padding:3px 13px 3px 4px;gap:5px}
+.sp .pl>div:last-child{min-width:0;flex:1 1 auto}
+.sp .pl b,.sp .pl span{font-size:11px;white-space:nowrap}
+.sp .pl b{overflow:hidden;text-overflow:ellipsis}
+.sp .av,.me .av{width:28px;height:28px;min-width:28px;min-height:28px;flex:0 0 auto;aspect-ratio:1/1;font-size:18px;box-sizing:border-box}
+.me .av{width:36px;height:36px;min-width:36px;min-height:36px;font-size:22px}
+.av .tmr{left:-6px;top:-6px;width:calc(100% + 12px);height:calc(100% + 12px);box-sizing:border-box}

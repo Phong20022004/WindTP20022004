@@ -1,0 +1,83 @@
+/*@file game/css/05-patch-v10.css
+ * Patch CSS «patch-v10»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* ================= PATCH v10 ================= */
+
+/* ---- Giảm tải vẽ lại để Tiến lên mượt hơn ---- */
+.pl::before{animation:none;background:linear-gradient(105deg,transparent 36%,rgba(255,236,170,.14) 48%,transparent 60%)}
+.pl b{filter:none}
+#dcr{contain:layout paint style;transform:translateZ(0)}
+#dcr .cn i,#dcr .bo{animation:none}
+.hand .hc{will-change:transform;touch-action:manipulation;-webkit-tap-highlight-color:transparent;transition:transform .1s}
+#tb[data-g] .tlf::after{will-change:opacity,transform;filter:none}
+#tb[data-g="tl"] .tlf::after{background-image:linear-gradient(105deg,rgba(255,215,120,.55) 0 30%,#fff6c8 46%,#ffd36a 54%,rgba(255,215,120,.55) 70% 100%);background-position:50% 0;animation:gnPulse 4.2s ease-in-out infinite}
+@keyframes gnPulse{0%,100%{opacity:.4;transform:scale(1)}50%{opacity:.68;transform:scale(1.04)}}
+#tb[data-g="c3"] .tlf::after{letter-spacing:.14em;animation:gnPulse 4s ease-in-out infinite}
+/* Chữ LIÊNG tối hơn */
+#tb[data-g="lieng"] .tlf::after{background-image:linear-gradient(180deg,#8f1a0a 0,#c2410c 45%,#d98a1f 100%);background-size:100% 100%;background-position:0 0;opacity:.45;animation:gnFlick 2.6s ease-in-out infinite}
+@keyframes gnFlick{0%,100%{opacity:.34;transform:scale(1)}45%{opacity:.5}60%{opacity:.4;transform:scale(1.03)}}
+@media (prefers-reduced-motion:reduce){#tb[data-g] .tlf::after{animation:none!important}}
+
+/* ---- Chọn bộ để ăn phỏm ---- */
+.mpk{position:absolute;left:50%;top:44%;translate:-50% -50%;z-index:40;width:min(86%,520px);padding:12px 14px 14px;border-radius:16px;text-align:center;background:linear-gradient(180deg,#38240f,#140b05);border:1px solid #e9c46a;box-shadow:0 0 0 2px #170d05,0 0 0 3px rgba(233,196,106,.5),0 14px 30px rgba(0,0,0,.75);animation:mpIn .25s ease-out}
+@keyframes mpIn{from{opacity:0;scale:.9}to{opacity:1;scale:1}}
+.mpk>b{display:block;color:#ffe08a;font-weight:800;font-size:14px;margin-bottom:2px}
+.mpk>small{display:block;color:#d8c49a;font-size:11.5px;margin-bottom:8px}
+.mpl{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.mpo{display:flex;align-items:center;padding:8px 10px 8px 22px;border-radius:12px;border:1.5px solid rgba(233,196,106,.55);background:rgba(255,255,255,.06);cursor:pointer;touch-action:manipulation}
+.mpo:active{background:rgba(233,196,106,.25)}
+.mpo .pc{margin-left:-14px}
+.mpo .pc.mine{box-shadow:0 0 0 2px #ffd36a,0 0 10px #ffd36a}
+.mpk .mpx{margin-top:10px}
+
+/* ---- Chặt chồng nhân tiền ---- */
+.chn{position:absolute;inset:0;pointer-events:none;z-index:33;overflow:hidden}
+.chn b{position:absolute;left:50%;top:44%;translate:-50% -50%;font:900 64px/1 Georgia,serif;background:linear-gradient(180deg,#fff3b0,#ff9a2e 55%,#d11d1d);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 12px rgba(255,120,30,.9)) drop-shadow(0 3px 0 rgba(60,0,0,.7));animation:chB 2.3s cubic-bezier(.2,.9,.25,1.2) forwards}
+.chn.d3 b,.chn.d4 b{font-size:84px}
+.chn small{position:absolute;left:50%;top:calc(44% + 46px);translate:-50% 0;font:800 13px/1 "Be Vietnam Pro",sans-serif;letter-spacing:.14em;color:#ffe9b0;text-shadow:0 0 8px #ff7a1a,0 2px 2px #000;opacity:0;animation:chS 2.3s ease-out forwards}
+.chn .chr{position:absolute;left:50%;top:44%;width:90px;height:90px;translate:-50% -50%;border-radius:50%;border:4px solid #ff9a2e;box-shadow:0 0 22px #ff7a1a,inset 0 0 18px #ff7a1a;opacity:0;animation:chR 1s ease-out .05s 2 forwards}
+.chn .chc{position:absolute;top:-30px;font-style:normal;opacity:0;animation:chF 1.4s ease-in forwards}
+@keyframes chB{0%{opacity:0;transform:scale(.2) rotate(-14deg)}16%{opacity:1;transform:scale(1.35) rotate(3deg)}28%{transform:scale(1) rotate(0)}80%{opacity:1}100%{opacity:0;transform:scale(1.2) translateY(-20px)}}
+@keyframes chS{0%,18%{opacity:0}30%,80%{opacity:1}100%{opacity:0}}
+@keyframes chR{0%{opacity:1;scale:.3}100%{opacity:0;scale:4}}
+@keyframes chF{0%{opacity:0;transform:translateY(0) rotate(0)}12%{opacity:1}100%{opacity:.9;transform:translateY(380px) rotate(360deg)}}
+
+/* ---- Hiệu ứng kết thúc ván cờ ---- */
+.endfx{position:fixed;inset:0;z-index:60;pointer-events:none;display:grid;place-items:center;overflow:hidden;animation:efIn .35s ease-out;transition:opacity .6s}
+.endfx.out{opacity:0}
+@keyframes efIn{from{opacity:0}to{opacity:1}}
+.endfx .eg{position:absolute;inset:0}
+.endfx.win .eg{background:radial-gradient(circle at 50% 45%,rgba(255,210,90,.55),rgba(255,210,90,0) 62%)}
+.endfx.win .eg::before{content:'';position:absolute;left:50%;top:45%;width:150vmax;height:150vmax;translate:-50% -50%;background:repeating-conic-gradient(rgba(255,220,120,.2) 0 6deg,transparent 6deg 20deg);-webkit-mask:radial-gradient(circle,#000,transparent 55%);mask:radial-gradient(circle,#000,transparent 55%);animation:vqRay 24s linear infinite}
+.endfx.lose .eg{background:radial-gradient(circle at 50% 50%,rgba(20,0,0,.35),rgba(30,0,0,.85) 85%)}
+.endfx.draw .eg{background:radial-gradient(circle at 50% 50%,rgba(170,200,235,.38),rgba(60,80,110,.55) 90%)}
+.endfx.resign .eg{background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.72),rgba(215,222,235,.82) 90%)}
+.endfx .ec{position:relative;display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+.endfx .ei{font-size:68px;line-height:1;filter:drop-shadow(0 6px 10px rgba(0,0,0,.55))}
+.endfx b{font:900 clamp(32px,10vw,54px)/1.05 "Be Vietnam Pro",Georgia,serif;letter-spacing:.06em}
+.endfx small{font:700 15px/1.2 "Be Vietnam Pro",sans-serif;letter-spacing:.04em}
+.endfx.win b{background:linear-gradient(180deg,#fff7c9,#ffd23f 50%,#d98a00);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 3px 0 #6a4300) drop-shadow(0 0 14px rgba(255,200,60,.8))}
+.endfx.win small{color:#fff0b8;text-shadow:0 2px 3px #000}
+.endfx.win .ei{animation:efCrown 1.1s cubic-bezier(.2,.9,.3,1.3) both}
+.endfx.lose b{color:#e3e3e8;text-shadow:0 0 12px rgba(255,40,40,.7),0 4px 0 #3a0000;animation:efShake .5s .3s 3}
+.endfx.lose small{color:#ffb4b4;text-shadow:0 2px 3px #000}
+.endfx.lose .ei{animation:efSink 1.2s ease-out both}
+.endfx.draw b{color:#f2f7ff;text-shadow:0 0 14px rgba(150,200,255,.9),0 3px 0 #23324a}
+.endfx.draw small{color:#dbe8ff;text-shadow:0 2px 3px #000}
+.endfx.draw .ei{animation:efPulse 1.4s ease-in-out infinite}
+.endfx.resign b{color:#38425a;text-shadow:0 2px 0 #fff}
+.endfx.resign small{color:#4a556e}
+.endfx.resign .ei{transform-origin:15% 100%;animation:efWave 1s ease-in-out infinite alternate}
+@keyframes efCrown{0%{transform:translateY(-140px) scale(.4);opacity:0}60%{transform:translateY(8px) scale(1.2);opacity:1}100%{transform:none}}
+@keyframes efSink{0%{transform:translateY(-60px) scale(1.4);opacity:0}50%{opacity:1}100%{transform:none}}
+@keyframes efPulse{50%{transform:scale(1.18)}}
+@keyframes efWave{from{transform:rotate(-14deg)}to{transform:rotate(14deg)}}
+@keyframes efShake{25%{translate:-6px 0}75%{translate:6px 0}}
+.endfx .ep{position:absolute;top:-4vh;width:var(--s);height:calc(var(--s)*1.6);background:var(--c);border-radius:2px;opacity:0;animation:epFall var(--du) linear var(--dl) forwards}
+.endfx.lose .ep{background:#777;border-radius:50%;height:var(--s);opacity:0;animation-duration:calc(var(--du)*1.6)}
+.endfx.draw .ep{top:auto;bottom:-4vh;height:var(--s);border-radius:50%;background:rgba(255,255,255,.8);animation-name:epRise}
+.endfx.resign .ep{background:#fff;border-radius:50% 0 50% 0;box-shadow:0 0 0 1px rgba(120,130,150,.4)}
+@keyframes epFall{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:.9;transform:translate(var(--x),108vh) rotate(720deg)}}
+@keyframes epRise{0%{opacity:0;transform:translate(0,0)}15%{opacity:1}100%{opacity:0;transform:translate(var(--x),-100vh)}}
+@media (prefers-reduced-motion:reduce){.endfx .ep,.endfx .eg::before,.chn .chc{animation:none!important;display:none}}

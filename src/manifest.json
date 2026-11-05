@@ -1,0 +1,228 @@
+{
+ "items": [
+  {
+   "raw": "html/head-start.html"
+  },
+  {
+   "style": "css/01-tailwind-compiled.css",
+   "after": "\n\n"
+  },
+  {
+   "style": "css/02-windtp-admin-fx.css",
+   "attrs": " id=\"windtp-admin-fx\""
+  },
+  {
+   "style": "css/03-windtp-avatar-image-quality.css",
+   "attrs": " id=\"windtp-avatar-image-quality\""
+  },
+  {
+   "style": "css/04-realm-celebration.css"
+  },
+  {
+   "style": "css/05-windtp-lessons.css",
+   "attrs": " id=\"windtp-lessons\""
+  },
+  {
+   "style": "css/06-windtp-realm-now.css",
+   "attrs": " id=\"windtp-realm-now\""
+  },
+  {
+   "style": "css/07-windtp-realm-fx.css",
+   "attrs": " id=\"windtp-realm-fx\""
+  },
+  {
+   "style": "css/08-windtp-shop-smart.css",
+   "attrs": " id=\"windtp-shop-smart\""
+  },
+  {
+   "style": "css/09-windtp-social-fx.css",
+   "attrs": " id=\"windtp-social-fx\""
+  },
+  {
+   "style": "css/10-hb-style.css",
+   "attrs": " id=\"hb-style\"",
+   "after": "\n\n"
+  },
+  {
+   "style": "css/11-windtp-v5-polish.css",
+   "attrs": " id=\"windtp-v5-polish\""
+  },
+  {
+   "style": "css/12-windtp-v9-review.css",
+   "attrs": " id=\"windtp-v9-review\""
+  },
+  {
+   "style": "css/13-windtp-v11-ui.css",
+   "attrs": " id=\"windtp-v11-ui\""
+  },
+  {
+   "style": "css/14-windtp-v12-login.css",
+   "attrs": " id=\"windtp-v12-login\""
+  },
+  {
+   "style": "css/15-windtp-premium-frames.css",
+   "attrs": " id=\"windtp-premium-frames\""
+  },
+  {
+   "style": "css/16-bbl-css.css",
+   "attrs": " id=\"bbl-css\""
+  },
+  {
+   "style": "css/17-icons-banner-fix22.css",
+   "attrs": " id=\"icons-banner-fix22\""
+  },
+  {
+   "style": "css/18-hb-btn-fix24.css",
+   "attrs": " id=\"hb-btn-fix24\""
+  },
+  {
+   "style": "css/19-dark-contrast-fix2.css",
+   "attrs": " id=\"dark-contrast-fix2\""
+  },
+  {
+   "style": "css/20-pay-dark-fix.css",
+   "attrs": " id=\"pay-dark-fix\"",
+   "after": ""
+  },
+  {
+   "style": "css/21-bbl-art-v40.css",
+   "attrs": " id=\"bbl-art-v40\""
+  },
+  {
+   "style": "css/22-v43-ui.css",
+   "attrs": " id=\"v43-ui\""
+  },
+  {
+   "style": "css/23-windtp-v47-ux.css",
+   "attrs": " id=\"windtp-v47-ux\""
+  },
+  {
+   "style": "css/24-windtp-v48-lb.css",
+   "attrs": " id=\"windtp-v48-lb\""
+  },
+  {
+   "style": "css/25-windtp-v48-ui.css",
+   "attrs": " id=\"windtp-v48-ui\""
+  },
+  {
+   "script": "js/extras/head-v47-effects.js",
+   "attrs": " id=\"windtp-v47-js\""
+  },
+  {
+   "style": "css/26-perf-v48-outer.css",
+   "attrs": " id=\"perf-v48-outer\"",
+   "after": ""
+  },
+  {
+   "raw": [
+    "html/00-body-open.html",
+    "html/01-header.html",
+    "html/02-mobile-search.html",
+    "html/03-panels.html",
+    "html/04-main.html",
+    "html/05-bottom-nav.html",
+    "html/06-modal-host-and-toast.html"
+   ]
+  },
+  {
+   "script": [
+    "js/app/01-data-languages.js",
+    "js/app/02-data-config-courses-seeds.js",
+    "js/app/03-audio-and-lofi-radio.js",
+    "js/app/04-util.js",
+    "js/app/05-store-state-and-rewards.js",
+    "js/app/06-cosmetics-avatars-frames-realms.js",
+    "js/app/07-admin-identity.js",
+    "js/app/08-ui-helpers.js",
+    "js/app/09-views-home-learn-library.js",
+    "js/app/10-daily-review-exam.js",
+    "js/app/11-book-lessons-list.js",
+    "js/app/12-hanzi-stroke-pen.js",
+    "js/app/13-shop-art-and-stalls.js",
+    "js/app/14-shop-views.js",
+    "js/app/15-entertainment.js",
+    "js/app/16-utilities-and-tasks.js",
+    "js/app/17-community-and-leaderboard.js",
+    "js/app/18-notices-search-tabs.js",
+    "js/app/19-modals.js",
+    "js/app/20-payment-modals.js",
+    "js/app/21-listing-and-moderation-modals.js",
+    "js/app/22-tool-modals.js",
+    "js/app/23-settings-and-profile-modals.js",
+    "js/app/24-app-navigation.js",
+    "js/app/25-app-banner.js",
+    "js/app/26-app-quiz-practice-tools.js",
+    "js/app/27-actions-navigation.js",
+    "js/app/28-actions-learning.js",
+    "js/app/29-actions-shop-orders-payment.js",
+    "js/app/30-actions-utilities-community.js",
+    "js/app/31-actions-wallet-profile.js",
+    "js/app/32-events-and-init.js",
+    "js/app/33-admin-panel.js",
+    "js/app/34-v6-user-id-orders.js",
+    "js/app/35-v7-friend-search.js",
+    "js/app/36-v10-geo-search.js",
+    "js/app/37-v11-social-hub.js",
+    "js/app/38-v12-misc.js",
+    "js/app/39-v16-admin-edit.js",
+    "js/app/40-v17-effects-trial.js",
+    "js/app/41-social-layer.js",
+    "js/app/42-players-and-friend-requests.js",
+    "js/app/43-premium-and-poke.js",
+    "js/app/44-challenges.js",
+    "js/app/45-social-tick-and-chat.js",
+    "js/app/46-chat-and-friends-cards.js",
+    "js/app/47-content-lock.js",
+    "js/app/48-card-game-launcher.js"
+   ],
+   "prefix": "\n\"use strict\";\n(() => {\n",
+   "suffix": "})();\n\n",
+   "after": "\n\n"
+  },
+  {
+   "script": "js/extras/wind-coin-mark.js",
+   "after": "\n\n\n"
+  },
+  {
+   "script": "js/extras/vocabulary-tool.js",
+   "attrs": " id=\"windtp-vocabulary-tool\"",
+   "after": "\n\n"
+  },
+  {
+   "script": [
+    "js/lessons/seoul1a-bai1/01-shell-css-and-assets.js",
+    "js/lessons/seoul1a-bai1/02-vocabulary-and-sentences.js",
+    "js/lessons/seoul1a-bai1/03-state-and-speech.js",
+    "js/lessons/seoul1a-bai1/04-hangul-keyboard.js",
+    "js/lessons/seoul1a-bai1/05-sound-effects.js",
+    "js/lessons/seoul1a-bai1/06-question-engine.js",
+    "js/lessons/seoul1a-bai1/07-exam-seed-and-duel-setup.js",
+    "js/lessons/seoul1a-bai1/08-hoa-son-banner.js",
+    "js/lessons/seoul1a-bai1/09-friend-duel.js",
+    "js/lessons/seoul1a-bai1/10-modes-flash-quiz-listen-match.js",
+    "js/lessons/seoul1a-bai1/11-mode-everest.js",
+    "js/lessons/seoul1a-bai1/12-tabs-and-open-close.js"
+   ],
+   "attrs": " id=\"windtp-seoul1a-lesson1\"",
+   "after": "\n\n"
+  },
+  {
+   "script": "js/extras/banner-double-click-fashion.js"
+  },
+  {
+   "script": "js/extras/home-review-confetti.js",
+   "after": "\n</body>\n</html>\n\n"
+  },
+  {
+   "game": "game/manifest.json",
+   "prefix": "/* Game \"Quần hùng hội tụ\" — HTML thường, mỗi dòng một phần tử (không còn base64) */\nwindow.__BBL_HTML=[\n",
+   "attrs": " id=\"bbl-src\"",
+   "suffix": "\n].join(\"\\n\");"
+  },
+  {
+   "script": "js/extras/tab-fade-in.js",
+   "attrs": " id=\"v43-ui-js\"",
+   "after": "\n</body>\n</html>\n"
+  }
+ ]
+}

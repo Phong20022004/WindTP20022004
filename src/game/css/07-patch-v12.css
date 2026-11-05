@@ -1,0 +1,38 @@
+/*@file game/css/07-patch-v12.css
+ * Patch CSS «patch-v12»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+
+/* ================= PATCH v12: Thanh Long - Bạch Hổ theo tranh, màu ngọc bích + trắng ================= */
+.hst,.promo b.hst{background:linear-gradient(100deg,#15c99a 0%,#7ff3d2 18%,#ffffff 36%,#eaf4ff 50%,#bcd3e6 64%,#7ff3d2 82%,#15c99a 100%);background-size:260% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 0 #052a26) drop-shadow(0 0 9px rgba(110,255,220,.45))}
+.hs::after{background:linear-gradient(transparent,#e6fffa,transparent);box-shadow:0 0 10px 3px rgba(150,255,230,.9)}
+.lgi{display:block;width:28px;height:28px;flex:none;border-radius:50%;background-size:cover;background-position:center;overflow:visible}
+.lgi.dr{background-image:url(@@asset:game/lgi-dr.jpg@@);box-shadow:0 0 0 2px #1fd9b0,0 0 10px 2px rgba(40,255,200,.75);animation:lgDr 5.2s ease-in-out infinite}
+.lgi.tg{background-image:url(@@asset:game/lgi-tg.jpg@@);box-shadow:0 0 0 2px #f4fbff,0 0 10px 2px rgba(220,240,255,.9);animation:lgTg 5.2s ease-in-out infinite}
+.hs{gap:6px;font-size:clamp(15px,3.9vw,22px)}
+
+/* Banner tranh Thanh Long - Bạch Hổ */
+.promo.pt{display:block;position:relative;padding:0;overflow:hidden;border:2px solid #bff3e6;border-radius:16px;background:#06201f;box-shadow:0 0 0 1px #0c4a45,0 5px 0 #0c4a45,0 10px 20px rgba(0,0,0,.55),0 0 22px rgba(80,255,210,.35);text-align:center}
+.pt .ptimg{position:relative;aspect-ratio:2.25;overflow:hidden}
+.pt .ptimg::before{content:'';position:absolute;inset:-4%;background:none 50% 40%/cover;animation:ptKen 14s ease-in-out infinite alternate}
+@keyframes ptKen{from{transform:scale(1) translateX(0)}to{transform:scale(1.08) translateX(-1.5%)}}
+.pt .ptimg::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(4,30,28,.88));pointer-events:none}
+.pt .mist{position:absolute;left:-30%;width:160%;height:46%;pointer-events:none;mix-blend-mode:screen;opacity:.55;background:radial-gradient(ellipse at 20% 50%,rgba(255,255,255,.7),transparent 60%),radial-gradient(ellipse at 65% 40%,rgba(210,255,245,.6),transparent 55%);animation:ptMist 16s linear infinite}
+.pt .mist.m1{top:40%}
+.pt .mist.m2{top:6%;opacity:.4;animation-duration:24s;animation-direction:reverse}
+@keyframes ptMist{from{transform:translateX(-8%)}to{transform:translateX(8%)}}
+.pt .glow{position:absolute;border-radius:50%;pointer-events:none;mix-blend-mode:screen}
+.pt .glow.dr{left:34%;top:8%;width:30%;aspect-ratio:1;background:radial-gradient(circle,rgba(60,255,200,.75),transparent 65%);animation:ptPulse 2.6s ease-in-out infinite}
+.pt .glow.tg{left:58%;top:22%;width:30%;aspect-ratio:1;background:radial-gradient(circle,rgba(255,255,255,.85),transparent 65%);animation:ptPulse 2.6s ease-in-out 1.3s infinite}
+@keyframes ptPulse{0%,100%{opacity:.25;transform:scale(.85)}50%{opacity:.9;transform:scale(1.15)}}
+.pt .lgz{position:absolute;left:50%;top:46%;translate:-50% -50%;font-size:34px;font-style:normal;opacity:0;pointer-events:none;filter:drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #5dffd4);animation:lgZ 5.2s ease-out infinite}
+.pt .lgf{position:absolute;inset:0;background:radial-gradient(circle at 50% 46%,rgba(255,255,255,.85),rgba(120,255,225,.35) 40%,transparent 65%);opacity:0;pointer-events:none;animation:ptFl 5.2s ease-out infinite}
+@keyframes ptFl{0%,65%{opacity:0}68%{opacity:.9}82%,100%{opacity:0}}
+.pt .sp{position:absolute;bottom:-8%;font-style:normal;color:#aaffea;text-shadow:0 0 8px #5dffd4;opacity:0;pointer-events:none;animation:ptUp linear infinite}
+.pt .sp:nth-child(even){color:#fff}
+@keyframes ptUp{0%{transform:translateY(0) rotate(0);opacity:0}15%{opacity:1}100%{transform:translateY(-120px) rotate(200deg);opacity:0}}
+.pt .ptx{position:relative;padding:6px 12px 12px;background:linear-gradient(180deg,rgba(4,30,28,.88),#06201f)}
+.pt .ptx small{display:block;color:#aef5e3;letter-spacing:2px;font-size:10.5px;font-weight:700}
+.pt .ptx b.hst{display:block;font:900 24px/1.15 Georgia,serif;margin:1px 0 2px;text-wrap:balance}
+.pt .ptx span{display:block;font-size:12px;color:#cfe9e4;margin-bottom:8px}
+.pt .ptx button{border:2px solid #e9fffa;background:linear-gradient(#aaf6e0,#27b894);color:#032a24;box-shadow:0 3px 0 #0a5b4c,0 0 14px rgba(110,255,220,.5)}
+@media (prefers-reduced-motion:reduce){.pt .ptimg::before,.pt .mist,.pt .glow,.pt .sp,.pt .lgz,.pt .lgf{animation:none!important}}

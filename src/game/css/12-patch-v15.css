@@ -1,0 +1,11 @@
+/*@file game/css/12-patch-v15.css
+ * Patch CSS «patch-v15»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+/* v15: giảm giật - vòng đếm giờ không dùng filter làm mờ, sảnh phía sau tạm dừng khi đang chơi, bỏ Chips rơi trong bàn */
+.tmr circle{filter:none!important;stroke-width:6}
+.tmr{filter:none!important}
+#tb #dcr .cn{display:none}
+body.ingame #ldw{display:none}
+body.ingame #lobby,body.ingame .promo,body.ingame .dock{content-visibility:hidden}
+body.ingame .promo,body.ingame .promo *,body.ingame .promo *::before,body.ingame .promo *::after,body.ingame #lobby *{animation-play-state:paused!important}
+.b2.ootl{animation:ootl .9s ease-in-out infinite}

@@ -1,0 +1,4 @@
+/*@file game/css/10-spec-v37.css
+ * Patch CSS «spec-v37»: nạp theo thứ tự, ghi đè các rule phía trước.
+ */
+#tb.spec #srt{visibility:hidden!important;pointer-events:none!important}

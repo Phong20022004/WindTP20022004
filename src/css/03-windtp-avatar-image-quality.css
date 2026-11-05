@@ -1,0 +1,6 @@
+/*@file css/03-windtp-avatar-image-quality.css
+ * Chất lượng ảnh avatar.
+ */
+
+.pfp-in img{display:block!important;width:100%!important;height:100%!important;max-width:none!important;object-fit:cover!important;object-position:center center!important;image-rendering:high-quality!important;backface-visibility:hidden;-webkit-backface-visibility:hidden;transform:translateZ(0)}
+[data-action="buy-cosmetic"], [data-action="equip-cosmetic"], [data-action="claim-cosmetic"]{touch-action:manipulation}
