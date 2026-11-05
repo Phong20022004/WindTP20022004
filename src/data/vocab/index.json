@@ -1,0 +1,489 @@
+{
+  "note": "Danh sách từ vựng lấy từ Google Drive › HÀN. Chỉ lấy từ tiếng Hàn + nghĩa tiếng Việt; id = <số bài>.<thứ tự trong bài>. Số bài theo đúng sách (1B bắt đầu từ bài 9, 2B từ bài 10, ...).",
+  "extracted": [
+    {
+      "book": "SEOUL 1A",
+      "file": "seoul-1a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 43
+        },
+        {
+          "lesson": 2,
+          "count": 64
+        },
+        {
+          "lesson": 3,
+          "count": 51
+        },
+        {
+          "lesson": 4,
+          "count": 46
+        },
+        {
+          "lesson": 5,
+          "count": 98
+        },
+        {
+          "lesson": 6,
+          "count": 35
+        },
+        {
+          "lesson": 7,
+          "count": 55
+        },
+        {
+          "lesson": 8,
+          "count": 50
+        }
+      ],
+      "words": 442
+    },
+    {
+      "book": "SEOUL 1B",
+      "file": "seoul-1b.json",
+      "lessons": [
+        {
+          "lesson": 9,
+          "count": 60
+        },
+        {
+          "lesson": 10,
+          "count": 44
+        },
+        {
+          "lesson": 11,
+          "count": 60
+        },
+        {
+          "lesson": 12,
+          "count": 25
+        },
+        {
+          "lesson": 13,
+          "count": 44
+        },
+        {
+          "lesson": 14,
+          "count": 61
+        },
+        {
+          "lesson": 15,
+          "count": 42
+        },
+        {
+          "lesson": 16,
+          "count": 33
+        }
+      ],
+      "words": 369
+    },
+    {
+      "book": "SEOUL 2A",
+      "file": "seoul-2a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 39
+        },
+        {
+          "lesson": 2,
+          "count": 23
+        },
+        {
+          "lesson": 3,
+          "count": 51
+        },
+        {
+          "lesson": 4,
+          "count": 63
+        },
+        {
+          "lesson": 5,
+          "count": 68
+        },
+        {
+          "lesson": 6,
+          "count": 67
+        },
+        {
+          "lesson": 7,
+          "count": 44
+        },
+        {
+          "lesson": 8,
+          "count": 42
+        },
+        {
+          "lesson": 9,
+          "count": 53
+        }
+      ],
+      "words": 450
+    },
+    {
+      "book": "SEOUL 2B",
+      "file": "seoul-2b.json",
+      "lessons": [
+        {
+          "lesson": 10,
+          "count": 46
+        },
+        {
+          "lesson": 11,
+          "count": 64
+        },
+        {
+          "lesson": 12,
+          "count": 44
+        },
+        {
+          "lesson": 13,
+          "count": 58
+        },
+        {
+          "lesson": 14,
+          "count": 32
+        },
+        {
+          "lesson": 15,
+          "count": 35
+        },
+        {
+          "lesson": 16,
+          "count": 34
+        },
+        {
+          "lesson": 17,
+          "count": 44
+        },
+        {
+          "lesson": 18,
+          "count": 27
+        }
+      ],
+      "words": 384
+    },
+    {
+      "book": "SEOUL 3A",
+      "file": "seoul-3a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 67
+        },
+        {
+          "lesson": 2,
+          "count": 50
+        },
+        {
+          "lesson": 3,
+          "count": 46
+        },
+        {
+          "lesson": 4,
+          "count": 65
+        },
+        {
+          "lesson": 5,
+          "count": 38
+        },
+        {
+          "lesson": 6,
+          "count": 53
+        },
+        {
+          "lesson": 7,
+          "count": 46
+        },
+        {
+          "lesson": 8,
+          "count": 24
+        },
+        {
+          "lesson": 9,
+          "count": 41
+        }
+      ],
+      "words": 430
+    },
+    {
+      "book": "SEOUL 3B",
+      "file": "seoul-3b.json",
+      "lessons": [
+        {
+          "lesson": 10,
+          "count": 49
+        },
+        {
+          "lesson": 11,
+          "count": 63
+        },
+        {
+          "lesson": 12,
+          "count": 52
+        },
+        {
+          "lesson": 13,
+          "count": 100
+        },
+        {
+          "lesson": 14,
+          "count": 51
+        },
+        {
+          "lesson": 15,
+          "count": 56
+        },
+        {
+          "lesson": 16,
+          "count": 81
+        },
+        {
+          "lesson": 17,
+          "count": 62
+        },
+        {
+          "lesson": 18,
+          "count": 34
+        }
+      ],
+      "words": 548
+    },
+    {
+      "book": "SEOUL 4A",
+      "file": "seoul-4a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 113
+        },
+        {
+          "lesson": 2,
+          "count": 99
+        },
+        {
+          "lesson": 3,
+          "count": 100
+        },
+        {
+          "lesson": 4,
+          "count": 92
+        },
+        {
+          "lesson": 5,
+          "count": 74
+        },
+        {
+          "lesson": 6,
+          "count": 91
+        },
+        {
+          "lesson": 7,
+          "count": 99
+        },
+        {
+          "lesson": 8,
+          "count": 82
+        },
+        {
+          "lesson": 9,
+          "count": 71
+        }
+      ],
+      "words": 821
+    },
+    {
+      "book": "SEOUL 4B",
+      "file": "seoul-4b.json",
+      "lessons": [
+        {
+          "lesson": 10,
+          "count": 100
+        },
+        {
+          "lesson": 11,
+          "count": 66
+        },
+        {
+          "lesson": 12,
+          "count": 98
+        },
+        {
+          "lesson": 13,
+          "count": 61
+        },
+        {
+          "lesson": 14,
+          "count": 68
+        },
+        {
+          "lesson": 15,
+          "count": 118
+        },
+        {
+          "lesson": 16,
+          "count": 97
+        },
+        {
+          "lesson": 17,
+          "count": 82
+        },
+        {
+          "lesson": 18,
+          "count": 50
+        }
+      ],
+      "words": 740
+    },
+    {
+      "book": "SEOUL 5A",
+      "file": "seoul-5a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 100
+        },
+        {
+          "lesson": 2,
+          "count": 77
+        },
+        {
+          "lesson": 3,
+          "count": 140
+        },
+        {
+          "lesson": 4,
+          "count": 100
+        },
+        {
+          "lesson": 5,
+          "count": 149
+        },
+        {
+          "lesson": 6,
+          "count": 57
+        }
+      ],
+      "words": 623
+    },
+    {
+      "book": "SEOUL 5B",
+      "file": "seoul-5b.json",
+      "lessons": [
+        {
+          "lesson": 7,
+          "count": 163
+        },
+        {
+          "lesson": 8,
+          "count": 170
+        },
+        {
+          "lesson": 9,
+          "count": 119
+        },
+        {
+          "lesson": 10,
+          "count": 92
+        },
+        {
+          "lesson": 11,
+          "count": 103
+        },
+        {
+          "lesson": 12,
+          "count": 100
+        },
+        {
+          "lesson": 13,
+          "count": 58
+        }
+      ],
+      "words": 805
+    },
+    {
+      "book": "SEOUL 6A",
+      "file": "seoul-6a.json",
+      "lessons": [
+        {
+          "lesson": 1,
+          "count": 72
+        },
+        {
+          "lesson": 2,
+          "count": 120
+        },
+        {
+          "lesson": 3,
+          "count": 116
+        },
+        {
+          "lesson": 4,
+          "count": 80
+        },
+        {
+          "lesson": 5,
+          "count": 74
+        },
+        {
+          "lesson": 6,
+          "count": 67
+        },
+        {
+          "lesson": 7,
+          "count": 64
+        }
+      ],
+      "words": 593
+    },
+    {
+      "book": "SEOUL 6B",
+      "file": "seoul-6b.json",
+      "lessons": [
+        {
+          "lesson": 8,
+          "count": 30
+        },
+        {
+          "lesson": 9,
+          "count": 63
+        },
+        {
+          "lesson": 10,
+          "count": 46
+        },
+        {
+          "lesson": 11,
+          "count": 53
+        },
+        {
+          "lesson": 12,
+          "count": 66
+        },
+        {
+          "lesson": 13,
+          "count": 78
+        },
+        {
+          "lesson": 14,
+          "count": 75
+        },
+        {
+          "lesson": 15,
+          "count": 53
+        }
+      ],
+      "words": 464
+    }
+  ],
+  "pending": [
+    "YONSEI",
+    "TOPIK",
+    "EPS",
+    "TIẾNG HÀN THEO CHỦ ĐỀ",
+    "CẤU TRÚC NGỮ PHÁP",
+    "GIÁO TRÌNH TỔNG HỢP"
+  ]
+}
