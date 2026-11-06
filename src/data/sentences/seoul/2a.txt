@@ -1,0 +1,378 @@
+# Câu mẫu (đọc hiểu) Seoul Korean 2A. Mỗi dòng: từ|câu có {chỗ trống}|nghĩa. "## N" = số bài (theo sách).
+## 1
+직업|제 {직업}은 선생님이에요.|Nghề nghiệp của tôi là giáo viên.
+항상|저는 {항상} 아침에 커피를 마셔요.|Tôi lúc nào cũng uống cà phê vào buổi sáng.
+가끔|저는 {가끔} 영화를 봐요.|Thỉnh thoảng tôi xem phim.
+생년월일|여기에 {생년월일}을 쓰세요.|Hãy viết ngày tháng năm sinh vào đây.
+연락처|여기에 {연락처}를 쓰세요.|Hãy viết thông tin liên lạc vào đây.
+종교|한국 사람들은 어떤 {종교}를 믿어요?|Người Hàn Quốc theo tôn giáo nào?
+성별|{성별}은 남자예요.|Giới tính là nam.
+부르다|친구가 저를 {불러요}.|Bạn gọi tôi.
+뵙다|처음 {뵙겠습니다}.|Rất hân hạnh được gặp lần đầu.
+그냥|{그냥} 집에서 쉬었어요.|Tôi chỉ nghỉ ngơi ở nhà thôi.
+들어가다|교실에 {들어가세요}.|Hãy đi vào phòng học.
+이유|한국어를 공부하는 {이유}가 뭐예요?|Lý do bạn học tiếng Hàn là gì?
+평일|{평일}에는 회사에 가요.|Ngày thường tôi đi làm.
+코미디 영화|저는 {코미디 영화}를 좋아해요.|Tôi thích phim hài.
+액션 영화|동생은 {액션 영화}를 좋아해요.|Em tôi thích phim hành động.
+소설책|저는 {소설책}을 자주 읽어요.|Tôi thường đọc sách tiểu thuyết.
+시간이 나다|{시간이 나면} 영화를 봐요.|Nếu có thời gian tôi xem phim.
+언어|저는 {언어}에 관심이 있어요.|Tôi quan tâm đến ngôn ngữ.
+문화|한국 {문화}를 공부해요.|Tôi học văn hóa Hàn Quốc.
+관심|저는 한국 음악에 {관심}이 있어요.|Tôi quan tâm đến âm nhạc Hàn Quốc.
+발표하다|수업 시간에 {발표해요}.|Tôi phát biểu trong giờ học.
+글자|한글은 {글자}예요.|Hangeul là chữ viết.
+제일|한국에서 부산이 {제일} 좋아요.|Ở Hàn Quốc tôi thích Busan nhất.
+친하다|저는 민수와 {친해요}.|Tôi thân với Minsu.
+성|김은 한국 사람의 {성}이에요.|Kim là họ của người Hàn Quốc.
+형제|저는 {형제}가 없어요.|Tôi không có anh em.
+비슷하다|두 사람은 얼굴이 {비슷해요}.|Hai người có khuôn mặt giống nhau.
+교회|일요일에 {교회}에 가요.|Chủ nhật tôi đến nhà thờ.
+언제나|그 사람은 {언제나} 친절해요.|Người đó lúc nào cũng thân thiện.
+물어보다|모르면 선생님께 {물어보세요}.|Nếu không biết hãy hỏi thầy cô.
+빌리다|친구에게 책을 {빌려요}.|Tôi mượn sách của bạn.
+켜다|텔레비전을 {켜요}.|Tôi bật ti vi.
+줄을 서다|식당 앞에서 {줄을 서요}.|Tôi xếp hàng trước nhà hàng.
+수첩|{수첩}에 약속을 써요.|Tôi ghi cuộc hẹn vào sổ tay.
+뛰어가다|늦어서 학교까지 {뛰어가요}.|Vì muộn nên tôi chạy đến trường.
+잊어버리다|친구 전화번호를 {잊어버렸어요}.|Tôi đã quên số điện thoại của bạn.
+## 2
+그림을 그리다|저는 주말에 {그림을 그려요}.|Cuối tuần tôi vẽ tranh.
+인형|저는 {인형}을 모아요.|Tôi sưu tầm búp bê.
+모으다|저는 우표를 {모아요}.|Tôi sưu tầm tem.
+감상|제 취미는 영화 {감상}이에요.|Sở thích của tôi là thưởng thức phim.
+낚시|아버지는 {낚시}를 좋아하세요.|Bố thích câu cá.
+전혀|저는 운동을 {전혀} 안 해요.|Tôi hoàn toàn không tập thể dục.
+별로|저는 노래를 {별로} 안 좋아해요.|Tôi không thích hát lắm.
+야구하다|토요일마다 친구들과 {야구해요}.|Thứ Bảy nào tôi cũng chơi bóng chày với bạn.
+외국어|저는 {외국어}를 공부해요.|Tôi học ngoại ngữ.
+동호회|저는 사진 {동호회}에 들어갔어요.|Tôi đã vào câu lạc bộ nhiếp ảnh.
+모이다|우리는 일요일에 {모여요}.|Chúng tôi tụ họp vào Chủ nhật.
+연습|매일 한국어 {연습}을 해요.|Ngày nào tôi cũng luyện tập tiếng Hàn.
+회비|동호회 {회비}는 만 원이에요.|Hội phí câu lạc bộ là mười nghìn won.
+블로그|저는 {블로그}에 사진을 올려요.|Tôi đăng ảnh lên blog.
+참|오늘 날씨가 {참} 좋아요.|Hôm nay thời tiết thật đẹp.
+문화 센터|{문화 센터}에서 요리를 배워요.|Tôi học nấu ăn ở trung tâm văn hóa.
+여러 가지|시장에는 {여러 가지} 과일이 있어요.|Ở chợ có nhiều loại trái cây.
+외우다|저는 단어를 {외워요}.|Tôi học thuộc từ vựng.
+선수|제 동생은 축구 {선수}예요.|Em tôi là cầu thủ bóng đá.
+한자|저는 {한자}를 공부해요.|Tôi học chữ Hán.
+잃어버리다|지갑을 {잃어버렸어요}.|Tôi đã làm mất ví.
+이해하다|선생님 말씀을 {이해해요}.|Tôi hiểu lời thầy giáo nói.
+시끄럽다|교실이 너무 {시끄러워요}.|Phòng học ồn quá.
+## 3
+콘서트|주말에 {콘서트}에 가요.|Cuối tuần tôi đi xem concert.
+음악회|{음악회}에서 피아노를 들었어요.|Tôi đã nghe piano ở buổi hòa nhạc.
+연극|대학로에서 {연극}을 봤어요.|Tôi đã xem kịch ở Daehakro.
+뮤지컬|{뮤지컬}을 보러 가요.|Tôi đi xem nhạc kịch.
+전시회|미술관에서 {전시회}를 봤어요.|Tôi đã xem triển lãm ở bảo tàng mỹ thuật.
+축제|가을에 {축제}가 있어요.|Mùa thu có lễ hội.
+불꽃놀이|밤에 {불꽃놀이}를 봤어요.|Buổi tối tôi đã xem bắn pháo hoa.
+배낭여행|방학에 유럽으로 {배낭여행}을 가요.|Kỳ nghỉ tôi đi du lịch ba lô ở châu Âu.
+번지 점프|저는 {번지 점프}를 해 봤어요.|Tôi đã thử nhảy bungee.
+스쿠버 다이빙|바다에서 {스쿠버 다이빙}을 했어요.|Tôi đã lặn biển ở biển.
+박물관|{박물관}에서 옛날 물건을 봤어요.|Tôi đã xem đồ vật ngày xưa ở viện bảo tàng.
+미술관|{미술관}에서 그림을 봤어요.|Tôi đã xem tranh ở bảo tàng mỹ thuật.
+공연장|{공연장}에 사람이 많아요.|Ở nơi biểu diễn có nhiều người.
+생선회|바닷가에서 {생선회}를 먹었어요.|Tôi đã ăn gỏi cá ở bờ biển.
+온천|겨울에 {온천}에 가고 싶어요.|Mùa đông tôi muốn đi suối nước nóng.
+벚꽃|봄에 {벚꽃}을 보러 가요.|Mùa xuân tôi đi ngắm hoa anh đào.
+국제|{국제} 영화제에 갔어요.|Tôi đã đến liên hoan phim quốc tế.
+영화제|부산에서 {영화제}가 열려요.|Liên hoan phim được tổ chức ở Busan.
+재즈|저는 {재즈}를 좋아해요.|Tôi thích nhạc jazz.
+존경하다|저는 부모님을 {존경해요}.|Tôi kính trọng bố mẹ.
+닭|시장에서 {닭}을 샀어요.|Tôi đã mua gà ở chợ.
+자리|여기 {자리}가 있어요.|Ở đây có chỗ ngồi.
+출장|아버지는 {출장}을 가셨어요.|Bố đã đi công tác.
+중요하다|이 시험은 아주 {중요해요}.|Kỳ thi này rất quan trọng.
+특히|저는 과일을 좋아해요. {특히} 사과를 좋아해요.|Tôi thích trái cây. Đặc biệt tôi thích táo.
+가장|저는 한국 음식 중에서 불고기를 {가장} 좋아해요.|Trong các món Hàn Quốc tôi thích bulgogi nhất.
+기억|한국 여행은 좋은 {기억}이에요.|Chuyến du lịch Hàn Quốc là kỷ niệm đẹp.
+감독|그 영화 {감독}은 유명해요.|Đạo diễn của bộ phim đó nổi tiếng.
+배우|그 {배우}는 정말 멋있어요.|Diễn viên đó thật phong cách.
+유럽|저는 {유럽}에 가 봤어요.|Tôi đã từng đến châu Âu.
+낙타|사막에서 {낙타}를 탔어요.|Tôi đã cưỡi lạc đà ở sa mạc.
+상을 받다|말하기 대회에서 {상을 받았어요}.|Tôi đã nhận giải ở cuộc thi nói.
+경험|한국에서 좋은 {경험}을 했어요.|Tôi đã có trải nghiệm tốt ở Hàn Quốc.
+옛날|{옛날}에는 텔레비전이 없었어요.|Ngày xưa không có ti vi.
+놀이기구|놀이공원에서 {놀이기구}를 탔어요.|Tôi đã chơi trò chơi giải trí ở công viên giải trí.
+발레|딸은 {발레}를 배워요.|Con gái tôi học múa ba lê.
+공연|오늘 저녁에 {공연}이 있어요.|Tối nay có buổi biểu diễn.
+코끼리|동물원에서 {코끼리}를 봤어요.|Tôi đã xem voi ở sở thú.
+대학원|저는 {대학원}에 다녀요.|Tôi học cao học.
+고르다|마음에 드는 옷을 {골라요}.|Tôi chọn cái áo vừa ý.
+문제|이 {문제}가 어려워요.|Câu hỏi này khó.
+## 4
+옷값|{옷값}이 비싸요.|Giá quần áo đắt.
+맛|이 음식은 {맛}이 좋아요.|Món ăn này vị ngon.
+내용|그 영화는 {내용}이 재미있어요.|Nội dung bộ phim đó thú vị.
+디자인|이 옷은 {디자인}이 예뻐요.|Cái áo này thiết kế đẹp.
+유행하다|요즘 이 스타일이 {유행해요}.|Dạo này phong cách này đang thịnh hành.
+훨씬|이 가방이 {훨씬} 가벼워요.|Cái cặp này nhẹ hơn nhiều.
+시골|저는 {시골}에서 살아요.|Tôi sống ở nông thôn.
+건강하다|할머니는 {건강하세요}.|Bà khỏe mạnh.
+굽이 높다|저는 {굽이 높은} 구두를 신어요.|Tôi đi giày cao gót.
+교환하다|옷이 작아서 {교환했어요}.|Vì áo nhỏ nên tôi đã đổi.
+환불하다|물건이 마음에 안 들어서 {환불했어요}.|Vì hàng không vừa ý nên tôi đã hoàn tiền.
+등산화|산에 갈 때 {등산화}를 신어요.|Khi đi núi tôi đi giày leo núi.
+필요하다|우산이 {필요해요}.|Tôi cần cái ô.
+절약하다|돈을 {절약해요}.|Tôi tiết kiệm tiền.
+직접|제가 {직접} 만들었어요.|Chính tôi đã tự làm.
+주문하다|식당에서 음식을 {주문해요}.|Tôi gọi món ở nhà hàng.
+면접|내일 회사에서 {면접}을 봐요.|Ngày mai tôi phỏng vấn ở công ty.
+수산 시장|{수산 시장}에서 생선을 샀어요.|Tôi đã mua cá ở chợ hải sản.
+동네|우리 {동네}는 조용해요.|Khu phố chúng tôi yên tĩnh.
+싱싱하다|이 생선은 {싱싱해요}.|Con cá này tươi.
+넣다|가방에 책을 {넣어요}.|Tôi bỏ sách vào cặp.
+고추장|비빔밥에 {고추장}을 넣어요.|Tôi cho tương ớt vào cơm trộn.
+블라우스|저는 흰 {블라우스}를 입었어요.|Tôi đã mặc áo sơ mi nữ trắng.
+스웨터|겨울에 {스웨터}를 입어요.|Mùa đông tôi mặc áo len.
+양복|아버지는 {양복}을 입으세요.|Bố mặc âu phục.
+양말|{양말}을 신어요.|Tôi đi tất.
+넥타이|아버지는 {넥타이}를 매세요.|Bố thắt cà vạt.
+장갑|겨울에 {장갑}을 껴요.|Mùa đông tôi đeo găng tay.
+스카프|목에 {스카프}를 해요.|Tôi quàng khăn ở cổ.
+마음에 들다|이 옷이 {마음에 들어요}.|Tôi ưng cái áo này.
+마음에 안 들다|이 색깔은 {마음에 안 들어요}.|Tôi không ưng màu này.
+잘 어울리다|이 옷이 {잘 어울려요}.|Cái áo này rất hợp.
+사이즈|{사이즈}가 어떻게 되세요?|Size của bạn là bao nhiêu?
+가격|{가격}이 얼마예요?|Giá bao nhiêu?
+색깔|무슨 {색깔}을 좋아해요?|Bạn thích màu gì?
+길이|바지 {길이}가 좀 짧아요.|Chiều dài quần hơi ngắn.
+좀 크다|이 옷은 {좀 커요}.|Cái áo này hơi rộng.
+잘 맞다|이 신발이 {잘 맞아요}.|Đôi giày này vừa vặn.
+좀 작다|이 구두는 {좀 작아요}.|Đôi giày da này hơi nhỏ.
+밝다|이 색깔은 {밝아요}.|Màu này sáng.
+어둡다|밤에는 길이 {어두워요}.|Ban đêm đường tối.
+## 5
+아마|내일은 {아마} 비가 올 거예요.|Ngày mai có lẽ trời sẽ mưa.
+담배를 끊다|건강 때문에 {담배를 끊었어요}.|Vì sức khỏe tôi đã bỏ thuốc lá.
+돈을 모으다|여행을 가려고 {돈을 모아요}.|Tôi tiết kiệm tiền để đi du lịch.
+전통문화|한국의 {전통문화}를 체험해요.|Tôi trải nghiệm văn hóa truyền thống của Hàn Quốc.
+느끼다|한국 문화를 {느껴요}.|Tôi cảm nhận văn hóa Hàn Quốc.
+패키지여행|{패키지여행}은 편해요.|Du lịch trọn gói thì tiện.
+거리|집에서 학교까지 {거리}가 멀어요.|Khoảng cách từ nhà đến trường xa.
+며칠|제주도에서 {며칠} 있어요?|Bạn ở Jeju mấy ngày?
+바라다|건강하기를 {바라요}.|Tôi mong bạn khỏe mạnh.
+박|제주도에서 이 {박} 삼 일 있어요.|Tôi ở Jeju hai đêm ba ngày.
+자세하다|{자세하게} 설명해 주세요.|Xin hãy giải thích chi tiết.
+여행지|제주도는 인기 있는 {여행지}예요.|Jeju là địa điểm du lịch được ưa chuộng.
+방법|한국어를 공부하는 {방법}을 알아요.|Tôi biết cách học tiếng Hàn.
+생각하다|저는 그렇게 {생각해요}.|Tôi nghĩ như vậy.
+마치다|수업을 {마쳐요}.|Tôi kết thúc giờ học.
+여행 상품|인터넷에서 {여행 상품}을 알아봐요.|Tôi tìm hiểu tour du lịch trên mạng.
+포함되어 있다|식사가 {포함되어 있어요}.|Bữa ăn được bao gồm.
+당일|{당일} 여행을 가요.|Tôi đi du lịch trong ngày.
+추천하다|좋은 식당을 {추천해} 주세요.|Xin hãy giới thiệu nhà hàng ngon.
+가이드|{가이드}가 설명해 줘요.|Hướng dẫn viên giải thích cho tôi.
+동양|{동양}과 서양은 문화가 달라요.|Phương Đông và phương Tây có văn hóa khác nhau.
+서양|{서양} 음식을 좋아해요.|Tôi thích món ăn phương Tây.
+오래되다|이 집은 {오래됐어요}.|Ngôi nhà này đã cũ.
+건축물|경복궁은 아름다운 {건축물}이에요.|Cung Gyeongbok là công trình kiến trúc đẹp.
+자연|저는 {자연}을 좋아해요.|Tôi thích thiên nhiên.
+다양하다|한국 음식은 {다양해요}.|Món ăn Hàn Quốc đa dạng.
+가지고 가다|우산을 {가지고 가세요}.|Hãy mang theo ô.
+콘도|바닷가 {콘도}에서 지내요.|Tôi ở khách sạn căn hộ ở bờ biển.
+펜션|친구들과 {펜션}에서 지냈어요.|Tôi đã ở nhà nghỉ nhỏ cùng bạn bè.
+게스트하우스|저는 {게스트하우스}에서 묵어요.|Tôi ở nhà khách.
+민박|시골에서 {민박}을 했어요.|Tôi đã ở trọ nhà dân ở quê.
+이용하다|지하철을 {이용해요}.|Tôi sử dụng tàu điện ngầm.
+한옥|전주에서 {한옥}에서 잤어요.|Ở Jeonju tôi đã ngủ trong nhà truyền thống Hàn Quốc.
+분위기|이 카페는 {분위기}가 좋아요.|Quán cà phê này không khí tốt.
+대통령|한국의 {대통령}을 뉴스에서 봤어요.|Tôi đã xem tổng thống Hàn Quốc trên bản tin.
+종류|김치는 {종류}가 많아요.|Kim chi có nhiều loại.
+등록금|대학교 {등록금}이 비싸요.|Học phí đại học đắt.
+기간|여행 {기간}은 일주일이에요.|Thời gian du lịch là một tuần.
+교통편|{교통편}이 편해요.|Phương tiện giao thông thuận tiện.
+숙소|{숙소}를 예약했어요.|Tôi đã đặt chỗ ở.
+요금|버스 {요금}이 얼마예요?|Giá vé xe buýt là bao nhiêu?
+일정|여행 {일정}을 짜요.|Tôi lên lịch trình du lịch.
+항공료|{항공료}가 비싸요.|Phí hàng không đắt.
+숙박비|{숙박비}가 얼마예요?|Tiền trọ là bao nhiêu?
+식비|여행 {식비}가 많이 들어요.|Chi phí ăn uống khi du lịch tốn nhiều.
+입장료|박물관 {입장료}는 무료예요.|Phí vào cửa bảo tàng miễn phí.
+여행자 보험료|{여행자 보험료}를 냈어요.|Tôi đã trả phí bảo hiểm du lịch.
+항공권|인터넷에서 {항공권}을 샀어요.|Tôi đã mua vé máy bay trên mạng.
+왕복|서울에서 부산까지 {왕복} 표를 샀어요.|Tôi đã mua vé khứ hồi từ Seoul đến Busan.
+편도|{편도} 표를 주세요.|Cho tôi vé một chiều.
+출발|비행기 {출발} 시간은 아홉 시예요.|Giờ xuất phát của máy bay là chín giờ.
+도착|{도착} 시간은 열두 시예요.|Giờ đến nơi là mười hai giờ.
+출국 날짜|{출국 날짜}가 언제예요?|Ngày khởi hành là khi nào?
+귀국 날짜|{귀국 날짜}는 일요일이에요.|Ngày về nước là Chủ nhật.
+좌석|{좌석}을 예약했어요.|Tôi đã đặt chỗ ngồi.
+일반석|저는 {일반석}을 탔어요.|Tôi đã ngồi hạng phổ thông.
+비즈니스석|{비즈니스석}은 비싸요.|Ghế thương gia đắt.
+일등석|{일등석}은 아주 편해요.|Ghế hạng nhất rất thoải mái.
+## 6
+퇴근 시간|{퇴근 시간}에는 길이 막혀요.|Vào giờ tan tầm đường bị tắc.
+길이 막히다|비가 오면 {길이 막혀요}.|Khi trời mưa đường bị tắc.
+저울|{저울}에 소포를 올려요.|Tôi đặt bưu phẩm lên cân.
+올리다|상자를 책상 위에 {올려요}.|Tôi đặt cái hộp lên bàn.
+들다|무거운 가방을 {들어요}.|Tôi xách cái cặp nặng.
+상자|{상자}에 책을 넣어요.|Tôi bỏ sách vào hộp.
+맞다|그 말이 {맞아요}.|Lời đó đúng.
+빠르다|지하철이 버스보다 {빨라요}.|Tàu điện ngầm nhanh hơn xe buýt.
+다르다|두 사람의 생각이 {달라요}.|Suy nghĩ của hai người khác nhau.
+서두르다|늦었어요. {서두르세요}.|Muộn rồi. Hãy nhanh lên.
+외국인등록증|은행에서 {외국인등록증}이 필요해요.|Ở ngân hàng cần thẻ người nước ngoài.
+벌써|{벌써} 열두 시예요.|Đã mười hai giờ rồi.
+차비|{차비}가 없어요.|Tôi không có tiền xe.
+가져오다|집에서 책을 {가져와요}.|Tôi mang sách từ nhà đến.
+전부|{전부} 얼마예요?|Tổng cộng bao nhiêu?
+환율|오늘 {환율}이 올랐어요.|Hôm nay tỉ giá đã tăng.
+택배|{택배}가 왔어요.|Hàng chuyển phát đã đến.
+맡기다|경비실에 택배를 {맡겨요}.|Tôi nhờ giữ hàng ở phòng bảo vệ.
+경비실|{경비실}에 택배가 있어요.|Ở phòng bảo vệ có hàng chuyển phát.
+택배 기사|{택배 기사}가 방문했어요.|Nhân viên giao hàng đã đến thăm.
+방문하다|친구 집을 {방문해요}.|Tôi đến thăm nhà bạn.
+품명|{품명}과 수량을 쓰세요.|Hãy viết tên hàng hóa và số lượng.
+수량|{수량}이 몇 개예요?|Số lượng là mấy cái?
+신청하다|인터넷으로 {신청해요}.|Tôi đăng ký qua mạng.
+접수하다|서류를 {접수해요}.|Tôi nộp hồ sơ.
+우편|{우편}으로 보내요.|Tôi gửi bằng đường bưu điện.
+배치 시험|내일 {배치 시험}이 있어요.|Ngày mai có kỳ thi xếp lớp.
+바로|수업이 끝나고 {바로} 집에 가요.|Sau giờ học tôi về nhà ngay.
+간판|가게 {간판}이 커요.|Bảng hiệu cửa hàng lớn.
+표지판|{표지판}을 보세요.|Hãy xem biển báo.
+의미|이 말의 {의미}를 몰라요.|Tôi không biết ý nghĩa của từ này.
+빨간색|신호등이 {빨간색}이에요.|Đèn giao thông màu đỏ.
+새|나무 위에 {새}가 있어요.|Có con chim trên cây.
+소식|친구의 {소식}을 들었어요.|Tôi đã nghe tin của bạn.
+전하다|친구에게 이 말을 {전해} 주세요.|Hãy chuyển lời này cho bạn.
+꽃집|{꽃집}에서 꽃을 샀어요.|Tôi đã mua hoa ở tiệm hoa.
+우표를 붙이다|편지에 {우표를 붙여요}.|Tôi dán tem lên thư.
+주소를 쓰다|봉투에 {주소를 써요}.|Tôi viết địa chỉ lên phong bì.
+봉투에 넣다|편지를 {봉투에 넣어요}.|Tôi bỏ thư vào phong bì.
+편지를 부치다|우체국에서 {편지를 부쳐요}.|Tôi gửi thư ở bưu điện.
+엽서를 부치다|여행 중에 {엽서를 부쳐요}.|Trong chuyến du lịch tôi gửi bưu thiếp.
+소포를 포장하다|{소포를 포장해요}.|Tôi đóng gói bưu phẩm.
+입금|통장에 {입금}했어요.|Tôi đã gửi tiền vào tài khoản.
+출금|돈을 {출금}해요.|Tôi rút tiền.
+환전|은행에서 {환전}해요.|Tôi đổi ngoại tệ ở ngân hàng.
+송금|부모님께 {송금}했어요.|Tôi đã chuyển tiền cho bố mẹ.
+창구|은행 {창구}에서 일해요.|Tôi làm việc ở quầy giao dịch ngân hàng.
+현금인출기|{현금인출기}에서 돈을 찾아요.|Tôi rút tiền ở máy ATM.
+신분증|은행에서 {신분증}을 보여 줘요.|Tôi cho xem giấy tờ tùy thân ở ngân hàng.
+통장|은행에서 {통장}을 만들어요.|Tôi làm sổ ngân hàng ở ngân hàng.
+도장|서류에 {도장}을 찍어요.|Tôi đóng dấu vào hồ sơ.
+현금 카드|{현금 카드}로 돈을 찾아요.|Tôi rút tiền bằng thẻ rút tiền.
+신용 카드|{신용 카드}로 계산해요.|Tôi thanh toán bằng thẻ tín dụng.
+모르다|저는 그 사람을 {몰라요}.|Tôi không biết người đó.
+## 7
+가져가다|우산을 {가져가세요}.|Hãy mang ô đi.
+학생회관|{학생회관}에서 점심을 먹어요.|Tôi ăn trưa ở hội quán sinh viên.
+근처|학교 {근처}에 은행이 있어요.|Gần trường có ngân hàng.
+출구|지하철 일 번 {출구}에서 만나요.|Hãy gặp nhau ở lối ra số 1 của tàu điện ngầm.
+한옥마을|전주 {한옥마을}에 가 봤어요.|Tôi đã đến làng hanok Jeonju.
+친구를 사귀다|한국에서 {친구를 사귀었어요}.|Tôi đã kết bạn ở Hàn Quốc.
+한참|{한참} 기다렸어요.|Tôi đã đợi khá lâu.
+나오다|지하철역에서 {나와요}.|Tôi đi ra từ ga tàu điện ngầm.
+경복궁|{경복궁}에서 사진을 찍었어요.|Tôi đã chụp ảnh ở cung Gyeongbok.
+사고가 나다|길에서 {사고가 났어요}.|Đã xảy ra tai nạn trên đường.
+알려 주다|길을 {알려 주세요}.|Xin hãy chỉ đường cho tôi.
+지내다|저는 서울에서 잘 {지내요}.|Tôi sống tốt ở Seoul.
+미터|여기에서 백 {미터}쯤 가세요.|Hãy đi khoảng một trăm mét từ đây.
+걸어오다|학교까지 {걸어왔어요}.|Tôi đã đi bộ đến trường.
+올라오다|위로 {올라오세요}.|Hãy đi lên trên này.
+잡채|명절에 {잡채}를 먹어요.|Dịp lễ tôi ăn miến xào.
+약도|{약도}를 그려 주세요.|Xin hãy vẽ sơ đồ đường đi.
+보건소|{보건소}에서 주사를 맞았어요.|Tôi đã tiêm ở trạm y tế.
+내려가다|아래로 {내려가세요}.|Hãy đi xuống dưới.
+광장|{광장}에 사람이 많아요.|Ở quảng trường có nhiều người.
+동상|광장에 {동상}이 있어요.|Ở quảng trường có bức tượng đồng.
+조선 시대|{조선 시대}에 지은 집이에요.|Đây là ngôi nhà xây vào thời Joseon.
+장군|이순신은 훌륭한 {장군}이에요.|Yi Sun-sin là vị tướng xuất sắc.
+기념하다|생일을 {기념해요}.|Tôi kỷ niệm sinh nhật.
+사거리|{사거리}에서 오른쪽으로 가세요.|Hãy rẽ phải ở ngã tư.
+신호등|{신호등}에서 왼쪽으로 가세요.|Hãy rẽ trái ở đèn giao thông.
+지하철역|{지하철역} 앞에서 만나요.|Gặp nhau trước ga tàu điện ngầm.
+버스 정류장|{버스 정류장}에서 내려요.|Tôi xuống ở trạm xe buýt.
+택시 정류장|{택시 정류장}에 택시가 많아요.|Ở trạm taxi có nhiều xe taxi.
+지하도|{지하도}로 길을 건너요.|Tôi qua đường bằng đường hầm.
+육교|{육교}를 건너요.|Tôi đi qua cầu vượt.
+횡단보도|{횡단보도}를 건너요.|Tôi băng qua vạch kẻ đường cho người đi bộ.
+왼쪽으로 돌아가다|사거리에서 {왼쪽으로 돌아가세요}.|Hãy rẽ trái ở ngã tư.
+오른쪽으로 돌아가다|사거리에서 {오른쪽으로 돌아가세요}.|Hãy rẽ phải ở ngã tư.
+나가다|밖으로 {나가요}.|Tôi đi ra ngoài.
+건너다|길을 {건너요}.|Tôi băng qua đường.
+직진하다|저기에서 {직진하세요}.|Hãy đi thẳng ở đằng kia.
+좌회전하다|사거리에서 {좌회전하세요}.|Hãy rẽ trái ở ngã tư.
+우회전하다|사거리에서 {우회전하세요}.|Hãy rẽ phải ở ngã tư.
+잊다|그 일은 {잊으세요}.|Hãy quên chuyện đó đi.
+## 8
+여보세요|{여보세요}? 민수 씨예요?|A lô? Là anh Minsu phải không?
+통화 중이다|지금 {통화 중이에요}.|Bây giờ đang bận máy.
+전화를 걸다|친구에게 {전화를 걸어요}.|Tôi gọi điện cho bạn.
+전화를 끊다|친구가 {전화를 끊었어요}.|Bạn đã cúp máy.
+문자 메시지를 보내다|친구에게 {문자 메시지를 보내요}.|Tôi gửi tin nhắn cho bạn.
+음성 메시지를 남기다|{음성 메시지를 남겨요}.|Tôi để lại tin nhắn thoại.
+전화를 바꾸다|잠깐만요. {전화를 바꿔} 드릴게요.|Xin chờ một lát. Tôi sẽ chuyển máy.
+잘못 걸다|전화를 {잘못 걸었어요}.|Tôi đã gọi nhầm số.
+전화번호|{전화번호}가 뭐예요?|Số điện thoại là gì?
+국가 번호|한국의 {국가 번호}는 팔이예요.|Mã quốc gia của Hàn Quốc là 82.
+지역 번호|서울의 {지역 번호}는 공이에요.|Mã vùng của Seoul là 02.
+스마트폰|저는 {스마트폰}이 있어요.|Tôi có điện thoại thông minh.
+공중전화|{공중전화}가 없어요.|Không có điện thoại công cộng.
+전화를 안 받다|친구가 {전화를 안 받아요}.|Bạn không nghe máy.
+배터리가 나가다|휴대폰 {배터리가 나갔어요}.|Điện thoại hết pin.
+진동으로 하다|수업 시간에는 {진동으로 해요}.|Trong giờ học tôi để chế độ rung.
+무음으로 하다|극장에서는 {무음으로 해요}.|Ở rạp tôi để chế độ im lặng.
+통화하다|친구와 {통화해요}.|Tôi nói chuyện điện thoại với bạn.
+통화가 불가능하다|지금은 {통화가 불가능해요}.|Bây giờ không thể nghe máy.
+연락하다|친구에게 {연락해요}.|Tôi liên lạc với bạn.
+소식이 없다|친구에게서 {소식이 없어요}.|Không có tin tức gì từ bạn.
+번호를 누르다|전화 {번호를 눌러요}.|Tôi bấm số điện thoại.
+안내원|{안내원}이 길을 알려 줘요.|Nhân viên hướng dẫn chỉ đường.
+상담원|{상담원}과 통화했어요.|Tôi đã nói chuyện điện thoại với nhân viên tư vấn.
+문의하다|전화로 {문의해요}.|Tôi hỏi qua điện thoại.
+신청하다|인터넷으로 {신청해요}.|Tôi đăng ký qua mạng.
+취소하다|예약을 {취소해요}.|Tôi hủy đặt chỗ.
+예약하다|식당을 {예약해요}.|Tôi đặt chỗ nhà hàng.
+확인하다|시간을 {확인해요}.|Tôi kiểm tra thời gian.
+바꾸다|날짜를 {바꿔요}.|Tôi đổi ngày.
+부탁하다|친구에게 {부탁해요}.|Tôi nhờ bạn.
+남기다|메시지를 {남겨요}.|Tôi để lại tin nhắn.
+전해 주다|이 말을 {전해 주세요}.|Xin hãy chuyển lời này giúp.
+외출하다|지금 {외출했어요}.|Bây giờ đã ra ngoài rồi.
+자리에 없다|지금 {자리에 없어요}.|Bây giờ không có ở chỗ ngồi.
+나중에|{나중에} 전화할게요.|Lát nữa tôi sẽ gọi điện.
+## 9
+전화가 오다|친구에게서 {전화가 와요}.|Có điện thoại từ bạn gọi đến.
+통화를 하다|어머니와 {통화를 해요}.|Tôi nói chuyện điện thoại với mẹ.
+문자를 지우다|{문자를 지워요}.|Tôi xóa tin nhắn.
+메시지|친구가 {메시지}를 보냈어요.|Bạn đã gửi tin nhắn.
+삭제하다|사진을 {삭제해요}.|Tôi xóa ảnh.
+대상|프로그램 {대상}은 외국인이에요.|Đối tượng của chương trình là người nước ngoài.
+장소|모임 {장소}가 어디예요?|Địa điểm buổi họp ở đâu?
+참가비|{참가비}가 얼마예요?|Phí tham gia là bao nhiêu?
+접수|오늘부터 {접수}를 시작해요.|Từ hôm nay bắt đầu tiếp nhận đăng ký.
+문의|{문의}는 전화로 해 주세요.|Xin hãy hỏi qua điện thoại.
+공사|길에서 {공사}를 해요.|Đang thi công trên đường.
+외국인|이 프로그램은 {외국인}을 위한 거예요.|Chương trình này dành cho người nước ngoài.
+국악|{국악} 공연을 봤어요.|Tôi đã xem biểu diễn nhạc truyền thống Hàn Quốc.
+국립극장|{국립극장}에서 공연을 봤어요.|Tôi đã xem biểu diễn ở nhà hát quốc gia.
+김치박물관|{김치박물관}에 가 봤어요.|Tôi đã đến bảo tàng kim chi.
+동양화|미술관에서 {동양화}를 봤어요.|Tôi đã xem tranh phương Đông ở bảo tàng mỹ thuật.
+아프리카|{아프리카}에 가 보고 싶어요.|Tôi muốn thử đến châu Phi.
+전시|미술관에서 사진 {전시}를 해요.|Ở bảo tàng mỹ thuật đang triển lãm ảnh.
+애니메이션|저는 {애니메이션}을 좋아해요.|Tôi thích phim hoạt hình.
+상영|영화 {상영} 시간이 몇 시예요?|Giờ chiếu phim là mấy giờ?
+말씀하다|선생님이 {말씀하셨어요}.|Thầy giáo đã nói.
+무료|박물관은 {무료}예요.|Bảo tàng miễn phí.
+태권도복|{태권도복}을 입어요.|Tôi mặc đồng phục taekwondo.
+다도|저는 {다도}를 배워요.|Tôi học trà đạo.
+악기|저는 {악기}를 배워요.|Tôi học nhạc cụ.
+체험|한국 문화를 {체험}해요.|Tôi trải nghiệm văn hóa Hàn Quốc.
+재료비|{재료비}는 따로 내요.|Phí vật liệu trả riêng.
+퀴즈|{퀴즈}를 풀어요.|Tôi giải câu đố.
+프로그램|문화 {프로그램}에 참가해요.|Tôi tham gia chương trình văn hóa.
+참가하다|말하기 대회에 {참가해요}.|Tôi tham gia cuộc thi nói.
+한국학|저는 {한국학}을 공부해요.|Tôi học Hàn Quốc học.
+궁금하다|그 사람이 {궁금해요}.|Tôi tò mò về người đó.
+문제가 있다|컴퓨터에 {문제가 있어요}.|Máy tính có vấn đề.
+갑자기|{갑자기} 비가 와요.|Đột nhiên trời mưa.
+통역하다|친구를 위해 {통역해요}.|Tôi thông dịch giúp bạn.
+치료를 받다|병원에서 {치료를 받아요}.|Tôi được điều trị ở bệnh viện.
+통역|{통역} 서비스가 있어요.|Có dịch vụ thông dịch.
+서비스|이 식당은 {서비스}가 좋아요.|Nhà hàng này phục vụ tốt.
+정보를 얻다|인터넷에서 {정보를 얻어요}.|Tôi lấy thông tin từ internet.
