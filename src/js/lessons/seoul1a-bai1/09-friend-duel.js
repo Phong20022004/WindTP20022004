@@ -14,17 +14,17 @@ function duelLobby(){
  const fr=wd.friends().sort((a,b)=>b.online-a.online);
  duelSels=duelSels.filter(id=>fr.some(f=>f.id==id&&f.online));
  if(duelAllReq){duelSels=fr.filter(f=>f.online).map(f=>f.id);duelAllReq=false}
- const row=h=>`<div class="drow">${h}</div>`,medal=r=>r==1?"🥇":r==2?"🥈":r==3?"🥉":"#"+r,stt=c=>c.status=="accepted"?"✅ Đã đồng ý":c.status=="declined"?"❌ Từ chối":c.status=="expired"?"⌛ Bỏ lỡ":"⏳ Đang chờ";
+ const lbl=c=>c.lessonLabel&&!sameLesson(c)?` · <small>${c.lessonLabel}</small>`:"",row=h=>`<div class="drow">${h}</div>`,medal=r=>r==1?"🥇":r==2?"🥈":r==3?"🥉":"#"+r,stt=c=>c.status=="accepted"?"✅ Đã đồng ý":c.status=="declined"?"❌ Từ chối":c.status=="expired"?"⌛ Bỏ lỡ":"⏳ Đang chờ";
  const nSel=duelSels.length;
  const hsPlay=!hsAnimated;hsAnimated=true;
  app.innerHTML=`<div class="card" style="text-align:left">${hsBanner(hsPlay)}<div class="mut">👑 Premium ${wd.premiumLabel()} · ${META?META.label:"Bài 1 Seoul Korean"} · ${W.length} từ vựng</div>
- ${inc.length?`<h4 class="dh">Lời mời đến</h4>`+inc.map(c=>row(`<span><b>${nm(c.fid)}</b> thách đấu · ${c.n} câu</span><span><button class="btn pri" data-a="ac" data-id="${c.id}">Chấp nhận</button> <button class="btn" data-a="dc" data-id="${c.id}">Từ chối</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
- ${ready.length?`<h4 class="dh">Sẵn sàng thi</h4>`+ready.map(c=>row(`<span>✅ <b>${nm(c.fid)}</b> đã đồng ý · ${c.n} câu</span><span><button class="btn pri" data-a="pl" data-id="${c.id}">Vào thi</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
+ ${inc.length?`<h4 class="dh">Lời mời đến</h4>`+inc.map(c=>row(`<span><b>${nm(c.fid)}</b> thách đấu · ${c.n} câu${lbl(c)}</span><span><button class="btn pri" data-a="ac" data-id="${c.id}">Chấp nhận</button> <button class="btn" data-a="dc" data-id="${c.id}">Từ chối</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
+ ${ready.length?`<h4 class="dh">Sẵn sàng thi</h4>`+ready.map(c=>row(`<span>✅ <b>${nm(c.fid)}</b> đã đồng ý · ${c.n} câu${lbl(c)}</span><span><button class="btn pri" data-a="pl" data-id="${c.id}">Vào thi</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
  ${groups.map(g=>{const acc=g.list.filter(c=>c.status=="accepted").length,pen=g.list.filter(c=>c.status=="pending").length;return `<h4 class="dh">🏁 Phòng thách đấu nhóm · ${g.n} câu</h4><div class="drow"><span>${g.list.map(c=>`<div><b>${nm(c.fid)}</b> <small>${stt(c)}</small></div>`).join("")}</span><span><button class="btn pri" data-a="gp" data-id="${g.gid}" ${acc?"":"disabled"}>${pen?`Vào thi ngay (${acc} bạn đã sẵn sàng)`:`Vào thi (${acc} bạn)`}</button></span></div>`}).join("")}
  ${wait.length?`<h4 class="dh">Đang chờ trả lời</h4>`+wait.map(c=>row(`<span>⏳ Đang chờ <b>${nm(c.fid)}</b> phản hồi…</span>`)).join(""):""}
  <h4 class="dh">Gửi thách đấu mới</h4>
  <div class="mut">Số câu hỏi</div>
- <div class="row" style="justify-content:flex-start;margin:6px 0">${[10,15,20,W.length].map(n=>`<button class="btn ${duelN==n?"pri":""}" data-a="n" data-n="${n}">${n==W.length?"Tất cả "+n:n} câu</button>`).join("")}</div>
+ <div class="row" style="justify-content:flex-start;margin:6px 0">${[...[10,15,20].filter(n=>n<W.length),W.length].map(n=>`<button class="btn ${duelN==n?"pri":""}" data-a="n" data-n="${n}">${n==W.length?"Tất cả "+n:n} câu</button>`).join("")}</div>
  <div class="row" style="justify-content:space-between;margin:10px 0 2px"><span class="mut">Chọn một hoặc nhiều bạn đang online · <b>${nSel}</b> đã chọn</span><span><button class="btn" data-a="all">Chọn tất cả online</button> <button class="btn" data-a="none" ${nSel?"":"disabled"}>Bỏ chọn</button></span></div>
  ${fr.map(f=>row(`<span><i class="dot ${f.online?"on":""}"></i> <b>${f.name}</b> <small>${f.online?"Online":"Offline"} · ${f.rank}${f.record?` · ${f.record.w}T-${f.record.l}B-${f.record.d}H`:""}</small></span><span><button class="btn" data-a="pk" data-id="${f.id}">👉 Chọc</button> <button class="btn ${f.online&&duelSels.includes(f.id)?"pri":""}" ${f.online?"":"disabled"} data-a="sel" data-id="${f.id}">${f.online?(duelSels.includes(f.id)?"✓ Đã chọn":"Chọn"):"Offline"}</button></span>`)).join("")}
  <div style="position:sticky;bottom:6px;z-index:3;margin-top:12px;padding:10px;border-radius:14px;background:var(--card);border:1px solid var(--bd);box-shadow:0 6px 20px rgba(0,0,0,.18);backdrop-filter:blur(8px)"><button class="btn pri" id="dsend" style="width:100%;padding:12px;font-size:15px;font-weight:800" ${nSel?"":"disabled"}>${nSel?`⚔️ Gửi thách đấu (${nSel} bạn · ${duelN} câu)`:"⚔️ Chọn bạn để gửi thách đấu"}</button></div>
@@ -37,11 +37,12 @@ function duelLobby(){
   else if(a=="sel"){duelSels=duelSels.includes(id)?duelSels.filter(x=>x!=id):[...duelSels,id];snd("pop");duelLobby()}
   else if(a=="all"){duelSels=fr.filter(f=>f.online).map(f=>f.id);snd("pop");duelLobby()}
   else if(a=="none"){duelSels=[];snd("tick");duelLobby()}});
- const sd=$("#dsend");if(sd)sd.onclick=()=>{const made=duelSels.length==1?[wd.ch.create(duelSels[0],duelN)].filter(Boolean):wd.ch.createGroup(duelSels.slice(),duelN);if(made.length){snd("send");wd.toast(`⚔️ Đã gửi lời thách đấu đến ${made.length} bạn, chờ phản hồi…`);duelSels=[];duelLobby()}};
+ const sd=$("#dsend");if(sd)sd.onclick=()=>{const made=duelSels.length==1?[wd.ch.create(duelSels[0],duelN,lessonKey(),lessonLabel())].filter(Boolean):wd.ch.createGroup(duelSels.slice(),duelN,lessonKey(),lessonLabel());if(made.length){snd("send");wd.toast(`⚔️ Đã gửi lời thách đấu đến ${made.length} bạn, chờ phản hồi…`);duelSels=[];duelLobby()}};
 }
 function duelPlayGroup(gid){
  hsAnimated=false;
  const wd=WT(),mem=wd.ch.list().filter(c=>c.gid==gid&&c.status=="accepted");if(!mem.length){duelLobby();return}
+ if(!sameLesson(mem[0])){openOther(mem[0],{duelGroup:gid});return}
  duelView="play";stopAll();const c0=mem[0],ex=genExam(c0.seed,c0.n);let i=0,score=0,correct=0,streak=0,ms=0;const kinds=ex.map(e=>e.kind),names=mem.map(c=>(wd.friend(c.fid)||{name:"?"}).name).join(", ");
  const r=()=>{if(i>=ex.length){const res=wd.ch.finishGroup(gid,{score,correct,total:ex.length,ms},kinds);return res?duelGroupResult(res):duelLobby()}
   const e=ex[i],lim=e.kind=="type"?wd.ch.limits.type:wd.ch.limits.choice;
@@ -60,6 +61,7 @@ function duelGroupResult(res){
 function duelPlay(id){
  hsAnimated=false;
  const wd=WT(),ch=wd.ch.get(id);if(!ch||ch.status!="accepted"){duelLobby();return}
+ if(!sameLesson(ch)){openOther(ch,{duel:id});return}
  duelView="play";stopAll();const ex=genExam(ch.seed,ch.n),f=wd.friend(ch.fid)||{name:"Bạn bè"};let i=0,score=0,correct=0,streak=0,ms=0;const kinds=ex.map(e=>e.kind);
  const r=()=>{if(i>=ex.length){const res=wd.ch.finish(id,{score,correct,total:ex.length,ms},kinds);return duelResult(res)}
   const e=ex[i],lim=e.kind=="type"?wd.ch.limits.type:wd.ch.limits.choice;

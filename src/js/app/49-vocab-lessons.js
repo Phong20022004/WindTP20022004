@@ -26,7 +26,7 @@ function vocabLessonsOf(code, gi, vi) {
   const g = (BOOK_CATALOG[code] || [])[gi];
   return g && window.WINDTP_VOCAB ? window.WINDTP_VOCAB[code + "|" + g[0] + "|" + vi] || [] : [];
 }
-function openVocabLesson(code, gi, vi, li) {
+function openVocabLesson(code, gi, vi, li, route) {
   const g = (BOOK_CATALOG[code] || [])[gi], L = vocabLessonsOf(code, gi, vi)[li];
   if (!g || !L || typeof window.__lessonOpen !== "function") return false;
   const grammar = g[0] === "Cấu trúc ngữ pháp", seen = new Set(), words = [];
@@ -44,6 +44,11 @@ function openVocabLesson(code, gi, vi, li) {
   if (words.length < 4) return false;
   const sents = grammar ? [] : (L.sents || []).filter((s) => seen.has(s[0]));
   const vol = g[2][vi];
-  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, sents, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title });
+  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, sents, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title }, route);
   return true;
 }
+/** Mở lại bài từ khóa "mã|nhóm|quyển|bài" (dùng cho lời thách đấu gắn với bài đó). */
+window.__openLessonByKey = (key, route) => {
+  const p = String(key).split("|");
+  return p.length === 4 && openVocabLesson(p[0], Number(p[1]), Number(p[2]), Number(p[3]), route);
+};

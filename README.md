@@ -168,6 +168,7 @@ dist/index.html             Kết quả build
 - `scripts/build.mjs` gộp dữ liệu thành `window.WINDTP_VOCAB` (mục `"vocab"` trong `src/manifest.json`).
 - `src/js/app/49-vocab-lessons.js`: làm sạch từ, tạo phiên âm (RR theo âm tiết) và gọi `window.__lessonOpen(...)`.
 - `src/js/lessons/seoul1a-bai1/*`: bộ bài học dùng chung (flashcard, trắc nghiệm, gõ từ, nghe, ghép cặp, giải cứu công chúa).
-  Bài 1 Seoul 1A giữ bản làm tay (có câu mẫu + Đọc hiểu + Thách đấu); các bài khác chạy từ dữ liệu.
+  Bài 1 Seoul 1A giữ bản làm tay. Các bài khác chạy từ dữ liệu; Đọc hiểu cần câu mẫu trong `src/data/sentences/<cùng đường dẫn file từ vựng>.txt` (hiện có Seoul 1A bài 2–8).
+- Thách đấu: mỗi lời thách đấu lưu `lesson` (khóa bài) + `lessonLabel`; vào thi từ bài khác sẽ tự mở đúng bài (`window.__openLessonByKey`).
 - Ngữ pháp: chỉ có Flashcard / Trắc nghiệm / Ghép cặp / Giải cứu công chúa (không gõ/nghe vì mẫu câu có ký hiệu).
 - Quyển không có dữ liệu (Yonsei Reading/Listening) để trống.

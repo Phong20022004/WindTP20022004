@@ -86,7 +86,11 @@
     },
     "ch-accept": (el) => { CH.respond(el.dataset.id, true); toast("Đã chấp nhận! Bấm \"Vào thi\" khi bạn sẵn sàng."); },
     "ch-decline": (el) => { CH.respond(el.dataset.id, false); toast("Đã từ chối lời thách đấu"); },
-    "ch-play": (el) => { if (typeof window.__s1aOpen === "function") { const c = CH.get(el.dataset.id); window.__s1aOpen(c && c.gid ? { duelGroup: c.gid } : { duel: el.dataset.id }); } },
+    "ch-play": (el) => {
+      const c = CH.get(el.dataset.id), route = c && c.gid ? { duelGroup: c.gid } : { duel: el.dataset.id };
+      if (c && c.lesson && c.lesson !== "s1a-1" && typeof window.__openLessonByKey === "function") { window.__openLessonByKey(c.lesson, route); return; }
+      if (typeof window.__s1aOpen === "function") window.__s1aOpen(route);
+    },
     "ch-del": (el) => { if (CH.remove(el.dataset.id)) toast("Đã xóa thông báo"); },
     "ch-clear": () => { const n = CH.clearNotices(); toast(n ? "Đã xóa tất cả thông báo" : "Không có thông báo để xóa"); },
     "open-chat": (el) => openChat({ type: "dm", id: el.dataset.id }),

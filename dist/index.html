@@ -7053,13 +7053,13 @@ function renderWallet() {
     list: () => socialState().challenges,
     get: (id) => socialState().challenges.find((c) => c.id === id),
     onChange: (fn) => { challengeListeners.push(fn); },
-    create(fid, n) {
+    create(fid, n, lesson, lessonLabel) {
       if (!isPremium()) return null;
       const f = friendById(fid);
       if (!f || !friendOnline(f)) { toast("Bạn bè đang offline, hãy thử chọc bạn trước nhé"); return null; }
       const s = socialState();
       if (s.challenges.some((c) => c.dir === "out" && c.fid === fid && (c.status === "pending" || c.status === "accepted"))) { toast("Bạn đang có một lời thách đấu chưa xong với bạn này"); return null; }
-      const ch = { id: uid("ch"), dir: "out", fid, n, seed: Math.floor(Math.random() * 2147483647), ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 4e3, my: null, their: null, lesson: "s1a-1" };
+      const ch = { id: uid("ch"), dir: "out", fid, n, seed: Math.floor(Math.random() * 2147483647), ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 4e3, my: null, their: null, lesson: lesson || "s1a-1", lessonLabel: lessonLabel || "Seoul Korean 1A · Bài 1" };
       s.challenges.unshift(ch);
       if (s.challenges.length > 30) s.challenges.length = 30;
       challengeChanged();
@@ -7092,14 +7092,14 @@ function renderWallet() {
       if (removed) challengeChanged();
       return removed;
     },
-    createGroup(fids, n) {
+    createGroup(fids, n, lesson, lessonLabel) {
       if (!isPremium()) return [];
       const s = socialState(), gid = uid("gp"), seed = Math.floor(Math.random() * 2147483647), made = [], skipped = [];
       [...new Set(fids)].forEach((fid) => {
         const f = friendById(fid);
         if (!f || !friendOnline(f)) { skipped.push(f ? f.name : fid); return; }
         if (s.challenges.some((c) => c.dir === "out" && c.fid === fid && (c.status === "pending" || c.status === "accepted"))) { skipped.push(f.name); return; }
-        made.push({ id: uid("ch"), dir: "out", fid, n, seed, gid, ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 5e3, my: null, their: null, lesson: "s1a-1" });
+        made.push({ id: uid("ch"), dir: "out", fid, n, seed, gid, ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 5e3, my: null, their: null, lesson: lesson || "s1a-1", lessonLabel: lessonLabel || "Seoul Korean 1A · Bài 1" });
       });
       if (!made.length) { toast("Không gửi được: các bạn đã chọn đang offline hoặc đang có lời thách đấu chưa xong"); return []; }
       made.reverse().forEach((c) => s.challenges.unshift(c));
@@ -7314,7 +7314,11 @@ function renderWallet() {
     },
     "ch-accept": (el) => { CH.respond(el.dataset.id, true); toast("Đã chấp nhận! Bấm \"Vào thi\" khi bạn sẵn sàng."); },
     "ch-decline": (el) => { CH.respond(el.dataset.id, false); toast("Đã từ chối lời thách đấu"); },
-    "ch-play": (el) => { if (typeof window.__s1aOpen === "function") { const c = CH.get(el.dataset.id); window.__s1aOpen(c && c.gid ? { duelGroup: c.gid } : { duel: el.dataset.id }); } },
+    "ch-play": (el) => {
+      const c = CH.get(el.dataset.id), route = c && c.gid ? { duelGroup: c.gid } : { duel: el.dataset.id };
+      if (c && c.lesson && c.lesson !== "s1a-1" && typeof window.__openLessonByKey === "function") { window.__openLessonByKey(c.lesson, route); return; }
+      if (typeof window.__s1aOpen === "function") window.__s1aOpen(route);
+    },
     "ch-del": (el) => { if (CH.remove(el.dataset.id)) toast("Đã xóa thông báo"); },
     "ch-clear": () => { const n = CH.clearNotices(); toast(n ? "Đã xóa tất cả thông báo" : "Không có thông báo để xóa"); },
     "open-chat": (el) => openChat({ type: "dm", id: el.dataset.id }),
@@ -7591,7 +7595,7 @@ function vocabLessonsOf(code, gi, vi) {
   const g = (BOOK_CATALOG[code] || [])[gi];
   return g && window.WINDTP_VOCAB ? window.WINDTP_VOCAB[code + "|" + g[0] + "|" + vi] || [] : [];
 }
-function openVocabLesson(code, gi, vi, li) {
+function openVocabLesson(code, gi, vi, li, route) {
   const g = (BOOK_CATALOG[code] || [])[gi], L = vocabLessonsOf(code, gi, vi)[li];
   if (!g || !L || typeof window.__lessonOpen !== "function") return false;
   const grammar = g[0] === "Cấu trúc ngữ pháp", seen = new Set(), words = [];
@@ -7609,9 +7613,14 @@ function openVocabLesson(code, gi, vi, li) {
   if (words.length < 4) return false;
   const sents = grammar ? [] : (L.sents || []).filter((s) => seen.has(s[0]));
   const vol = g[2][vi];
-  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, sents, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title });
+  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, sents, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title }, route);
   return true;
 }
+/** Mở lại bài từ khóa "mã|nhóm|quyển|bài" (dùng cho lời thách đấu gắn với bài đó). */
+window.__openLessonByKey = (key, route) => {
+  const p = String(key).split("|");
+  return p.length === 4 && openVocabLesson(p[0], Number(p[1]), Number(p[2]), Number(p[3]), route);
+};
 })();
 
 </script>
@@ -8192,6 +8201,10 @@ function genExam(seed,n){const r=mb(seed),K=META&&META.noType?["mc","mc","mc","m
  return ws.map((w,i)=>{const k=ks[i];return{kind:k,w,ops:k=="type"?null:k=="fill"?optsR(w,SW,r):optsR(w,W,r)}})}
 let TC=null,duelOpts=null,duelView="lobby",duelSels=[],duelAllReq=false,duelN=15;
 const WT=()=>window.WINDTP;
+/* mỗi lời thách đấu gắn với một bài (c.lesson); "s1a-1" = Seoul 1A bài 1 làm tay */
+const lessonKey=()=>META?META.key:"s1a-1",lessonLabel=()=>META?META.label:"Seoul Korean 1A · Bài 1";
+const sameLesson=c=>(c.lesson||"s1a-1")===lessonKey();
+const openOther=(c,route)=>{const k=c.lesson||"s1a-1";if(k==="s1a-1")window.__s1aOpen(route);else if(window.__openLessonByKey)window.__openLessonByKey(k,route)};
 const fmtT=ms=>(ms/1000).toFixed(1)+"s";
 /*@file js/lessons/seoul1a-bai1/08-hoa-son-banner.js
  * Banner Hoa Sơn Luận Kiếm (ảnh: assets/images/lessons/seoul1a-bai1/).
@@ -8216,17 +8229,17 @@ function duelLobby(){
  const fr=wd.friends().sort((a,b)=>b.online-a.online);
  duelSels=duelSels.filter(id=>fr.some(f=>f.id==id&&f.online));
  if(duelAllReq){duelSels=fr.filter(f=>f.online).map(f=>f.id);duelAllReq=false}
- const row=h=>`<div class="drow">${h}</div>`,medal=r=>r==1?"🥇":r==2?"🥈":r==3?"🥉":"#"+r,stt=c=>c.status=="accepted"?"✅ Đã đồng ý":c.status=="declined"?"❌ Từ chối":c.status=="expired"?"⌛ Bỏ lỡ":"⏳ Đang chờ";
+ const lbl=c=>c.lessonLabel&&!sameLesson(c)?` · <small>${c.lessonLabel}</small>`:"",row=h=>`<div class="drow">${h}</div>`,medal=r=>r==1?"🥇":r==2?"🥈":r==3?"🥉":"#"+r,stt=c=>c.status=="accepted"?"✅ Đã đồng ý":c.status=="declined"?"❌ Từ chối":c.status=="expired"?"⌛ Bỏ lỡ":"⏳ Đang chờ";
  const nSel=duelSels.length;
  const hsPlay=!hsAnimated;hsAnimated=true;
  app.innerHTML=`<div class="card" style="text-align:left">${hsBanner(hsPlay)}<div class="mut">👑 Premium ${wd.premiumLabel()} · ${META?META.label:"Bài 1 Seoul Korean"} · ${W.length} từ vựng</div>
- ${inc.length?`<h4 class="dh">Lời mời đến</h4>`+inc.map(c=>row(`<span><b>${nm(c.fid)}</b> thách đấu · ${c.n} câu</span><span><button class="btn pri" data-a="ac" data-id="${c.id}">Chấp nhận</button> <button class="btn" data-a="dc" data-id="${c.id}">Từ chối</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
- ${ready.length?`<h4 class="dh">Sẵn sàng thi</h4>`+ready.map(c=>row(`<span>✅ <b>${nm(c.fid)}</b> đã đồng ý · ${c.n} câu</span><span><button class="btn pri" data-a="pl" data-id="${c.id}">Vào thi</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
+ ${inc.length?`<h4 class="dh">Lời mời đến</h4>`+inc.map(c=>row(`<span><b>${nm(c.fid)}</b> thách đấu · ${c.n} câu${lbl(c)}</span><span><button class="btn pri" data-a="ac" data-id="${c.id}">Chấp nhận</button> <button class="btn" data-a="dc" data-id="${c.id}">Từ chối</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
+ ${ready.length?`<h4 class="dh">Sẵn sàng thi</h4>`+ready.map(c=>row(`<span>✅ <b>${nm(c.fid)}</b> đã đồng ý · ${c.n} câu${lbl(c)}</span><span><button class="btn pri" data-a="pl" data-id="${c.id}">Vào thi</button> <button class="btn" data-a="rm" data-id="${c.id}" aria-label="Xóa thông báo">🗑</button></span>`)).join(""):""}
  ${groups.map(g=>{const acc=g.list.filter(c=>c.status=="accepted").length,pen=g.list.filter(c=>c.status=="pending").length;return `<h4 class="dh">🏁 Phòng thách đấu nhóm · ${g.n} câu</h4><div class="drow"><span>${g.list.map(c=>`<div><b>${nm(c.fid)}</b> <small>${stt(c)}</small></div>`).join("")}</span><span><button class="btn pri" data-a="gp" data-id="${g.gid}" ${acc?"":"disabled"}>${pen?`Vào thi ngay (${acc} bạn đã sẵn sàng)`:`Vào thi (${acc} bạn)`}</button></span></div>`}).join("")}
  ${wait.length?`<h4 class="dh">Đang chờ trả lời</h4>`+wait.map(c=>row(`<span>⏳ Đang chờ <b>${nm(c.fid)}</b> phản hồi…</span>`)).join(""):""}
  <h4 class="dh">Gửi thách đấu mới</h4>
  <div class="mut">Số câu hỏi</div>
- <div class="row" style="justify-content:flex-start;margin:6px 0">${[10,15,20,W.length].map(n=>`<button class="btn ${duelN==n?"pri":""}" data-a="n" data-n="${n}">${n==W.length?"Tất cả "+n:n} câu</button>`).join("")}</div>
+ <div class="row" style="justify-content:flex-start;margin:6px 0">${[...[10,15,20].filter(n=>n<W.length),W.length].map(n=>`<button class="btn ${duelN==n?"pri":""}" data-a="n" data-n="${n}">${n==W.length?"Tất cả "+n:n} câu</button>`).join("")}</div>
  <div class="row" style="justify-content:space-between;margin:10px 0 2px"><span class="mut">Chọn một hoặc nhiều bạn đang online · <b>${nSel}</b> đã chọn</span><span><button class="btn" data-a="all">Chọn tất cả online</button> <button class="btn" data-a="none" ${nSel?"":"disabled"}>Bỏ chọn</button></span></div>
  ${fr.map(f=>row(`<span><i class="dot ${f.online?"on":""}"></i> <b>${f.name}</b> <small>${f.online?"Online":"Offline"} · ${f.rank}${f.record?` · ${f.record.w}T-${f.record.l}B-${f.record.d}H`:""}</small></span><span><button class="btn" data-a="pk" data-id="${f.id}">👉 Chọc</button> <button class="btn ${f.online&&duelSels.includes(f.id)?"pri":""}" ${f.online?"":"disabled"} data-a="sel" data-id="${f.id}">${f.online?(duelSels.includes(f.id)?"✓ Đã chọn":"Chọn"):"Offline"}</button></span>`)).join("")}
  <div style="position:sticky;bottom:6px;z-index:3;margin-top:12px;padding:10px;border-radius:14px;background:var(--card);border:1px solid var(--bd);box-shadow:0 6px 20px rgba(0,0,0,.18);backdrop-filter:blur(8px)"><button class="btn pri" id="dsend" style="width:100%;padding:12px;font-size:15px;font-weight:800" ${nSel?"":"disabled"}>${nSel?`⚔️ Gửi thách đấu (${nSel} bạn · ${duelN} câu)`:"⚔️ Chọn bạn để gửi thách đấu"}</button></div>
@@ -8239,11 +8252,12 @@ function duelLobby(){
   else if(a=="sel"){duelSels=duelSels.includes(id)?duelSels.filter(x=>x!=id):[...duelSels,id];snd("pop");duelLobby()}
   else if(a=="all"){duelSels=fr.filter(f=>f.online).map(f=>f.id);snd("pop");duelLobby()}
   else if(a=="none"){duelSels=[];snd("tick");duelLobby()}});
- const sd=$("#dsend");if(sd)sd.onclick=()=>{const made=duelSels.length==1?[wd.ch.create(duelSels[0],duelN)].filter(Boolean):wd.ch.createGroup(duelSels.slice(),duelN);if(made.length){snd("send");wd.toast(`⚔️ Đã gửi lời thách đấu đến ${made.length} bạn, chờ phản hồi…`);duelSels=[];duelLobby()}};
+ const sd=$("#dsend");if(sd)sd.onclick=()=>{const made=duelSels.length==1?[wd.ch.create(duelSels[0],duelN,lessonKey(),lessonLabel())].filter(Boolean):wd.ch.createGroup(duelSels.slice(),duelN,lessonKey(),lessonLabel());if(made.length){snd("send");wd.toast(`⚔️ Đã gửi lời thách đấu đến ${made.length} bạn, chờ phản hồi…`);duelSels=[];duelLobby()}};
 }
 function duelPlayGroup(gid){
  hsAnimated=false;
  const wd=WT(),mem=wd.ch.list().filter(c=>c.gid==gid&&c.status=="accepted");if(!mem.length){duelLobby();return}
+ if(!sameLesson(mem[0])){openOther(mem[0],{duelGroup:gid});return}
  duelView="play";stopAll();const c0=mem[0],ex=genExam(c0.seed,c0.n);let i=0,score=0,correct=0,streak=0,ms=0;const kinds=ex.map(e=>e.kind),names=mem.map(c=>(wd.friend(c.fid)||{name:"?"}).name).join(", ");
  const r=()=>{if(i>=ex.length){const res=wd.ch.finishGroup(gid,{score,correct,total:ex.length,ms},kinds);return res?duelGroupResult(res):duelLobby()}
   const e=ex[i],lim=e.kind=="type"?wd.ch.limits.type:wd.ch.limits.choice;
@@ -8262,6 +8276,7 @@ function duelGroupResult(res){
 function duelPlay(id){
  hsAnimated=false;
  const wd=WT(),ch=wd.ch.get(id);if(!ch||ch.status!="accepted"){duelLobby();return}
+ if(!sameLesson(ch)){openOther(ch,{duel:id});return}
  duelView="play";stopAll();const ex=genExam(ch.seed,ch.n),f=wd.friend(ch.fid)||{name:"Bạn bè"};let i=0,score=0,correct=0,streak=0,ms=0;const kinds=ex.map(e=>e.kind);
  const r=()=>{if(i>=ex.length){const res=wd.ch.finish(id,{score,correct,total:ex.length,ms},kinds);return duelResult(res)}
   const e=ex[i],lim=e.kind=="type"?wd.ch.limits.type:wd.ch.limits.choice;
@@ -8382,7 +8397,7 @@ everest(){const G=17;let pos=0,tries=1,best=0,pool=[],bag=[];
  * Thanh tab, openLesson()/closeLesson(); đóng initApp() và IIFE.
  */
 const T=[["flash","🃏 Flashcard"],["quiz","✅ Trắc nghiệm"],["type","⌨️ Gõ từ vựng"],["read","📖 Đọc hiểu"],["listen","🎧 Luyện nghe"],["match","🔗 Ghép cặp"],["everest","🏔️ Giải cứu công chúa"],["duel","⚔️ Thách đấu 👑"]];
-const TT=META?T.filter(t=>t[0]!=="duel"&&(t[0]!=="read"||SW.length)&&!(META.noType&&(t[0]==="type"||t[0]==="listen"))):T;
+const TT=META?T.filter(t=>(t[0]!=="read"||SW.length)&&!(META.noType&&(t[0]==="type"||t[0]==="listen"))):T;
 $("#tabs").innerHTML=TT.map(([k,t])=>{const[e,...r]=t.split(" "),n=r.join(" ");return`<button data-m="${k}" title="${n}"><span>${e}</span><span class="lb"> ${n}</span></button>`}).join("");
 const act=k=>{clearInterval(timer);cur=k;root.querySelectorAll("#tabs button").forEach(x=>x.classList.toggle("on",x.dataset.m===k));go()};
 root.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>act(b.dataset.m));
@@ -8401,7 +8416,7 @@ let curKey="s1a1";
 /* W, S… nằm trong initApp(): đổi bài = dựng lại khung (initApp chạy lại với dữ liệu mới) */
 function useLesson(key,meta){if(curKey===key)return;if(host){stopAll();host.remove();host=null;root=null;app=null;routeFn=null}META=meta;curKey=key}
 window.__s1aOpen=o=>{useLesson("s1a1",null);openLesson(o)};
-window.__lessonOpen=d=>{useLesson(d.key,{words:d.words,sents:d.sents,eyebrow:d.eyebrow,title:d.title,label:d.label,noType:!!d.noType});openLesson(null)};
+window.__lessonOpen=(d,route)=>{useLesson(d.key,{key:d.key,words:d.words,sents:d.sents,eyebrow:d.eyebrow,title:d.title,label:d.label,noType:!!d.noType});openLesson(route||null)};
 function closeLesson(){hsAnimated=false;if(!host)return;stopAll();host.style.display="none";document.body.style.overflow=""}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&host&&host.style.display!=="none")closeLesson()});
 })();

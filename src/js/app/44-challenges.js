@@ -28,13 +28,13 @@
     list: () => socialState().challenges,
     get: (id) => socialState().challenges.find((c) => c.id === id),
     onChange: (fn) => { challengeListeners.push(fn); },
-    create(fid, n) {
+    create(fid, n, lesson, lessonLabel) {
       if (!isPremium()) return null;
       const f = friendById(fid);
       if (!f || !friendOnline(f)) { toast("Bạn bè đang offline, hãy thử chọc bạn trước nhé"); return null; }
       const s = socialState();
       if (s.challenges.some((c) => c.dir === "out" && c.fid === fid && (c.status === "pending" || c.status === "accepted"))) { toast("Bạn đang có một lời thách đấu chưa xong với bạn này"); return null; }
-      const ch = { id: uid("ch"), dir: "out", fid, n, seed: Math.floor(Math.random() * 2147483647), ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 4e3, my: null, their: null, lesson: "s1a-1" };
+      const ch = { id: uid("ch"), dir: "out", fid, n, seed: Math.floor(Math.random() * 2147483647), ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 4e3, my: null, their: null, lesson: lesson || "s1a-1", lessonLabel: lessonLabel || "Seoul Korean 1A · Bài 1" };
       s.challenges.unshift(ch);
       if (s.challenges.length > 30) s.challenges.length = 30;
       challengeChanged();
@@ -67,14 +67,14 @@
       if (removed) challengeChanged();
       return removed;
     },
-    createGroup(fids, n) {
+    createGroup(fids, n, lesson, lessonLabel) {
       if (!isPremium()) return [];
       const s = socialState(), gid = uid("gp"), seed = Math.floor(Math.random() * 2147483647), made = [], skipped = [];
       [...new Set(fids)].forEach((fid) => {
         const f = friendById(fid);
         if (!f || !friendOnline(f)) { skipped.push(f ? f.name : fid); return; }
         if (s.challenges.some((c) => c.dir === "out" && c.fid === fid && (c.status === "pending" || c.status === "accepted"))) { skipped.push(f.name); return; }
-        made.push({ id: uid("ch"), dir: "out", fid, n, seed, gid, ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 5e3, my: null, their: null, lesson: "s1a-1" });
+        made.push({ id: uid("ch"), dir: "out", fid, n, seed, gid, ts: Date.now(), status: "pending", replyAt: Date.now() + 3e3 + Math.random() * 5e3, my: null, their: null, lesson: lesson || "s1a-1", lessonLabel: lessonLabel || "Seoul Korean 1A · Bài 1" });
       });
       if (!made.length) { toast("Không gửi được: các bạn đã chọn đang offline hoặc đang có lời thách đấu chưa xong"); return []; }
       made.reverse().forEach((c) => s.challenges.unshift(c));

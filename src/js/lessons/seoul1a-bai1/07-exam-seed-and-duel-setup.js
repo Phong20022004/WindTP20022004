@@ -7,4 +7,8 @@ function genExam(seed,n){const r=mb(seed),K=META&&META.noType?["mc","mc","mc","m
  return ws.map((w,i)=>{const k=ks[i];return{kind:k,w,ops:k=="type"?null:k=="fill"?optsR(w,SW,r):optsR(w,W,r)}})}
 let TC=null,duelOpts=null,duelView="lobby",duelSels=[],duelAllReq=false,duelN=15;
 const WT=()=>window.WINDTP;
+/* mỗi lời thách đấu gắn với một bài (c.lesson); "s1a-1" = Seoul 1A bài 1 làm tay */
+const lessonKey=()=>META?META.key:"s1a-1",lessonLabel=()=>META?META.label:"Seoul Korean 1A · Bài 1";
+const sameLesson=c=>(c.lesson||"s1a-1")===lessonKey();
+const openOther=(c,route)=>{const k=c.lesson||"s1a-1";if(k==="s1a-1")window.__s1aOpen(route);else if(window.__openLessonByKey)window.__openLessonByKey(k,route)};
 const fmtT=ms=>(ms/1000).toFixed(1)+"s";
