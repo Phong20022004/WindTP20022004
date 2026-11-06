@@ -1,0 +1,267 @@
+# Câu mẫu (đọc hiểu) Seoul Korean 1B. Mỗi dòng: từ|câu có {chỗ trống}|nghĩa. "## N" = số bài (theo sách).
+## 9
+가족|저는 {가족}이 네 명 있어요.|Tôi có bốn người trong gia đình.
+할머니|{할머니}는 집에 계세요.|Bà nội ở nhà.
+할아버지|{할아버지}는 신문을 읽으세요.|Ông nội đọc báo.
+누나|제 {누나}는 대학생이에요.|Chị của tôi là sinh viên đại học.
+형|제 {형}은 회사에서 일해요.|Anh của tôi làm việc ở công ty.
+언니|제 {언니}는 선생님이에요.|Chị gái tôi là giáo viên.
+오빠|제 {오빠}는 운동을 좋아해요.|Anh trai tôi thích tập thể dục.
+여동생|저는 {여동생}이 한 명 있어요.|Tôi có một em gái.
+남동생|제 {남동생}은 고등학생이에요.|Em trai tôi là học sinh cấp ba.
+아내|제 {아내}는 요리를 잘해요.|Vợ tôi nấu ăn giỏi.
+남편|제 {남편}은 회사에 가요.|Chồng tôi đi đến công ty.
+딸|저는 {딸}이 한 명 있어요.|Tôi có một con gái.
+아들|저는 {아들}이 두 명 있어요.|Tôi có hai con trai.
+스물|제 동생은 {스물} 살이에요.|Em tôi hai mươi tuổi.
+서른|저는 {서른} 살이에요.|Tôi ba mươi tuổi.
+마흔|아버지는 {마흔} 살이에요.|Bố bốn mươi tuổi.
+나이|{나이}가 어떻게 되세요?|Bạn bao nhiêu tuổi ạ?
+살|저는 스물다섯 {살}이에요.|Tôi hai mươi lăm tuổi.
+연세|할아버지, {연세}가 어떻게 되세요?|Ông ơi, ông bao nhiêu tuổi ạ?
+성함|선생님, {성함}이 어떻게 되세요?|Thầy ơi, thầy tên là gì ạ?
+계시다|할머니는 집에 {계세요}.|Bà ở nhà.
+주무시다|할아버지는 방에서 {주무세요}.|Ông ngủ trong phòng.
+드시다|아버지는 밥을 {드세요}.|Bố dùng cơm.
+운전|아버지는 {운전}을 잘하세요.|Bố lái xe giỏi.
+수학|저는 {수학}을 공부해요.|Tôi học toán.
+인사하다|선생님께 {인사해요}.|Tôi chào thầy cô.
+동아리|저는 등산 {동아리}에 있어요.|Tôi ở câu lạc bộ leo núi.
+역사|저는 한국 {역사}를 공부해요.|Tôi học lịch sử Hàn Quốc.
+높임말|한국어에는 {높임말}이 있어요.|Tiếng Hàn có kính ngữ.
+이분|{이분}은 우리 선생님이세요.|Vị này là thầy giáo của chúng tôi.
+저분|{저분}이 누구예요?|Vị kia là ai?
+그분|{그분}은 한국 사람이에요.|Vị ấy là người Hàn Quốc.
+우리|{우리} 가족은 모두 네 명이에요.|Gia đình chúng tôi có tất cả bốn người.
+다니다|저는 회사에 {다녀요}.|Tôi đi làm ở công ty.
+친절하다|우리 선생님은 {친절하세요}.|Thầy giáo chúng tôi thân thiện.
+사장님|{사장님}은 회사에 계세요.|Giám đốc ở công ty.
+멋있다|그 사람은 정말 {멋있어요}.|Người đó thật phong cách.
+부모님|{부모님}은 부산에 계세요.|Bố mẹ tôi ở Busan.
+대학교|저는 서울 {대학교}에 다녀요.|Tôi học ở đại học Seoul.
+신문사|아버지는 {신문사}에 다니세요.|Bố làm ở tòa soạn báo.
+중학교|동생은 {중학교}에 다녀요.|Em tôi học cấp hai.
+강아지|저는 {강아지}가 있어요.|Tôi có một chú chó con.
+가족사진|이것은 우리 {가족사진}이에요.|Đây là ảnh gia đình chúng tôi.
+웃다|동생이 {웃어요}.|Em tôi cười.
+소개하다|제 가족을 {소개해요}.|Tôi giới thiệu gia đình tôi.
+## 10
+새벽|{새벽}에 일어나요.|Tôi thức dậy lúc bình minh.
+아침|{아침}에 세수해요.|Buổi sáng tôi rửa mặt.
+낮|{낮}에는 학교에 있어요.|Ban ngày tôi ở trường.
+저녁|{저녁}에 친구를 만나요.|Buổi tối tôi gặp bạn.
+밤|{밤}에 잠을 자요.|Ban đêm tôi ngủ.
+오전|{오전}에 수업이 있어요.|Buổi sáng có giờ học.
+오후|{오후}에 운동해요.|Buổi chiều tôi tập thể dục.
+일어나다|저는 일곱 시에 {일어나요}.|Tôi thức dậy lúc bảy giờ.
+버스를 기다리다|정류장에서 {버스를 기다려요}.|Tôi đợi xe buýt ở trạm.
+운전하다|아버지가 {운전해요}.|Bố lái xe.
+버스를 타다|학교에 갈 때 {버스를 타요}.|Khi đến trường tôi đi xe buýt.
+청소하다|주말에 방을 {청소해요}.|Cuối tuần tôi dọn phòng.
+회의하다|오후에 회사에서 {회의해요}.|Buổi chiều tôi họp ở công ty.
+빨래하다|일요일에 {빨래해요}.|Chủ nhật tôi giặt đồ.
+전화하다|친구에게 {전화해요}.|Tôi gọi điện cho bạn.
+요리하다|저녁에 {요리해요}.|Buổi tối tôi nấu ăn.
+샤워하다|운동 후에 {샤워해요}.|Sau khi tập thể dục tôi tắm.
+시|지금은 아홉 {시}예요.|Bây giờ là chín giờ.
+분|열 시 십 {분}이에요.|Là mười giờ mười phút.
+반|두 시 {반}에 만나요.|Chúng ta gặp lúc hai giờ rưỡi.
+아침을 먹다|일곱 시에 {아침을 먹어요}.|Tôi ăn sáng lúc bảy giờ.
+점심을 먹다|열두 시에 {점심을 먹어요}.|Tôi ăn trưa lúc mười hai giờ.
+저녁을 먹다|여섯 시에 {저녁을 먹어요}.|Tôi ăn tối lúc sáu giờ.
+보통|{보통} 열한 시에 자요.|Thông thường tôi ngủ lúc mười một giờ.
+그림을 그리다|주말에 {그림을 그려요}.|Cuối tuần tôi vẽ tranh.
+방학|{방학}에 고향에 가요.|Kỳ nghỉ tôi về quê.
+데이트하다|토요일에 남자 친구와 {데이트해요}.|Thứ Bảy tôi hẹn hò với bạn trai.
+박물관|{박물관}에서 한국 역사를 공부해요.|Tôi học lịch sử Hàn Quốc ở viện bảo tàng.
+연습|한국어 {연습}을 해요.|Tôi luyện tập tiếng Hàn.
+낮잠 자다|주말에 {낮잠을 자요}.|Cuối tuần tôi ngủ trưa.
+전통|한국의 {전통} 음식을 먹어요.|Tôi ăn món ăn truyền thống của Hàn Quốc.
+이메일|친구에게 {이메일}을 보내요.|Tôi gửi email cho bạn.
+## 11
+몸|운동을 하면 {몸}이 건강해요.|Tập thể dục thì cơ thể khỏe mạnh.
+머리|{머리}가 아파요.|Tôi đau đầu.
+목|{목}이 아파요.|Tôi đau cổ.
+어깨|{어깨}가 아파요.|Tôi đau vai.
+팔|{팔}이 아파요.|Tôi đau tay.
+손|{손}을 씻어요.|Tôi rửa tay.
+가슴|{가슴}이 아파요.|Tôi đau ngực.
+배|{배}가 아파요.|Tôi đau bụng.
+허리|{허리}가 아파요.|Tôi đau lưng.
+다리|{다리}가 아파요.|Tôi đau chân.
+무릎|{무릎}이 아파요.|Tôi đau đầu gối.
+발|{발}이 아파요.|Tôi đau bàn chân.
+얼굴|아침에 {얼굴}을 씻어요.|Buổi sáng tôi rửa mặt.
+눈|{눈}이 아파요.|Tôi đau mắt.
+코|{코}가 아파요.|Tôi đau mũi.
+입|{입}이 아파요.|Tôi đau miệng.
+귀|{귀}가 아파요.|Tôi đau tai.
+아프다|머리가 {아파요}.|Tôi đau đầu.
+바쁘다|요즘 너무 {바빠요}.|Dạo này tôi rất bận.
+배고프다|점심을 안 먹어서 {배고파요}.|Tôi chưa ăn trưa nên đói bụng.
+예쁘다|그 옷이 정말 {예뻐요}.|Cái áo đó thật đẹp.
+쓰다|친구에게 편지를 {써요}.|Tôi viết thư cho bạn.
+나쁘다|담배는 몸에 {나빠요}.|Thuốc lá có hại cho cơ thể.
+늦다|학교에 {늦었어요}.|Tôi đã đến trường muộn.
+약|감기에 걸려서 {약}을 먹어요.|Tôi bị cảm nên uống thuốc.
+술|{술}을 많이 마시지 마세요.|Đừng uống nhiều rượu.
+씻다|밥을 먹기 전에 손을 {씻어요}.|Trước khi ăn tôi rửa tay.
+감기에 걸리다|겨울에 {감기에 걸려요}.|Mùa đông tôi bị cảm.
+걱정|아프지 않아요. {걱정} 마세요.|Tôi không đau. Đừng lo lắng.
+목욕하다|밤에 {목욕해요}.|Buổi tối tôi tắm bồn.
+결혼하다|내년에 {결혼해요}.|Năm sau tôi kết hôn.
+다행이다|아프지 않아서 {다행이에요}.|Không bị đau thật là may.
+너무|오늘은 {너무} 피곤해요.|Hôm nay tôi mệt quá.
+알람|{알람}을 맞춰요.|Tôi đặt báo thức.
+끄다|전화를 {꺼요}.|Tôi tắt điện thoại.
+발음|한국어 {발음}이 어려워요.|Phát âm tiếng Hàn khó.
+기침 하다|감기에 걸려서 {기침을 해요}.|Tôi bị cảm nên ho.
+목이 아프다|감기에 걸려서 {목이 아파요}.|Tôi bị cảm nên đau họng.
+콧물이 나다|감기에 걸려서 {콧물이 나요}.|Tôi bị cảm nên sổ mũi.
+푹 쉬다|집에서 {푹 쉬세요}.|Hãy nghỉ ngơi thoải mái ở nhà.
+## 12
+휴대폰 번호|{휴대폰 번호}가 뭐예요?|Số điện thoại di động của bạn là gì?
+여보세요|{여보세요}? 저는 민수예요.|A lô? Tôi là Minsu.
+문자를 받다|친구에게서 {문자를 받아요}.|Tôi nhận tin nhắn từ bạn.
+문자를 보내다|친구에게 {문자를 보내요}.|Tôi gửi tin nhắn cho bạn.
+전화를 받다|친구 {전화를 받아요}.|Tôi nghe điện thoại của bạn.
+전화 하다|저녁에 친구에게 {전화를 해요}.|Buổi tối tôi gọi điện cho bạn.
+오랜만이에요|안녕하세요? {오랜만이에요}.|Xin chào, lâu rồi không gặp.
+사무실|아버지는 {사무실}에 계세요.|Bố ở văn phòng.
+잠깐만요|{잠깐만요}. 지금 전화를 받아요.|Xin chờ một lát. Tôi đang nghe điện thoại.
+왜|{왜} 학교에 안 와요?|Tại sao bạn không đến trường?
+조금 전|{조금 전}에 전화가 왔어요.|Một lúc trước có điện thoại gọi đến.
+늦잠|오늘 {늦잠}을 잤어요.|Hôm nay tôi ngủ dậy muộn.
+여행사|{여행사}에서 일해요.|Tôi làm việc ở công ty du lịch.
+아까|{아까} 친구를 만났어요.|Lúc nãy tôi đã gặp bạn.
+그럼요|가요? {그럼요}.|Đi à? Đương nhiên rồi.
+이따|{이따} 전화할게요.|Lát nữa tôi sẽ gọi điện.
+꼭|내일 {꼭} 오세요.|Ngày mai nhất định hãy đến nhé.
+죄송합니다|늦어서 {죄송합니다}.|Xin lỗi vì tôi đến muộn.
+글쎄요|{글쎄요}. 잘 모르겠어요.|Để xem nào. Tôi không rõ lắm.
+맛없다|이 음식은 {맛없어요}.|Món ăn này không ngon.
+## 13
+버스|{버스}를 타요.|Tôi đi xe buýt.
+기차|{기차}를 타요.|Tôi đi tàu hỏa.
+비행기|{비행기}를 타고 가요.|Tôi đi bằng máy bay.
+택시|{택시}를 타요.|Tôi đi taxi.
+자전거|{자전거}를 타요.|Tôi đi xe đạp.
+지하철|{지하철}을 타요.|Tôi đi tàu điện ngầm.
+오토바이|{오토바이}를 타요.|Tôi đi xe máy.
+타다|저는 버스를 {타요}.|Tôi đi xe buýt.
+타고 가다|지하철을 {타고 가요}.|Tôi đi bằng tàu điện ngầm.
+갈아타다|서울역에서 지하철을 {갈아타요}.|Tôi đổi tàu điện ngầm ở ga Seoul.
+내리다|다음 역에서 {내려요}.|Tôi xuống ở ga tiếp theo.
+버스 정류장|{버스 정류장}에서 버스를 기다려요.|Tôi đợi xe buýt ở trạm xe buýt.
+기차역|{기차역}에서 친구를 만나요.|Tôi gặp bạn ở ga tàu hỏa.
+지하철역|{지하철역}이 학교 앞에 있어요.|Ga tàu điện ngầm ở trước trường.
+멀다|학교가 집에서 {멀어요}.|Trường xa nhà.
+걸리다|집에서 학교까지 삼십 분 {걸려요}.|Từ nhà đến trường mất ba mươi phút.
+닫다|문을 {닫아요}.|Tôi đóng cửa.
+칠판|선생님이 {칠판}에 써요.|Cô giáo viết lên bảng.
+울다|아기가 {울어요}.|Em bé khóc.
+이기다|우리 팀이 {이겼어요}.|Đội chúng tôi đã thắng.
+지다|우리 팀이 {졌어요}.|Đội chúng tôi đã thua.
+서울역|{서울역}에서 기차를 타요.|Tôi đi tàu ở ga Seoul.
+경주|{경주}에 기차를 타고 가요.|Tôi đi tàu đến Gyeongju.
+김포공항|{김포공항}에서 비행기를 타요.|Tôi đi máy bay ở sân bay Gimpo.
+신호등|{신호등}이 빨간색이에요.|Đèn giao thông màu đỏ.
+정문|학교 {정문}에서 만나요.|Gặp nhau ở cổng chính của trường.
+여행을 가다|방학에 {여행을 가요}.|Kỳ nghỉ tôi đi du lịch.
+호선|지하철 2 {호선}을 타요.|Tôi đi tàu điện ngầm tuyến số 2.
+## 14
+셔츠|저는 흰 {셔츠}를 입어요.|Tôi mặc áo sơ mi trắng.
+치마|저는 {치마}를 입어요.|Tôi mặc chân váy.
+코트|겨울에는 {코트}를 입어요.|Mùa đông tôi mặc áo khoác.
+원피스|여자 친구가 {원피스}를 입어요.|Bạn gái tôi mặc váy liền.
+구두|{구두}를 신어요.|Tôi đi giày da.
+양복|아버지는 {양복}을 입으세요.|Bố mặc âu phục.
+입다|저는 코트를 {입어요}.|Tôi mặc áo khoác.
+신다|저는 구두를 {신어요}.|Tôi đi giày da.
+크다|이 옷은 너무 {커요}.|Cái áo này rộng quá.
+작다|이 신발은 너무 {작아요}.|Đôi giày này nhỏ quá.
+길다|이 치마는 너무 {길어요}.|Cái váy này dài quá.
+짧다|이 치마는 너무 {짧아요}.|Cái váy này ngắn quá.
+높다|남산은 {높아요}.|Núi Namsan cao.
+낮다|이 의자는 {낮아요}.|Cái ghế này thấp.
+비싸다|백화점은 {비싸요}.|Cửa hàng bách hóa thì đắt.
+불편하다|구두는 {불편해요}.|Giày da thì bất tiện.
+편하다|운동화는 {편해요}.|Giày thể thao thì thoải mái.
+두껍다|겨울 코트는 {두꺼워요}.|Áo khoác mùa đông thì dày.
+얇다|여름 셔츠는 {얇아요}.|Áo sơ mi mùa hè thì mỏng.
+귀엽다|강아지가 {귀여워요}.|Chú chó con đáng yêu.
+똑똑하다|제 동생은 {똑똑해요}.|Em tôi thông minh.
+살다|저는 서울에 {살아요}.|Tôi sống ở Seoul.
+놀다|친구와 공원에서 {놀아요}.|Tôi chơi với bạn ở công viên.
+열다|창문을 {열어요}.|Tôi mở cửa sổ.
+무섭다|밤에는 {무서워요}.|Ban đêm thì đáng sợ.
+슬프다|이 영화는 {슬퍼요}.|Bộ phim này buồn.
+키|동생은 {키}가 커요.|Em tôi cao.
+청바지|저는 {청바지}를 입어요.|Tôi mặc quần bò.
+조용하다|도서관은 {조용해요}.|Thư viện yên tĩnh.
+선물하다|친구에게 책을 {선물해요}.|Tôi tặng sách cho bạn.
+드리다|할머니께 선물을 {드려요}.|Tôi biếu quà cho bà.
+아름답다|한국의 가을은 {아름다워요}.|Mùa thu Hàn Quốc đẹp.
+한복|설날에 {한복}을 입어요.|Ngày Tết tôi mặc hàn phục.
+티셔츠|여름에는 {티셔츠}를 입어요.|Mùa hè tôi mặc áo thun.
+스타일|그 옷 {스타일}이 멋있어요.|Phong cách của cái áo đó thật đẹp.
+넥타이|아버지는 {넥타이}를 매세요.|Bố thắt cà vạt.
+반지|저는 {반지}를 껴요.|Tôi đeo nhẫn.
+목걸이|저는 {목걸이}를 해요.|Tôi đeo dây chuyền.
+## 15
+돈을 바꾸다|공항에서 {돈을 바꿔요}.|Tôi đổi tiền ở sân bay.
+비행기 표를 예매하다|인터넷으로 {비행기 표를 예매해요}.|Tôi đặt trước vé máy bay qua mạng.
+여권을 만들다|여행 전에 {여권을 만들어요}.|Trước chuyến du lịch tôi làm hộ chiếu.
+호텔을 예약하다|여행 전에 {호텔을 예약해요}.|Trước chuyến du lịch tôi đặt phòng khách sạn.
+도착하다|비행기가 {도착해요}.|Máy bay đến nơi.
+돌아오다|일요일에 {돌아와요}.|Chủ nhật tôi trở về.
+여행하다|친구와 한국을 {여행해요}.|Tôi du lịch Hàn Quốc cùng bạn.
+출발하다|아침 여덟 시에 {출발해요}.|Tám giờ sáng chúng tôi xuất phát.
+경치가 아름답다|제주도는 {경치가 아름다워요}.|Phong cảnh ở đảo Jeju đẹp.
+구경거리가 많다|서울은 {구경거리가 많아요}.|Seoul có nhiều thứ để xem.
+맛있는 음식이 많다|전주는 {맛있는 음식이 많아요}.|Jeonju có nhiều món ăn ngon.
+물건값이 싸다|시장은 {물건값이 싸요}.|Chợ thì vật giá rẻ.
+프러포즈|남자 친구가 {프러포즈}를 해요.|Bạn trai tôi cầu hôn.
+떠나다|내일 서울을 {떠나요}.|Ngày mai tôi rời Seoul.
+즐겁다|친구와 여행해서 {즐거워요}.|Đi du lịch cùng bạn thật vui.
+휴가|여름 {휴가}에 바다에 가요.|Kỳ nghỉ hè tôi ra biển.
+야구 경기|야구장에서 {야구 경기}를 봐요.|Tôi xem trận đấu bóng chày ở sân bóng chày.
+야구장|{야구장}에 가요.|Tôi đến sân bóng chày.
+곳|여기는 경치가 아름다운 {곳}이에요.|Đây là nơi có phong cảnh đẹp.
+신혼여행|제주도로 {신혼여행}을 가요.|Chúng tôi đi tuần trăng mật ở đảo Jeju.
+미술관|{미술관}에서 그림을 봐요.|Tôi xem tranh ở bảo tàng mỹ thuật.
+휴가를 받다|다음 주에 {휴가를 받아요}.|Tuần sau tôi nhận được nghỉ phép.
+어젯밤|{어젯밤}에 친구를 만났어요.|Đêm qua tôi đã gặp bạn.
+계속|{계속} 비가 와요.|Trời mưa liên tục.
+바닷가|여름에 {바닷가}에 가요.|Mùa hè tôi đến bờ biển.
+섬|제주도는 {섬}이에요.|Đảo Jeju là một hòn đảo.
+올라가다|남산에 {올라가요}.|Tôi đi lên núi Namsan.
+보이다|산에서 바다가 {보여요}.|Từ trên núi nhìn thấy biển.
+닭갈비|춘천에서 {닭갈비}를 먹어요.|Tôi ăn gà xào cay ở Chuncheon.
+춘천|{춘천}에 가요.|Tôi đi Chuncheon.
+## 16
+계획하다|여행을 {계획해요}.|Tôi lên kế hoạch cho chuyến du lịch.
+식사하다|친구와 같이 {식사해요}.|Tôi dùng bữa cùng bạn.
+연락하다|친구에게 {연락해요}.|Tôi liên lạc với bạn.
+준비하다|파티를 {준비해요}.|Tôi chuẩn bị bữa tiệc.
+초대하다|친구를 집에 {초대해요}.|Tôi mời bạn đến nhà.
+축하하다|생일을 {축하해요}.|Tôi chúc mừng sinh nhật.
+늦게|오늘은 {늦게} 일어났어요.|Hôm nay tôi thức dậy muộn.
+많이|물을 {많이} 마셔요.|Tôi uống nhiều nước.
+빨리|{빨리} 오세요.|Hãy đến nhanh lên.
+일찍|내일은 {일찍} 일어나요.|Ngày mai tôi thức dậy sớm.
+잘|한국어를 {잘}해요.|Tôi giỏi tiếng Hàn.
+조금|저는 한국어를 {조금} 해요.|Tôi biết một chút tiếng Hàn.
+천천히|{천천히} 말해 주세요.|Xin hãy nói chậm thôi.
+모임|오늘 저녁에 {모임}이 있어요.|Tối nay có buổi tụ họp.
+음료수|{음료수}를 마셔요.|Tôi uống nước giải khát.
+이사 하다|다음 달에 {이사를 해요}.|Tháng sau tôi chuyển nhà.
+돌아가다|집에 {돌아가요}.|Tôi trở về nhà.
+돈을 찾다|은행에서 {돈을 찾아요}.|Tôi rút tiền ở ngân hàng.
+팝콘|영화관에서 {팝콘}을 먹어요.|Tôi ăn bỏng ngô ở rạp chiếu phim.
+춤 추다|파티에서 {춤을 춰요}.|Tôi nhảy ở bữa tiệc.
+들어오다|교실에 {들어와요}.|Tôi đi vào phòng học.
+곧|{곧} 도착해요.|Sắp đến nơi rồi.
+이메일 주소|제 {이메일 주소}를 알려 드릴게요.|Tôi sẽ cho bạn biết địa chỉ email của tôi.
+몰라요|저는 그 사람을 {몰라요}.|Tôi không biết người đó.
+답장|친구에게 {답장}을 써요.|Tôi viết thư trả lời bạn.
