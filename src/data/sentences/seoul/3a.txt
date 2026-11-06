@@ -1,0 +1,364 @@
+# Câu mẫu (đọc hiểu) Seoul Korean 3A. Mỗi dòng: từ|câu có {chỗ trống}|nghĩa. "## N" = số bài (theo sách).
+## 1
+지원하다|저는 그 회사에 {지원했어요}.|Tôi đã ứng tuyển vào công ty đó.
+합격하다|한국어 시험에 {합격했어요}.|Tôi đã đỗ kỳ thi tiếng Hàn.
+참석하다|친구 결혼식에 {참석해요}.|Tôi tham dự đám cưới của bạn.
+가입하다|저는 동아리에 {가입했어요}.|Tôi đã tham gia câu lạc bộ.
+참가하다|말하기 대회에 {참가해요}.|Tôi tham gia cuộc thi nói.
+강의|오늘 {강의}가 재미있었어요.|Bài giảng hôm nay thú vị.
+전공|제 {전공}은 한국어예요.|Chuyên ngành của tôi là tiếng Hàn.
+성적|이번 학기 {성적}이 좋아요.|Thành tích học kỳ này tốt.
+게시판|{게시판}에서 공지를 봤어요.|Tôi đã xem thông báo trên bảng thông báo.
+고등학생|동생은 {고등학생}이에요.|Em tôi là học sinh cấp ba.
+엉망이다|방이 {엉망이에요}.|Phòng bừa bộn.
+전시회|미술관에서 {전시회}를 봤어요.|Tôi đã xem triển lãm ở bảo tàng mỹ thuật.
+기회|좋은 {기회}가 있어요.|Có cơ hội tốt.
+상금|대회에서 {상금}을 받았어요.|Tôi đã nhận tiền thưởng ở cuộc thi.
+도움이 되다|이 책은 공부에 {도움이 돼요}.|Quyển sách này giúp ích cho việc học.
+제공하다|학교에서 식사를 {제공해요}.|Nhà trường cung cấp bữa ăn.
+노래자랑|학교 {노래자랑}에 나갔어요.|Tôi đã tham gia cuộc thi hát của trường.
+귓속말|친구에게 {귓속말}을 했어요.|Tôi đã nói thầm với bạn.
+인기|그 가수는 {인기}가 많아요.|Ca sĩ đó rất được yêu thích.
+수강|이번 학기에 한국어 {수강} 신청을 했어요.|Học kỳ này tôi đã đăng ký học tiếng Hàn.
+철학|저는 {철학}을 공부해요.|Tôi học triết học.
+사회|저는 한국 {사회}에 관심이 있어요.|Tôi quan tâm đến xã hội Hàn Quốc.
+자원봉사|주말에 {자원봉사}를 해요.|Cuối tuần tôi làm tình nguyện.
+씨름|한국의 전통 운동은 {씨름}이에요.|Môn thể thao truyền thống của Hàn Quốc là đấu vật.
+버리다|쓰레기를 {버려요}.|Tôi vứt rác.
+캔 맥주|{캔 맥주}를 마셔요.|Tôi uống bia lon.
+재활용 쓰레기|{재활용 쓰레기}를 따로 버려요.|Tôi vứt rác tái chế riêng.
+일반 쓰레기|{일반 쓰레기}는 봉투에 넣어요.|Rác thường thì cho vào túi.
+쓰레기봉투|편의점에서 {쓰레기봉투}를 샀어요.|Tôi đã mua túi đựng rác ở cửa hàng tiện lợi.
+따라 하다|선생님을 {따라 해요}.|Tôi làm theo thầy giáo.
+사촌|제 {사촌}은 대학생이에요.|Anh em họ của tôi là sinh viên đại học.
+깜짝|그 소식을 듣고 {깜짝} 놀랐어요.|Nghe tin đó tôi giật mình.
+친근하다|그 선생님은 {친근해요}.|Thầy giáo đó gần gũi.
+입학식|내일 {입학식}이 있어요.|Ngày mai có lễ nhập học.
+오리엔테이션|신입생 {오리엔테이션}에 갔어요.|Tôi đã đến buổi định hướng cho tân sinh viên.
+신입생|저는 올해 {신입생}이에요.|Năm nay tôi là tân sinh viên.
+환영회|신입생 {환영회}를 해요.|Tổ chức tiệc chào mừng tân sinh viên.
+축제|대학교 {축제}에 갔어요.|Tôi đã đến lễ hội của đại học.
+졸업식|내일 {졸업식}에 가요.|Ngày mai tôi đi lễ tốt nghiệp.
+선배|{선배}가 도와줬어요.|Tiền bối đã giúp tôi.
+후배|{후배}에게 밥을 사 줬어요.|Tôi đã mời hậu bối ăn cơm.
+과목|이번 학기에 {과목}이 다섯 개예요.|Học kỳ này có năm môn học.
+학점|{학점}이 잘 나왔어요.|Điểm tín chỉ ra tốt.
+장학금|열심히 공부해서 {장학금}을 받았어요.|Vì học chăm chỉ nên tôi đã nhận học bổng.
+신청하다|수업을 {신청해요}.|Tôi đăng ký môn học.
+동창|고등학교 {동창}을 만났어요.|Tôi đã gặp bạn học cũ cấp ba.
+동창회|오늘 저녁에 {동창회}가 있어요.|Tối nay có họp lớp.
+유학|저는 한국에 {유학}을 왔어요.|Tôi đã đến Hàn Quốc du học.
+입학|대학교에 {입학}해요.|Tôi nhập học đại học.
+수강 신청|내일부터 {수강 신청}을 해요.|Từ ngày mai bắt đầu đăng ký môn học.
+## 2
+코를 골다|아버지는 밤에 {코를 골아요}.|Bố ngáy vào ban đêm.
+손톱을 깨물다|저는 긴장하면 {손톱을 깨물어요}.|Khi căng thẳng tôi cắn móng tay.
+잠꼬대를 하다|동생은 자면서 {잠꼬대를 해요}.|Em tôi nói mê khi ngủ.
+다리를 꼬다|의자에 앉아서 {다리를 꼬지} 마세요.|Đừng ngồi vắt chân trên ghế.
+머리를 긁다|그는 부끄러워서 {머리를 긁었어요}.|Anh ấy xấu hổ nên gãi đầu.
+한숨을 쉬다|걱정이 있어서 {한숨을 쉬어요}.|Có lo lắng nên tôi thở dài.
+불평하다|음식이 맛없다고 {불평해요}.|Người ta phàn nàn món ăn không ngon.
+조언을 듣다|선배에게 {조언을 들었어요}.|Tôi đã nghe lời khuyên của tiền bối.
+버릇을 고치다|나쁜 {버릇을 고쳐요}.|Tôi sửa thói quen xấu.
+실천하다|계획을 {실천해요}.|Tôi thực hiện kế hoạch.
+포기하다|힘들어도 {포기하지} 마세요.|Dù khó cũng đừng bỏ cuộc.
+게다가|비가 와요. {게다가} 바람도 불어요.|Trời mưa. Hơn nữa gió cũng thổi.
+밤새도록|{밤새도록} 공부했어요.|Tôi đã học suốt đêm.
+괴롭다|시험 때문에 {괴로워요}.|Tôi đau khổ vì kỳ thi.
+음악을 틀다|방에서 {음악을 틀어요}.|Tôi bật nhạc trong phòng.
+어쩔 수 없다|{어쩔 수 없어요}. 가야 해요.|Không còn cách nào khác. Tôi phải đi.
+실은|{실은} 어제 늦게 잤어요.|Thật ra hôm qua tôi ngủ muộn.
+개강|다음 주에 {개강}해요.|Tuần sau khai giảng.
+대신|커피 {대신} 차를 마셔요.|Tôi uống trà thay vì cà phê.
+화를 풀다|친구가 {화를 풀었어요}.|Bạn đã nguôi giận.
+절대로|{절대로} 늦지 마세요.|Tuyệt đối đừng đến muộn.
+도망가다|고양이가 {도망갔어요}.|Con mèo đã chạy trốn.
+화를 내다|친구가 {화를 냈어요}.|Bạn đã nổi giận.
+실패하다|시험에 {실패했어요}.|Tôi đã thất bại ở kỳ thi.
+명예|그것은 큰 {명예}예요.|Đó là vinh dự lớn.
+권력|{권력}보다 건강이 중요해요.|Sức khỏe quan trọng hơn quyền lực.
+마찬가지|저도 {마찬가지}예요.|Tôi cũng giống vậy.
+미루다|숙제를 {미루지} 마세요.|Đừng trì hoãn bài tập.
+예를 들면|과일, {예를 들면} 사과를 좋아해요.|Trái cây, ví dụ như táo, tôi thích.
+자신 있다|한국어 말하기에 {자신 있어요}.|Tôi tự tin nói tiếng Hàn.
+왜냐하면|못 갔어요. {왜냐하면} 아팠어요.|Tôi đã không đi được. Đó là vì tôi bị ốm.
+적다|이름을 여기에 {적으세요}.|Hãy viết tên vào đây.
+매니큐어|손톱에 {매니큐어}를 칠해요.|Tôi sơn móng tay.
+껌을 씹다|수업 시간에 {껌을 씹지} 마세요.|Đừng nhai kẹo cao su trong giờ học.
+게으르다|동생은 {게을러요}.|Em tôi lười biếng.
+부지런하다|할아버지는 {부지런하세요}.|Ông nội chăm chỉ.
+## 3
+소나기가 오다|갑자기 {소나기가 와요}.|Đột nhiên trời mưa rào.
+폭우가 내리다|어제 밤새 {폭우가 내렸어요}.|Đêm qua mưa to suốt đêm.
+폭설이 내리다|겨울에 {폭설이 내려요}.|Mùa đông tuyết rơi nhiều.
+태풍이 오다|내일 {태풍이 와요}.|Ngày mai có bão.
+홍수가 나다|비가 많이 와서 {홍수가 났어요}.|Mưa nhiều nên đã xảy ra lũ lụt.
+가뭄이 들다|올해는 {가뭄이 들었어요}.|Năm nay xảy ra hạn hán.
+안개가 끼다|아침에 {안개가 꼈어요}.|Buổi sáng có sương mù.
+번개가 치다|비가 오고 {번개가 쳐요}.|Trời mưa và có chớp.
+천둥이 치다|밤에 {천둥이 쳤어요}.|Ban đêm có sấm sét.
+쓰러지다|태풍에 나무가 {쓰러졌어요}.|Cây đổ vì bão.
+부서지다|유리창이 {부서졌어요}.|Cửa kính bị vỡ tan.
+무너지다|오래된 집이 {무너졌어요}.|Ngôi nhà cũ đã sụp đổ.
+집들이|친구 {집들이}에 갔어요.|Tôi đã đến tiệc tân gia nhà bạn.
+모자라다|돈이 {모자라요}.|Tiền không đủ.
+사업|아버지는 {사업}을 하세요.|Bố làm kinh doanh.
+여쭈다|선생님께 {여쭤} 보세요.|Hãy hỏi thầy giáo thử xem.
+살을 빼다|운동해서 {살을 빼요}.|Tôi tập thể dục để giảm cân.
+연예인|그 사람은 {연예인}이에요.|Người đó là nghệ sĩ.
+관광객|명동에는 {관광객}이 많아요.|Ở Myeongdong có nhiều khách du lịch.
+약간|국이 {약간} 짜요.|Canh hơi mặn.
+빗방울|{빗방울}이 떨어져요.|Giọt mưa rơi.
+챙기다|우산을 {챙기세요}.|Hãy mang theo ô.
+그치다|비가 {그쳤어요}.|Mưa đã tạnh.
+굵다|빗줄기가 {굵어요}.|Mưa nặng hạt.
+유람선|한강에서 {유람선}을 탔어요.|Tôi đã đi tàu du lịch trên sông Hàn.
+수족관|{수족관}에서 물고기를 봤어요.|Tôi đã xem cá ở thủy cung.
+모래|바닷가에서 {모래}놀이를 해요.|Tôi chơi cát ở bờ biển.
+빛나다|밤하늘에서 별이 {빛나요}.|Ngôi sao tỏa sáng trên bầu trời đêm.
+준비물|여행 {준비물}을 챙겨요.|Tôi chuẩn bị đồ mang theo cho chuyến du lịch.
+일교차|가을에는 {일교차}가 커요.|Mùa thu chênh lệch nhiệt độ lớn.
+기온이 떨어지다|밤에는 {기온이 떨어져요}.|Ban đêm nhiệt độ giảm.
+따로|돈은 {따로} 내요.|Tiền trả riêng.
+꽁꽁 얼다|강이 {꽁꽁 얼었어요}.|Sông đã đóng băng cứng.
+시집가다|언니가 {시집갔어요}.|Chị tôi đã đi lấy chồng.
+일기 예보|{일기 예보}를 봐요.|Tôi xem dự báo thời tiết.
+최고 기온|오늘 {최고 기온}은 삼십 도예요.|Nhiệt độ cao nhất hôm nay là ba mươi độ.
+최저 기온|내일 {최저 기온}은 영하 오 도예요.|Nhiệt độ thấp nhất ngày mai là âm năm độ.
+영상|오늘 기온은 {영상} 십 도예요.|Nhiệt độ hôm nay là mười độ dương.
+영하|겨울에는 {영하}로 내려가요.|Mùa đông xuống dưới độ âm.
+## 4
+간장|{간장}을 넣어요.|Tôi cho xì dầu vào.
+고추장|{고추장}은 매워요.|Tương ớt thì cay.
+파|국에 {파}를 넣어요.|Tôi cho hành vào canh.
+마늘|{마늘}을 다져요.|Tôi băm tỏi.
+깨|나물에 {깨}를 뿌려요.|Tôi rắc vừng lên rau trộn.
+참기름|{참기름}을 넣어요.|Tôi cho dầu mè vào.
+후추|고기에 {후추}를 뿌려요.|Tôi rắc hạt tiêu lên thịt.
+다듬다|채소를 {다듬어요}.|Tôi sơ chế rau.
+썰다|양파를 {썰어요}.|Tôi thái hành tây.
+다지다|마늘을 {다져요}.|Tôi băm tỏi.
+섞다|재료를 {섞어요}.|Tôi trộn nguyên liệu.
+볶다|채소를 {볶아요}.|Tôi xào rau.
+찌다|만두를 {쪄요}.|Tôi hấp bánh bao.
+튀기다|새우를 {튀겨요}.|Tôi chiên tôm.
+삶다|계란을 {삶아요}.|Tôi luộc trứng.
+부치다|전을 {부쳐요}.|Tôi rán bánh.
+굽다|고기를 {구워요}.|Tôi nướng thịt.
+끓이다|찌개를 {끓여요}.|Tôi nấu canh.
+국에 말다|밥을 {국에 말아요}.|Tôi chan cơm vào canh.
+복도|{복도}에서 뛰지 마세요.|Đừng chạy ở hành lang.
+출출하다|저녁 때가 되니까 {출출해요}.|Đến giờ chiều tối nên hơi đói.
+대충|{대충} 이렇게 해요.|Làm đại khái như thế này.
+입이 심심하다|{입이 심심해서} 과자를 먹어요.|Buồn miệng nên tôi ăn bánh snack.
+어묵|겨울에는 {어묵}을 먹어요.|Mùa đông tôi ăn chả cá.
+양념|고기에 {양념}을 해요.|Tôi tẩm gia vị cho thịt.
+간단하다|이 요리는 {간단해요}.|Món này đơn giản.
+밀가루|{밀가루}로 만들어요.|Tôi làm bằng bột mì.
+새우|{새우}를 튀겨요.|Tôi chiên tôm.
+햄|샌드위치에 {햄}을 넣어요.|Tôi cho giăm bông vào bánh sandwich.
+간식|오후에 {간식}을 먹어요.|Buổi chiều tôi ăn đồ ăn nhẹ.
+베이킹파우더|{베이킹파우더}를 넣어요.|Tôi cho bột nở vào.
+익다|고기가 {익었어요}.|Thịt đã chín.
+코코넛 밀크|{코코넛 밀크}를 넣어요.|Tôi cho sữa dừa vào.
+매콤하다|이 음식은 {매콤해요}.|Món ăn này cay cay.
+해수욕장|여름에 {해수욕장}에 가요.|Mùa hè tôi đến bãi tắm biển.
+해장국|술을 마신 다음 날 {해장국}을 먹어요.|Hôm sau khi uống rượu tôi ăn canh giải rượu.
+대나무|{대나무}는 쭉 자라요.|Tre mọc thẳng.
+숲길|{숲길}을 걸어요.|Tôi đi bộ trên đường rừng.
+고소하다|참기름 냄새가 {고소해요}.|Mùi dầu mè thơm bùi.
+꿀|차에 {꿀}을 넣어요.|Tôi cho mật ong vào trà.
+찹쌀|{찹쌀}로 떡을 만들어요.|Tôi làm bánh gạo bằng gạo nếp.
+부럽다|친구가 {부러워요}.|Tôi ganh tị với bạn.
+마리|닭 한 {마리}를 샀어요.|Tôi đã mua một con gà.
+손질하다|생선을 {손질해요}.|Tôi sơ chế cá.
+반죽|밀가루 {반죽}을 해요.|Tôi nhào bột mì.
+뒤집다|전을 {뒤집어요}.|Tôi lật bánh rán.
+바삭하다|튀김이 {바삭해요}.|Đồ chiên giòn.
+담다|그릇에 음식을 {담아요}.|Tôi cho đồ ăn vào bát.
+역시|{역시} 한국 음식이 맛있어요.|Quả thật món ăn Hàn Quốc ngon.
+크림소스|{크림소스} 스파게티를 먹어요.|Tôi ăn mì Ý sốt kem.
+## 5
+딱 맞다|이 신발이 {딱 맞아요}.|Đôi giày này vừa khít.
+꽉 끼다|바지가 {꽉 껴요}.|Quần chật.
+적당하다|크기가 {적당해요}.|Kích cỡ vừa phải.
+넉넉하다|이 옷은 {넉넉해요}.|Cái áo này rộng rãi.
+헐렁하다|바지가 좀 {헐렁해요}.|Quần hơi rộng.
+치수가 작다|{치수가 작아요}.|Size nhỏ.
+소매가 없다|이 옷은 {소매가 없어요}.|Cái áo này không có tay.
+품이 크다|이 옷은 {품이 커요}.|Cái áo này rộng thân.
+할인|지금 {할인}을 해요.|Bây giờ đang giảm giá.
+결제하다|카드로 {결제해요}.|Tôi thanh toán bằng thẻ.
+금액|{금액}이 얼마예요?|Số tiền là bao nhiêu?
+일시불|{일시불}로 해 주세요.|Xin hãy thanh toán một lần.
+할부|삼 개월 {할부}로 해 주세요.|Xin hãy trả góp ba tháng.
+구입하다|인터넷에서 옷을 {구입했어요}.|Tôi đã mua quần áo trên mạng.
+반품하다|옷이 작아서 {반품했어요}.|Áo nhỏ nên tôi đã trả lại hàng.
+재킷|봄에 {재킷}을 입어요.|Mùa xuân tôi mặc áo khoác ngắn.
+망설이다|살까 말까 {망설여요}.|Tôi phân vân mua hay không.
+아무래도|{아무래도} 이 옷이 더 좋아요.|Kiểu gì thì tôi thích cái áo này hơn.
+찬밥|{찬밥}으로 볶음밥을 만들어요.|Tôi làm cơm chiên từ cơm nguội.
+원두커피|저는 {원두커피}를 좋아해요.|Tôi thích cà phê hạt.
+얼룩|옷에 {얼룩}이 있어요.|Có vết bẩn trên áo.
+고객|{고객}이 많아요.|Có nhiều khách hàng.
+바느질|엄마가 {바느질}을 하세요.|Mẹ may vá.
+튀다|이 색깔은 너무 {튀어요}.|Màu này nổi bật quá.
+장식|이 옷은 {장식}이 많아요.|Cái áo này có nhiều họa tiết trang trí.
+더럽다|옷이 {더러워요}.|Áo bẩn.
+진하다|색깔이 {진해요}.|Màu đậm.
+제품|이 {제품}은 인기가 많아요.|Sản phẩm này rất được ưa chuộng.
+버튼|{버튼}을 눌러요.|Tôi bấm nút.
+클릭하다|여기를 {클릭하세요}.|Hãy nhấp vào đây.
+상태|물건 {상태}가 좋아요.|Tình trạng món đồ tốt.
+불만|서비스에 {불만}이 있어요.|Tôi không hài lòng về dịch vụ.
+전자 제품|{전자 제품}을 사요.|Tôi mua đồ điện tử.
+액세서리|{액세서리}를 사요.|Tôi mua phụ kiện.
+패션|저는 {패션}에 관심이 있어요.|Tôi quan tâm đến thời trang.
+온라인|{온라인}으로 주문해요.|Tôi đặt hàng trực tuyến.
+## 6
+한산하다|평일 낮에는 식당이 {한산해요}.|Ban ngày ngày thường nhà hàng vắng vẻ.
+붐비다|주말에는 식당이 {붐벼요}.|Cuối tuần nhà hàng đông đúc.
+깔끔하다|이 식당은 {깔끔해요}.|Nhà hàng này gọn gàng sạch sẽ.
+아늑하다|이 카페는 {아늑해요}.|Quán cà phê này ấm cúng.
+편안하다|집이 {편안해요}.|Nhà thoải mái dễ chịu.
+특이하다|이 가게는 {특이해요}.|Cửa hàng này độc đáo.
+평범하다|이 식당은 {평범해요}.|Nhà hàng này bình thường.
+분위기가 좋다|이 식당은 {분위기가 좋아요}.|Nhà hàng này không khí tốt.
+저렴하다|가격이 {저렴해요}.|Giá cả phải chăng.
+잡다|약속 날짜를 {잡아요}.|Tôi chốt ngày hẹn.
+일단|{일단} 앉으세요.|Trước tiên hãy ngồi xuống.
+바라보다|하늘을 {바라봐요}.|Tôi nhìn bầu trời.
+마중 나오다|공항에 {마중 나와요}.|Tôi ra đón ở sân bay.
+금방|{금방} 도착해요.|Sắp đến nơi ngay.
+맞은편|은행 {맞은편}에 약국이 있어요.|Phía đối diện ngân hàng có hiệu thuốc.
+숙박|호텔에서 {숙박}해요.|Tôi trú qua đêm ở khách sạn.
+변경|날짜를 {변경}해요.|Tôi thay đổi ngày.
+묵다|호텔에서 {묵어요}.|Tôi nghỉ lại ở khách sạn.
+참고하다|후기를 {참고해요}.|Tôi tham khảo nhận xét.
+후기|식당 {후기}를 읽어요.|Tôi đọc nhận xét về nhà hàng.
+느낌|이 집은 {느낌}이 좋아요.|Ngôi nhà này cho cảm giác tốt.
+작가|이 책의 {작가}는 유명해요.|Tác giả của quyển sách này nổi tiếng.
+마음대로|{마음대로} 드세요.|Cứ tự nhiên dùng.
+꺼내다|가방에서 책을 {꺼내요}.|Tôi lấy sách ra khỏi cặp.
+리필|커피 {리필}이 돼요.|Có thể châm thêm cà phê.
+전체|{전체} 가격이 얼마예요?|Toàn bộ giá là bao nhiêu?
+평가|식당을 {평가}해요.|Tôi đánh giá nhà hàng.
+클래식|저는 {클래식}을 좋아해요.|Tôi thích nhạc cổ điển.
+가요|저는 한국 {가요}를 좋아해요.|Tôi thích ca khúc Hàn Quốc.
+놀이터|아이들이 {놀이터}에서 놀아요.|Bọn trẻ chơi ở khu vui chơi.
+도구|요리 {도구}를 샀어요.|Tôi đã mua dụng cụ nấu ăn.
+귀찮다|청소하는 것이 {귀찮아요}.|Tôi thấy dọn dẹp phiền phức.
+다방|할아버지는 {다방}에 가세요.|Ông nội đi quán trà kiểu cũ.
+예술가|그 사람은 {예술가}예요.|Người đó là nghệ sĩ.
+당시|{당시}에는 텔레비전이 없었어요.|Thời đó không có ti vi.
+전문점|커피 {전문점}에 갔어요.|Tôi đã đến tiệm chuyên về cà phê.
+휴식|주말에 {휴식}을 취해요.|Cuối tuần tôi nghỉ ngơi.
+대형|{대형} 마트에 가요.|Tôi đến siêu thị cỡ lớn.
+메뉴가 다양하다|이 식당은 {메뉴가 다양해요}.|Nhà hàng này thực đơn phong phú.
+재료가 신선하다|{재료가 신선해요}.|Nguyên liệu tươi mới.
+음식이 입에 맞다|{음식이 입에 맞아요}.|Món ăn hợp khẩu vị.
+장소를 정하다|모임 {장소를 정해요}.|Tôi chọn địa điểm cho buổi họp.
+날짜를 잡다|약속 {날짜를 잡아요}.|Tôi chốt ngày hẹn.
+약속을 지키다|저는 {약속을 지켜요}.|Tôi giữ lời hứa.
+시간을 어기다|{시간을 어기면} 안 돼요.|Không được trễ hẹn.
+## 7
+이상한 소리가 나다|세탁기에서 {이상한 소리가 나요}.|Máy giặt phát ra âm thanh lạ.
+탈수가 안 되다|세탁기가 {탈수가 안 돼요}.|Máy giặt không vắt được nước.
+전화가 끊기다|통화 중에 {전화가 끊겼어요}.|Điện thoại bị ngắt khi đang nói chuyện.
+채소가 얼다|냉장고에서 {채소가 얼었어요}.|Rau bị đông đá trong tủ lạnh.
+온도 조절이 안 되다|에어컨 {온도 조절이 안 돼요}.|Điều hòa không điều chỉnh được nhiệt độ.
+화면이 안 나오다|텔레비전 {화면이 안 나와요}.|Màn hình ti vi không lên.
+액정이 나가다|휴대폰 {액정이 나갔어요}.|Màn hình điện thoại bị hỏng.
+종이가 걸리다|복사기에 {종이가 걸렸어요}.|Giấy bị kẹt trong máy photocopy.
+물에 빠뜨리다|휴대폰을 {물에 빠뜨렸어요}.|Tôi đã làm rơi điện thoại xuống nước.
+땅에 떨어뜨리다|컵을 {땅에 떨어뜨렸어요}.|Tôi đã làm rơi cái cốc xuống đất.
+음료수를 쏟다|책상에 {음료수를 쏟았어요}.|Tôi đã làm đổ nước uống lên bàn.
+먼지가 끼다|책상에 {먼지가 꼈어요}.|Trên bàn bám bụi.
+수돗물을 틀다|손을 씻으려고 {수돗물을 틀어요}.|Tôi bật nước máy để rửa tay.
+시동을 걸다|차에 {시동을 걸어요}.|Tôi khởi động xe.
+플러그를 꽂다|전기 {플러그를 꽂아요}.|Tôi cắm phích điện.
+찢다|종이를 {찢어요}.|Tôi xé giấy.
+배터리|휴대폰 {배터리}가 없어요.|Điện thoại hết pin.
+엔진|차 {엔진}에 문제가 있어요.|Động cơ xe có vấn đề.
+분명히|{분명히} 여기에 놓았어요.|Chắc chắn tôi đã để ở đây.
+손보다|고장 난 컴퓨터를 {손봐요}.|Tôi sửa máy tính hỏng.
+갈다|전구를 {갈아요}.|Tôi thay bóng đèn.
+이상|컴퓨터에 {이상}이 있어요.|Máy tính có bất thường.
+수리 기사|{수리 기사}가 왔어요.|Thợ sửa chữa đã đến.
+워크숍|내일 {워크숍}이 있어요.|Ngày mai có buổi workshop.
+우선|{우선} 앉으세요.|Trước hết hãy ngồi.
+그저께|{그저께} 친구를 만났어요.|Hôm kia tôi đã gặp bạn.
+기계|이 {기계}는 고장 났어요.|Cái máy này bị hỏng.
+복사기|{복사기}가 고장 났어요.|Máy photocopy bị hỏng.
+복사하다|서류를 {복사해요}.|Tôi photo hồ sơ.
+해결|문제 {해결}이 어려워요.|Giải quyết vấn đề thì khó.
+상담|전화로 {상담}해요.|Tôi tư vấn qua điện thoại.
+검색하다|인터넷에서 정보를 {검색해요}.|Tôi tìm thông tin trên mạng.
+사용 설명서|{사용 설명서}를 읽어요.|Tôi đọc hướng dẫn sử dụng.
+거품|비누로 {거품}을 만들어요.|Tôi tạo bọt bằng xà phòng.
+수도꼭지|{수도꼭지}에서 물이 새요.|Nước rò rỉ từ vòi nước.
+흔들리다|의자가 {흔들려요}.|Cái ghế bị lung lay.
+엉키다|줄이 {엉켰어요}.|Dây bị rối.
+터지다|풍선이 {터졌어요}.|Quả bóng bay đã nổ.
+닳다|신발이 {닳았어요}.|Giày đã mòn.
+답변|질문에 {답변}해요.|Tôi trả lời câu hỏi.
+장점|이 제품의 {장점}은 가벼운 거예요.|Ưu điểm của sản phẩm này là nhẹ.
+## 8
+불조심|{불조심}하세요.|Hãy cẩn thận hỏa hoạn.
+깨다|컵을 {깼어요}.|Tôi đã làm vỡ cái cốc.
+꺼지다|불이 {꺼졌어요}.|Đèn đã tắt.
+설마|{설마} 그럴 리가 없어요.|Lẽ nào lại như vậy.
+큰불|건물에서 {큰불}이 났어요.|Tòa nhà xảy ra hỏa hoạn lớn.
+빠지다|아이가 물에 {빠졌어요}.|Đứa trẻ đã rơi xuống nước.
+뱀|산에서 {뱀}을 봤어요.|Tôi đã nhìn thấy rắn ở trên núi.
+물리다|벌레에게 {물렸어요}.|Tôi bị sâu bọ cắn.
+엘리베이터|{엘리베이터}를 타요.|Tôi đi thang máy.
+물다|개가 사람을 {물었어요}.|Con chó đã cắn người.
+벨트|차에서 안전 {벨트}를 매요.|Trên xe tôi thắt dây an toàn.
+매다|안전벨트를 {매세요}.|Hãy thắt dây an toàn.
+제한|속도 {제한}을 지켜요.|Tôi tuân thủ giới hạn tốc độ.
+신호등|{신호등}이 빨간색이에요.|Đèn giao thông màu đỏ.
+신호|{신호}를 지켜요.|Tôi tuân thủ tín hiệu.
+어기다|규칙을 {어기면} 안 돼요.|Không được vi phạm quy tắc.
+주위|{주위}를 살펴요.|Tôi quan sát xung quanh.
+살피다|길을 건널 때 좌우를 {살펴요}.|Khi qua đường tôi quan sát hai bên.
+음주하다|{음주하고} 운전하면 안 돼요.|Không được uống rượu rồi lái xe.
+편찮다|할머니가 {편찮으세요}.|Bà ốm.
+뼈|넘어져서 {뼈}를 다쳤어요.|Tôi bị ngã nên đau xương.
+비상|{비상} 상황이에요.|Đây là tình huống khẩn cấp.
+## 9
+어린이날|오월 오 일은 {어린이날}이에요.|Ngày 5 tháng 5 là Ngày thiếu nhi.
+어버이날|오월 팔 일은 {어버이날}이에요.|Ngày 8 tháng 5 là Ngày cha mẹ.
+스승의 날|오월 십오 일은 {스승의 날}이에요.|Ngày 15 tháng 5 là Ngày nhà giáo.
+근로자의 날|오월 일 일은 {근로자의 날}이에요.|Ngày 1 tháng 5 là Ngày lao động.
+식목일|사월 오 일은 {식목일}이에요.|Ngày 5 tháng 4 là Ngày hội trồng cây.
+현충일|유월 육 일은 {현충일}이에요.|Ngày 6 tháng 6 là Ngày thương binh liệt sĩ.
+광복절|팔월 십오 일은 {광복절}이에요.|Ngày 15 tháng 8 là Ngày giải phóng.
+개천절|시월 삼 일은 {개천절}이에요.|Ngày 3 tháng 10 là Ngày Lập quốc.
+삼일절|삼월 일 일은 {삼일절}이에요.|Ngày 1 tháng 3 là Ngày phong trào 1/3.
+독립하다|한국은 {독립했어요}.|Hàn Quốc đã độc lập.
+통일하다|남북이 {통일하기를} 바라요.|Mong hai miền Nam Bắc thống nhất.
+나라를 세우다|단군이 {나라를 세웠어요}.|Dangun đã dựng nên đất nước.
+나무를 심다|식목일에 {나무를 심어요}.|Ngày hội trồng cây tôi trồng cây.
+꽃을 달다|어버이날에 부모님께 {꽃을 달아} 드려요.|Ngày cha mẹ tôi cài hoa cho bố mẹ.
+행진을 하다|사람들이 거리에서 {행진을 해요}.|Mọi người diễu hành trên đường phố.
+건강식품|부모님께 {건강식품}을 선물해요.|Tôi tặng thực phẩm chức năng cho bố mẹ.
+독감|{독감} 예방 주사를 맞아요.|Tôi tiêm phòng cúm.
+예방 주사|{예방 주사}를 맞아요.|Tôi tiêm phòng.
+돈을 벌다|아르바이트로 {돈을 벌어요}.|Tôi kiếm tiền bằng việc làm thêm.
+기억나다|그 일이 {기억나요}.|Tôi nhớ ra chuyện đó.
+인생|{인생}은 짧아요.|Cuộc đời ngắn ngủi.
+진심|{진심}으로 고마워요.|Tôi thật lòng cảm ơn.
+묵념|현충일에 {묵념}을 해요.|Ngày thương binh liệt sĩ người ta mặc niệm.
+곳곳|거리 {곳곳}에 꽃이 있어요.|Khắp nơi trên đường phố đều có hoa.
+근로자|{근로자}는 오월 일 일에 쉬어요.|Người lao động nghỉ vào ngày 1 tháng 5.
+심다|나무를 {심어요}.|Tôi trồng cây.
+달다|가슴에 꽃을 {달아요}.|Tôi cài hoa lên ngực.
+공휴일|일요일은 {공휴일}이에요.|Chủ nhật là ngày lễ.
+주제|발표 {주제}를 정해요.|Tôi chọn chủ đề phát biểu.
+소감|상을 받은 {소감}을 말해요.|Tôi nói cảm tưởng khi nhận giải.
+격려|친구에게 {격려}의 말을 해요.|Tôi nói lời động viên bạn.
+투표|선거에서 {투표}해요.|Tôi bỏ phiếu trong cuộc bầu cử.
+성년식|오월에 {성년식}이 있어요.|Tháng 5 có lễ trưởng thành.
+향수|생일 선물로 {향수}를 샀어요.|Tôi đã mua nước hoa làm quà sinh nhật.
+우수하다|그 학생은 성적이 {우수해요}.|Học sinh đó có thành tích ưu tú.
