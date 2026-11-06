@@ -21,7 +21,7 @@ let curKey="s1a1";
 /* W, S… nằm trong initApp(): đổi bài = dựng lại khung (initApp chạy lại với dữ liệu mới) */
 function useLesson(key,meta){if(curKey===key)return;if(host){stopAll();host.remove();host=null;root=null;app=null;routeFn=null}META=meta;curKey=key}
 window.__s1aOpen=o=>{useLesson("s1a1",null);openLesson(o)};
-window.__lessonOpen=d=>{useLesson(d.key,{words:d.words,eyebrow:d.eyebrow,title:d.title,label:d.label,noType:!!d.noType});openLesson(null)};
+window.__lessonOpen=d=>{useLesson(d.key,{words:d.words,sents:d.sents,eyebrow:d.eyebrow,title:d.title,label:d.label,noType:!!d.noType});openLesson(null)};
 function closeLesson(){hsAnimated=false;if(!host)return;stopAll();host.style.display="none";document.body.style.overflow=""}
 document.addEventListener("keydown",e=>{if(e.key==="Escape"&&host&&host.style.display!=="none")closeLesson()});
 })();

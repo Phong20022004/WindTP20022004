@@ -18,7 +18,7 @@
  *    "after" (mặc định "\n") là khoảng trắng đặt sau thẻ đóng.
  *  - Ảnh: trong code ghi @@asset:thư-mục/tên.jpg@@ → build đổi thành data URI từ src/assets/images/.
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join, resolve, extname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -70,13 +70,34 @@ function buildVocab(base, rel) {
       if (v.status !== "ready") return;
       const d = JSON.parse(readFileSync(join(dir, v.file), "utf8"));
       const kind = d.lessonKind === "bộ từ" ? "Bộ từ" : d.lessonKind === "chương" ? "Chương" : "Bài";
+      const sents = readSentences(join(dir, "..", "sentences", v.file.replace(/\.json$/, ".txt")));
       out[`ko|${g.appGroup}|${i}`] = d.lessons.map((l) => ({
         no: l.lesson, title: `${kind} ${l.lesson}`, kind,
         words: l.words.map((w) => (d.type === "grammar" ? [w.pattern, w.use] : [w.ko, w.vi])),
+        ...(sents[l.lesson] ? { sents: sents[l.lesson] } : {}),
       }));
     });
   }
   return out;
+}
+
+/**
+ * Câu mẫu cho chế độ Đọc hiểu: src/data/sentences/<giống đường dẫn file từ vựng>.txt
+ * Dòng "## N" mở bài N; mỗi dòng sau: từ|câu có {chỗ trống}|nghĩa. Trả { N: [[từ, câu, nghĩa]…] }.
+ */
+function readSentences(file) {
+  const res = {};
+  if (!existsSync(file)) return res;
+  let cur = null;
+  for (const raw of readFileSync(file, "utf8").split("\n")) {
+    const ln = raw.trim();
+    if (!ln || (ln.startsWith("#") && !ln.startsWith("##"))) continue;
+    if (ln.startsWith("##")) { cur = Number(ln.slice(2)); res[cur] = []; continue; }
+    const p = ln.split("|");
+    if (cur === null || p.length !== 3 || !/\{[^}]+\}/.test(p[1])) throw new Error("Dòng câu mẫu không hợp lệ: " + ln);
+    res[cur].push(p);
+  }
+  return res;
 }
 
 /** Game là một trang HTML hoàn chỉnh, nhúng vào app dưới dạng mảng dòng JS → iframe.srcdoc. */

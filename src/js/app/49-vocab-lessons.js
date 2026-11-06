@@ -42,7 +42,8 @@ function openVocabLesson(code, gi, vi, li) {
     }
   }
   if (words.length < 4) return false;
+  const sents = grammar ? [] : (L.sents || []).filter((s) => seen.has(s[0]));
   const vol = g[2][vi];
-  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title });
+  window.__lessonOpen({ key: code + "|" + gi + "|" + vi + "|" + li, words, sents, noType: grammar, eyebrow: (g[0] + " · " + vol).toUpperCase(), title: L.title + " · " + (grammar ? "Ngữ pháp" : "Từ vựng"), label: g[0] + " " + vol + " · " + L.title });
   return true;
 }

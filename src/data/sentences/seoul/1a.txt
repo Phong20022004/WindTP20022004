@@ -1,0 +1,290 @@
+# Câu mẫu (đọc hiểu) Seoul Korean 1A. Mỗi dòng: từ|câu có {chỗ trống}|nghĩa tiếng Việt. "## N" = số bài.
+## 2
+책상|{책상}이 있어요.|Có cái bàn.
+의자|여기에 {의자}가 있어요.|Ở đây có cái ghế.
+책|이것은 {책}이에요.|Đây là quyển sách.
+공책|저는 {공책}이 없어요.|Tôi không có vở.
+볼펜|{볼펜}이 있어요?|Bạn có bút bi không?
+연필|저는 {연필}이 있어요.|Tôi có bút chì.
+가방|이것은 제 {가방}이에요.|Đây là cặp của tôi.
+지우개|{지우개}가 없어요.|Không có cục tẩy.
+시계|이것은 {시계}예요.|Đây là cái đồng hồ.
+모자|저것은 {모자}예요.|Kia là cái mũ.
+우산|{우산}이 있어요?|Bạn có ô không?
+신문|그것은 {신문}이에요.|Đó là tờ báo.
+카메라|{카메라}가 있어요.|Có máy ảnh.
+사전|이것은 한국어 {사전}이에요.|Đây là từ điển tiếng Hàn.
+안경|저는 {안경}이 없어요.|Tôi không có kính.
+휴대폰|이것은 제 {휴대폰}이에요.|Đây là điện thoại của tôi.
+있어요|친구가 {있어요}.|Tôi có bạn.
+없어요|동전이 {없어요}.|Không có tiền xu.
+남자 친구|저는 {남자 친구}가 있어요.|Tôi có bạn trai.
+여자 친구|저는 {여자 친구}가 없어요.|Tôi không có bạn gái.
+이것|{이것}은 뭐예요?|Cái này là cái gì?
+저것|{저것}은 시계예요.|Cái kia là đồng hồ.
+그것|{그것}은 책이에요.|Cái đó là quyển sách.
+무엇|이것은 {무엇}이에요?|Đây là cái gì?
+창문|{창문}이 있어요.|Có cửa sổ.
+지도|이것은 한국 {지도}예요.|Đây là bản đồ Hàn Quốc.
+필통|{필통}에 연필이 있어요.|Trong hộp bút có bút chì.
+지갑|이것은 제 {지갑}이에요.|Đây là ví của tôi.
+커피|{커피}가 있어요.|Có cà phê.
+주스|{주스} 주세요.|Cho tôi nước ép.
+물|{물} 주세요.|Cho tôi nước.
+사과|이것은 {사과}예요.|Đây là quả táo.
+컴퓨터|{컴퓨터}가 있어요.|Có máy vi tính.
+우유|{우유}가 없어요.|Không có sữa.
+바나나|{바나나}가 있어요?|Có chuối không?
+텔레비전|방에 {텔레비전}이 있어요.|Trong phòng có ti vi.
+침대|방에 {침대}가 있어요.|Trong phòng có cái giường.
+냉장고|{냉장고}가 있어요.|Có tủ lạnh.
+에어컨|{에어컨}이 없어요.|Không có điều hòa.
+어서 오세요|{어서 오세요}!|Xin mời vào!
+## 3
+가다|저는 학교에 {가요}.|Tôi đi đến trường.
+오다|친구가 우리 집에 {와요}.|Bạn tôi đến nhà chúng tôi.
+자다|저는 집에서 {자요}.|Tôi ngủ ở nhà.
+공부하다|도서관에서 한국어를 {공부해요}.|Tôi học tiếng Hàn ở thư viện.
+일하다|아버지는 회사에서 {일해요}.|Bố làm việc ở công ty.
+운동하다|공원에서 {운동해요}.|Tôi tập thể dục ở công viên.
+옷을 사다|백화점에서 {옷을 사요}.|Tôi mua quần áo ở cửa hàng bách hóa.
+영화를 보다|극장에서 {영화를 봐요}.|Tôi xem phim ở rạp.
+친구를 만나다|커피숍에서 {친구를 만나요}.|Tôi gặp bạn ở quán cà phê.
+태권도를 배우다|학교에서 {태권도를 배워요}.|Tôi học taekwondo ở trường.
+밥을 먹다|식당에서 {밥을 먹어요}.|Tôi ăn cơm ở nhà hàng.
+커피를 마시다|커피숍에서 {커피를 마셔요}.|Tôi uống cà phê ở quán cà phê.
+책을 읽다|도서관에서 {책을 읽어요}.|Tôi đọc sách ở thư viện.
+도서관|{도서관}에서 책을 읽어요.|Tôi đọc sách ở thư viện.
+집|저는 {집}에서 자요.|Tôi ngủ ở nhà.
+백화점|{백화점}에서 옷을 사요.|Tôi mua quần áo ở cửa hàng bách hóa.
+시장|{시장}에서 고기를 사요.|Tôi mua thịt ở chợ.
+공원|{공원}에서 운동해요.|Tôi tập thể dục ở công viên.
+커피숍|{커피숍}에서 커피를 마셔요.|Tôi uống cà phê ở quán cà phê.
+극장|{극장}에서 영화를 봐요.|Tôi xem phim ở rạp.
+학교|학생이 {학교}에 가요.|Học sinh đi đến trường.
+식당|{식당}에서 불고기를 먹어요.|Tôi ăn bulgogi ở nhà hàng.
+회사|아버지는 {회사}에서 일해요.|Bố làm việc ở công ty.
+지금|{지금} 학교에 가요.|Bây giờ tôi đi đến trường.
+쉬다|집에서 {쉬어요}.|Tôi nghỉ ngơi ở nhà.
+피자|{피자}를 먹어요.|Tôi ăn bánh pizza.
+오늘|{오늘} 친구를 만나요.|Hôm nay tôi gặp bạn.
+고기|{고기}를 먹어요.|Tôi ăn thịt.
+드라마|{드라마}를 봐요.|Tôi xem phim truyền hình.
+일본어|저는 {일본어}를 공부해요.|Tôi học tiếng Nhật.
+프랑스어|{프랑스어}를 배워요.|Tôi học tiếng Pháp.
+한국어|저는 {한국어}를 공부해요.|Tôi học tiếng Hàn.
+스포츠 센터|{스포츠 센터}에서 운동해요.|Tôi tập thể dục ở trung tâm thể thao.
+불고기|{불고기}를 먹어요.|Tôi ăn bulgogi.
+그리고|공부해요. {그리고} 운동해요.|Tôi học. Và tôi tập thể dục.
+그럼|{그럼} 같이 가요.|Vậy thì cùng đi nhé.
+가르치다|선생님이 한국어를 {가르쳐요}.|Cô giáo dạy tiếng Hàn.
+어디|{어디}에서 공부해요?|Bạn học ở đâu?
+사다|시장에서 옷을 {사요}.|Tôi mua quần áo ở chợ.
+먹다|식당에서 밥을 {먹어요}.|Tôi ăn cơm ở nhà hàng.
+마시다|커피숍에서 커피를 {마셔요}.|Tôi uống cà phê ở quán cà phê.
+읽다|도서관에서 책을 {읽어요}.|Tôi đọc sách ở thư viện.
+보다|극장에서 영화를 {봐요}.|Tôi xem phim ở rạp.
+배우다|저는 한국어를 {배워요}.|Tôi học tiếng Hàn.
+만나다|공원에서 친구를 {만나요}.|Tôi gặp bạn ở công viên.
+요리|저는 {요리}를 해요.|Tôi nấu ăn.
+아르바이트하다|저는 식당에서 {아르바이트해요}.|Tôi làm thêm ở nhà hàng.
+언어교육원|저는 {언어교육원}에서 한국어를 공부해요.|Tôi học tiếng Hàn ở viện đào tạo ngôn ngữ.
+## 4
+공항|{공항}에서 친구를 만나요.|Tôi gặp bạn ở sân bay.
+우체국|{우체국}이 어디예요?|Bưu điện ở đâu?
+대사관|{대사관}이 어디에 있어요?|Đại sứ quán ở đâu?
+은행|{은행}이 학교 옆에 있어요.|Ngân hàng ở bên cạnh trường.
+가게|{가게}에서 우유를 사요.|Tôi mua sữa ở cửa hàng.
+약국|{약국}이 병원 앞에 있어요.|Hiệu thuốc ở trước bệnh viện.
+병원|{병원}은 약국 옆에 있어요.|Bệnh viện ở bên cạnh hiệu thuốc.
+미용실|{미용실}에 가요.|Tôi đi đến tiệm cắt tóc.
+앞|은행 {앞}에 있어요.|Ở phía trước ngân hàng.
+뒤|학교 {뒤}에 공원이 있어요.|Phía sau trường có công viên.
+옆|병원 {옆}에 약국이 있어요.|Bên cạnh bệnh viện có hiệu thuốc.
+안|가방 {안}에 책이 있어요.|Trong cặp có sách.
+위|책상 {위}에 컴퓨터가 있어요.|Trên bàn có máy vi tính.
+아래|의자 {아래}에 가방이 있어요.|Dưới ghế có cái cặp.
+여기|{여기}가 학교예요.|Ở đây là trường học.
+저기|{저기}가 은행이에요.|Ở kia là ngân hàng.
+거기|{거기}에 뭐가 있어요?|Ở đó có gì?
+교실|{교실}에 학생이 있어요.|Trong phòng học có học sinh.
+찻집|{찻집}에서 차를 마셔요.|Tôi uống trà ở quán trà.
+서울|저는 {서울}에 있어요.|Tôi ở Seoul.
+시내|{시내}에서 쇼핑해요.|Tôi mua sắm ở trung tâm thành phố.
+구경하다|명동에서 {구경해요}.|Tôi ngắm cảnh ở Myeongdong.
+쇼핑하다|백화점에서 {쇼핑해요}.|Tôi mua sắm ở cửa hàng bách hóa.
+연극|대학로에서 {연극}을 봐요.|Tôi xem kịch ở Daehakro.
+맥주|저는 {맥주}를 마셔요.|Tôi uống bia.
+고마워요|친구, {고마워요}.|Cảm ơn bạn.
+어머니|{어머니}는 집에 있어요.|Mẹ ở nhà.
+아버지|{아버지}는 회사에 있어요.|Bố ở công ty.
+기숙사|저는 {기숙사}에 있어요.|Tôi ở ký túc xá.
+사진|공원에서 {사진}을 찍어요.|Tôi chụp ảnh ở công viên.
+매일|{매일} 도서관에 가요.|Ngày nào tôi cũng đến thư viện.
+사랑하다|저는 가족을 {사랑해요}.|Tôi yêu gia đình.
+반|우리 {반}에 학생이 있어요.|Lớp chúng tôi có học sinh.
+인사동|{인사동}에서 사진을 찍어요.|Tôi chụp ảnh ở Insadong.
+명동|{명동}에서 쇼핑해요.|Tôi mua sắm ở Myeongdong.
+남산|{남산}에 가요.|Tôi đi núi Namsan.
+청계천|{청계천}에서 산책해요.|Tôi đi dạo ở suối Cheonggyecheon.
+## 5
+월요일|{월요일}에 학교에 가요.|Thứ Hai tôi đi đến trường.
+화요일|{화요일}에 친구를 만나요.|Thứ Ba tôi gặp bạn.
+수요일|{수요일}에 운동해요.|Thứ Tư tôi tập thể dục.
+목요일|{목요일}에 한국어 수업이 있어요.|Thứ Năm có giờ tiếng Hàn.
+금요일|{금요일}에 영화를 봐요.|Thứ Sáu tôi xem phim.
+토요일|{토요일}에 쇼핑해요.|Thứ Bảy tôi đi mua sắm.
+일요일|{일요일}에 집에서 쉬어요.|Chủ nhật tôi nghỉ ngơi ở nhà.
+어제|{어제} 친구를 만났어요.|Hôm qua tôi đã gặp bạn.
+오늘|{오늘}은 금요일이에요.|Hôm nay là thứ Sáu.
+내일|{내일}은 토요일이에요.|Ngày mai là thứ Bảy.
+생일|{생일}이 언제예요?|Sinh nhật bạn là khi nào?
+주말|{주말}에 뭐 해요?|Cuối tuần bạn làm gì?
+언제|{언제} 만나요?|Khi nào chúng ta gặp nhau?
+시험|{시험}이 있어요.|Có kỳ thi.
+선물|친구 {선물}을 사요.|Tôi mua quà cho bạn.
+수영|저는 {수영}을 해요.|Tôi bơi lội.
+수영하다|주말에 {수영해요}.|Cuối tuần tôi đi bơi.
+방학|{방학}에 집에 가요.|Kỳ nghỉ tôi về nhà.
+휴가|내일부터 {휴가}예요.|Từ ngày mai là kỳ nghỉ phép.
+약속|친구와 {약속}이 있어요.|Tôi có hẹn với bạn.
+같이|친구와 {같이} 영화를 봐요.|Tôi xem phim cùng bạn.
+혼자|저는 {혼자} 밥을 먹어요.|Tôi ăn cơm một mình.
+산책하다|공원에서 {산책해요}.|Tôi đi dạo ở công viên.
+세수하다|아침에 {세수해요}.|Buổi sáng tôi rửa mặt.
+수업|오늘 {수업}이 있어요.|Hôm nay có giờ học.
+파티|토요일에 {파티}가 있어요.|Thứ Bảy có bữa tiệc.
+크리스마스|{크리스마스}에 선물을 사요.|Giáng sinh tôi mua quà.
+설날|{설날}에 떡국을 먹어요.|Ngày Tết tôi ăn súp bánh tteok.
+떡국|설날에 {떡국}을 먹어요.|Ngày Tết tôi ăn súp bánh tteok.
+이번 주|{이번 주} 토요일에 파티가 있어요.|Thứ Bảy tuần này có bữa tiệc.
+다음 주|{다음 주}에 시험이 있어요.|Tuần sau có kỳ thi.
+지난 주|{지난 주}에 친구를 만났어요.|Tuần trước tôi đã gặp bạn.
+계획|주말 {계획}이 있어요.|Tôi có kế hoạch cuối tuần.
+부엌|{부엌}에서 요리해요.|Tôi nấu ăn ở nhà bếp.
+휴일|일요일은 {휴일}이에요.|Chủ nhật là ngày nghỉ.
+십이월|{십이월}에 크리스마스가 있어요.|Tháng 12 có Giáng sinh.
+## 6
+음식|한국 {음식}을 좋아해요.|Tôi thích món ăn Hàn Quốc.
+갈비탕|{갈비탕}을 주세요.|Cho tôi canh sườn.
+김밥|{김밥}을 먹어요.|Tôi ăn cơm cuộn.
+김치|{김치}는 매워요.|Kim chi thì cay.
+김치찌개|{김치찌개}를 먹어요.|Tôi ăn canh kim chi.
+냉면|여름에 {냉면}을 먹어요.|Mùa hè tôi ăn mì lạnh.
+라면|저는 {라면}을 좋아해요.|Tôi thích mì tôm.
+비빔밥|{비빔밥}을 주세요.|Cho tôi cơm trộn.
+샌드위치|점심에 {샌드위치}를 먹어요.|Bữa trưa tôi ăn bánh sandwich.
+스파게티|{스파게티}를 좋아해요.|Tôi thích mì Ý.
+햄버거|{햄버거}를 먹어요.|Tôi ăn hăm bơ gơ.
+귤|겨울에 {귤}을 먹어요.|Mùa đông tôi ăn quýt.
+수박|여름에 {수박}을 먹어요.|Mùa hè tôi ăn dưa hấu.
+앉다|여기에 {앉아요}.|Tôi ngồi ở đây.
+주다|물 좀 {주세요}.|Xin cho tôi chút nước.
+아이스크림|{아이스크림}을 먹어요.|Tôi ăn kem.
+메뉴|{메뉴} 주세요.|Cho tôi thực đơn.
+좋아하다|저는 김치를 {좋아해요}.|Tôi thích kim chi.
+싫어하다|저는 맥주를 {싫어해요}.|Tôi không thích bia.
+맥주|{맥주}를 주세요.|Cho tôi bia.
+싸다|시장은 {싸요}.|Chợ thì rẻ.
+복잡하다|명동은 {복잡해요}.|Myeongdong thì đông đúc.
+점심|{점심}에 김밥을 먹어요.|Bữa trưa tôi ăn cơm cuộn.
+정말|{정말} 맛있어요.|Thật là ngon.
+깨끗하다|방이 {깨끗해요}.|Phòng sạch sẽ.
+## 7
+흐리다|오늘은 날씨가 {흐려요}.|Hôm nay trời âm u.
+맑다|하늘이 {맑아요}.|Bầu trời trong xanh.
+덥다|여름에는 {더워요}.|Mùa hè thì nóng.
+춥다|겨울에는 {추워요}.|Mùa đông thì lạnh.
+따뜻하다|봄에는 {따뜻해요}.|Mùa xuân thì ấm áp.
+시원하다|가을에는 {시원해요}.|Mùa thu thì mát mẻ.
+비가 오다|오늘은 {비가 와요}.|Hôm nay trời mưa.
+눈이 오다|겨울에 {눈이 와요}.|Mùa đông tuyết rơi.
+계절|한국에는 {계절}이 네 개 있어요.|Hàn Quốc có bốn mùa.
+봄|{봄}에는 꽃이 예뻐요.|Mùa xuân hoa đẹp.
+여름|{여름}은 더워요.|Mùa hè thì nóng.
+가을|{가을}에는 단풍이 예뻐요.|Mùa thu lá phong đẹp.
+겨울|{겨울}에는 눈이 와요.|Mùa đông tuyết rơi.
+쉽다|한국어가 {쉬워요}.|Tiếng Hàn dễ.
+어렵다|시험이 {어려워요}.|Kỳ thi khó.
+맵다|김치가 {매워요}.|Kim chi cay.
+가볍다|가방이 {가벼워요}.|Cái cặp nhẹ.
+무겁다|가방이 {무거워요}.|Cái cặp nặng.
+날씨|오늘 {날씨}가 어때요?|Hôm nay thời tiết thế nào?
+어때요|한국 날씨가 {어때요}?|Thời tiết Hàn Quốc thế nào?
+재미있다|한국 드라마가 {재미있어요}.|Phim Hàn Quốc thú vị.
+동생|제 {동생}은 학생이에요.|Em tôi là học sinh.
+재미없다|그 영화는 {재미없어요}.|Bộ phim đó nhàm chán.
+도쿄|{도쿄}는 일본에 있어요.|Tokyo ở Nhật Bản.
+런던|{런던}은 영국에 있어요.|Luân Đôn ở nước Anh.
+싱가포르|{싱가포르}는 날씨가 더워요.|Singapore thời tiết nóng.
+모스크바|{모스크바}는 러시아에 있어요.|Moscow ở nước Nga.
+파리|{파리}는 프랑스에 있어요.|Paris ở nước Pháp.
+뉴욕|{뉴욕}은 미국에 있어요.|New York ở nước Mỹ.
+베이징|{베이징}은 중국에 있어요.|Bắc Kinh ở Trung Quốc.
+부산|{부산}에는 바다가 있어요.|Busan có biển.
+요즘|{요즘} 날씨가 추워요.|Dạo này trời lạnh.
+고향|제 {고향}은 부산이에요.|Quê tôi là Busan.
+스키장|겨울에 {스키장}에 가요.|Mùa đông tôi đến sân trượt tuyết.
+단풍|가을에 {단풍}이 예뻐요.|Mùa thu lá phong đẹp.
+수영장|{수영장}에서 수영해요.|Tôi bơi ở bể bơi.
+꽃|{꽃}이 예뻐요.|Hoa đẹp.
+바다|여름에 {바다}에 가요.|Mùa hè tôi ra biển.
+생선|{생선}을 먹어요.|Tôi ăn cá.
+작년|{작년}에 한국에 왔어요.|Năm ngoái tôi đã đến Hàn Quốc.
+항상|{항상} 학교에 가요.|Lúc nào tôi cũng đi đến trường.
+처음|한국은 {처음}이에요.|Hàn Quốc là lần đầu tiên.
+하늘|{하늘}이 맑아요.|Bầu trời trong xanh.
+눈사람|겨울에 {눈사람}을 만들어요.|Mùa đông tôi làm người tuyết.
+이야기하다|친구와 {이야기해요}.|Tôi nói chuyện với bạn.
+조심해서 오세요|{조심해서 오세요}.|Đi cẩn thận nhé.
+## 8
+테니스|저는 {테니스}를 쳐요.|Tôi chơi quần vợt.
+골프|아버지는 {골프}를 쳐요.|Bố chơi gôn.
+피아노|동생은 {피아노}를 쳐요.|Em tôi chơi piano.
+낮잠을 자다|주말에 {낮잠을 자요}.|Cuối tuần tôi ngủ trưa.
+취미|제 {취미}는 독서예요.|Sở thích của tôi là đọc sách.
+독서|제 취미는 {독서}예요.|Sở thích của tôi là đọc sách.
+영화 감상|제 취미는 {영화 감상}이에요.|Sở thích của tôi là xem phim.
+음악 감상|제 취미는 {음악 감상}이에요.|Sở thích của tôi là nghe nhạc.
+컴퓨터 게임|동생은 {컴퓨터 게임}을 좋아해요.|Em tôi thích chơi trò chơi máy tính.
+등산|주말에 {등산}을 해요.|Cuối tuần tôi leo núi.
+낚시|바다에서 {낚시}를 해요.|Tôi câu cá ở biển.
+여행|방학에 {여행}을 해요.|Kỳ nghỉ tôi đi du lịch.
+사진 촬영|제 취미는 {사진 촬영}이에요.|Sở thích của tôi là chụp ảnh.
+드라이브|주말에 {드라이브}를 해요.|Cuối tuần tôi lái xe đi dạo.
+수영|수영장에서 {수영}을 해요.|Tôi bơi ở bể bơi.
+축구|운동장에서 {축구}를 해요.|Tôi đá bóng ở sân vận động.
+야구|저는 {야구}를 좋아해요.|Tôi thích bóng chày.
+농구|저는 {농구}를 잘해요.|Tôi chơi bóng rổ giỏi.
+배구|{배구}를 해요.|Tôi chơi bóng chuyền.
+자전거를 타다|공원에서 {자전거를 타요}.|Tôi đi xe đạp ở công viên.
+스키를 타다|겨울에 {스키를 타요}.|Mùa đông tôi trượt tuyết.
+스케이트를 타다|겨울에 {스케이트를 타요}.|Mùa đông tôi trượt băng.
+노래|노래방에서 {노래}를 해요.|Tôi hát ở quán karaoke.
+춤|친구는 {춤}을 잘 춰요.|Bạn tôi nhảy giỏi.
+그림|저는 {그림}을 그려요.|Tôi vẽ tranh.
+요리|저는 {요리}를 잘해요.|Tôi nấu ăn giỏi.
+자주|{자주} 도서관에 가요.|Tôi thường đến thư viện.
+가끔|{가끔} 영화를 봐요.|Thỉnh thoảng tôi xem phim.
+항상|{항상} 운동을 해요.|Lúc nào tôi cũng tập thể dục.
+전혀|저는 운동을 {전혀} 안 해요.|Tôi hoàn toàn không tập thể dục.
+별로|저는 골프를 {별로} 안 좋아해요.|Tôi không thích gôn lắm.
+잘하다|동생은 농구를 {잘해요}.|Em tôi chơi bóng rổ giỏi.
+못하다|저는 수영을 {못해요}.|Tôi bơi kém.
+보통|{보통} 집에서 쉬어요.|Thông thường tôi nghỉ ngơi ở nhà.
+주말|{주말}에 등산을 해요.|Cuối tuần tôi leo núi.
+평일|{평일}에는 학교에 가요.|Ngày thường tôi đi đến trường.
+매일|{매일} 운동을 해요.|Ngày nào tôi cũng tập thể dục.
+시간 있다|내일 {시간이 있어요}?|Ngày mai bạn có thời gian không?
+시간 없다|오늘은 {시간이 없어요}.|Hôm nay tôi không có thời gian.
+약속|토요일에 {약속}이 있어요.|Thứ Bảy tôi có hẹn.
+같이|{같이} 영화를 봐요.|Cùng xem phim nhé.
+영화관|{영화관}에서 영화를 봐요.|Tôi xem phim ở rạp chiếu phim.
+헬스클럽|{헬스클럽}에서 운동해요.|Tôi tập thể dục ở phòng gym.
+운동장|{운동장}에서 축구를 해요.|Tôi đá bóng ở sân vận động.
+동호회|저는 등산 {동호회}에 있어요.|Tôi ở câu lạc bộ leo núi.
+시작하다|수업이 {시작해요}.|Giờ học bắt đầu.
+끝나다|수업이 {끝나요}.|Giờ học kết thúc.
+가르치다|선생님이 {가르쳐요}.|Cô giáo dạy học.
+배우다|저는 피아노를 {배워요}.|Tôi học piano.
+노래방|{노래방}에서 노래를 해요.|Tôi hát ở quán karaoke.

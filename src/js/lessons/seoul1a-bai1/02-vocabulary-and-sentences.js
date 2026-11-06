@@ -14,4 +14,4 @@ S.push(["사람","이 {사람}은 선생님이에요.","Người này là giáo 
 
 app=$("#app");
 const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
-if(META&&META.words){W=META.words;S=[]}
+if(META&&META.words){W=META.words;S=META.sents||[]}
