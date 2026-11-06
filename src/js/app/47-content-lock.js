@@ -46,6 +46,7 @@
       if (!free && !hasCourse(code)) { lockWith(code); return; }
       const grp = (BOOK_CATALOG[code] || [])[g];
       if (free && code === "ko" && grp && grp[0] === "Seoul Korean" && typeof window.__s1aOpen === "function") { window.__s1aOpen(); return; }
+      if (typeof openVocabLesson === "function" && openVocabLesson(code, g, v, l)) return;
       if (free) { ui.libVol = { code, g, v }; openModal(libFreeModal); return; }
       toast("📚 Bài này thuộc Premium và đã mở cho bạn — nội dung đang được cập nhật.");
     }

@@ -48,7 +48,7 @@ everest(){const G=17;let pos=0,tries=1,best=0,pool=[],bag=[];
   later(()=>{show("#kiss",false);$("#vic").classList.remove("show");show("#pw",false);show("#rp",true);$("#st").textContent="🐎 Cùng nhau cưỡi ngựa xuống núi";ch.dataset.u=1;
    const ev=setInterval(()=>{if(gen!==g0){clearInterval(ev);return}snd("clop");const u=parseFloat(ch.dataset.u||1),[x,y]=P(u);heart(x-40,y-200*SC(u),rn(30,46),1.7)},330);
    slide(1,0,6500,()=>{clearInterval(ev);ci.classList.remove("run");trail(0);endCard()},"run",false,u=>{ch.dataset.u=u})},6700)};
- const nq=()=>{if(!bag.length)bag=shuf(["mc","type","fill","listen"]);const k=bag.pop();if(!pool.length)pool=shuf(W);const w=pool.pop();return[k,w]};
+ const nq=()=>{if(!bag.length)bag=shuf(META&&META.noType?["mc"]:SW.length?["mc","type","fill","listen"]:["mc","type","listen"]);const k=bag.pop();if(!pool.length)pool=shuf(W);const w=pool.pop();return[k,w]};
  const q=()=>{const[k,w]=nq();st();bubble();
   runQ($("#bx"),k,w,res=>{
    if(res){pos++;best=Math.max(best,pos);snd("step",pos);st();bubble();trail(U(pos));slide(U(pos-1),U(pos),780,()=>{if(pos>=G){win();return}q()},"run")}

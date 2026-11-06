@@ -125,6 +125,10 @@
    ]
   },
   {
+   "vocab": "data/vocab/index.json",
+   "attrs": " id=\"windtp-vocab\""
+  },
+  {
    "script": [
     "js/app/01-data-languages.js",
     "js/app/02-data-config-courses-seeds.js",
@@ -173,7 +177,8 @@
     "js/app/45-social-tick-and-chat.js",
     "js/app/46-chat-and-friends-cards.js",
     "js/app/47-content-lock.js",
-    "js/app/48-card-game-launcher.js"
+    "js/app/48-card-game-launcher.js",
+    "js/app/49-vocab-lessons.js"
    ],
    "prefix": "\n\"use strict\";\n(() => {\n",
    "suffix": "})();\n\n",

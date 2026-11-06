@@ -3,7 +3,7 @@
  */
 
 (()=>{
-let host=null,root=null,app=null,stopAll=()=>{},routeFn=null,pendingRoute=null;
+let META=null,host=null,root=null,app=null,stopAll=()=>{},routeFn=null,pendingRoute=null;
 const $=s=>root.querySelector(s);
 const SHELL="<style>:host{display:block;position:fixed;inset:0;z-index:70;--bg:#f0f9ff;--card:rgba(255,255,255,.88);--tx:#1e293b;--mut:#64748b;--pri:#0284c7;--ok:#059669;--bad:#e11d48;--bd:#e2e8f0;font-family:Inter,system-ui,\"Noto Sans KR\",\"Malgun Gothic\",sans-serif}\
 \n:host([data-dark]){--bg:#0b1220;--card:rgba(30,41,59,.84);--tx:#e2e8f0;--mut:#94a3b8;--pri:#38bdf8;--ok:#34d399;--bad:#fb7185;--bd:#334155}\

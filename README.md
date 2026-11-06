@@ -161,3 +161,13 @@ dist/index.html             Kết quả build
 ## Ghi chú
 
 - Phần JS ban đầu là bản đã biên dịch (esbuild, các mốc `// src/*.ts` vẫn còn trong code) nên không có mã nguồn TypeScript gốc; các file ở đây là JavaScript. Chuyển sang TypeScript/ES module là việc làm riêng, sau khi phần tách file này ổn định.
+
+## Bài học tự động từ danh sách từ vựng
+
+- Dữ liệu: `src/data/vocab/**` (từ file Excel trong thư mục HÀN) – xem `src/data/vocab/index.json`.
+- `scripts/build.mjs` gộp dữ liệu thành `window.WINDTP_VOCAB` (mục `"vocab"` trong `src/manifest.json`).
+- `src/js/app/49-vocab-lessons.js`: làm sạch từ, tạo phiên âm (RR theo âm tiết) và gọi `window.__lessonOpen(...)`.
+- `src/js/lessons/seoul1a-bai1/*`: bộ bài học dùng chung (flashcard, trắc nghiệm, gõ từ, nghe, ghép cặp, giải cứu công chúa).
+  Bài 1 Seoul 1A giữ bản làm tay (có câu mẫu + Đọc hiểu + Thách đấu); các bài khác chạy từ dữ liệu.
+- Ngữ pháp: chỉ có Flashcard / Trắc nghiệm / Ghép cặp / Giải cứu công chúa (không gõ/nghe vì mẫu câu có ký hiệu).
+- Quyển không có dữ liệu (Yonsei Reading/Listening) để trống.

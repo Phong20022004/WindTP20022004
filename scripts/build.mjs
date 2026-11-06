@@ -48,11 +48,33 @@ function render(items, base, ctx) {
       out += `<style${it.attrs ?? ""}>${readParts(base, it.style)}</style>${after}`;
     } else if (it.script !== undefined) {
       out += `<script${it.attrs ?? ""}>${it.prefix ?? ""}${readParts(base, it.script)}${it.suffix ?? ""}</script>${after}`;
+    } else if (it.vocab !== undefined) {
+      out += `<script${it.attrs ?? ""}>window.WINDTP_VOCAB=${JSON.stringify(buildVocab(base, it.vocab))};</script>${after}`;
     } else if (it.game !== undefined) {
       out += renderGame(it, base, ctx) + after;
     } else {
       throw new Error("Mục manifest không hợp lệ: " + JSON.stringify(it).slice(0, 120));
     }
+  }
+  return out;
+}
+
+/**
+ * Gộp src/data/vocab/**.json thành window.WINDTP_VOCAB = { "ko|<nhóm>|<chỉ số quyển>": [{no,title,words:[[ko,vi]…]}…] }.
+ * Thứ tự quyển lấy theo index.json (khớp BOOK_CATALOG trong app). Ngữ pháp: [mẫu câu, công dụng].
+ */
+function buildVocab(base, rel) {
+  const idx = JSON.parse(read(base, rel)), dir = dirname(join(base, rel)), out = {};
+  for (const g of idx.groups) {
+    g.volumes.forEach((v, i) => {
+      if (v.status !== "ready") return;
+      const d = JSON.parse(readFileSync(join(dir, v.file), "utf8"));
+      const kind = d.lessonKind === "bộ từ" ? "Bộ từ" : d.lessonKind === "chương" ? "Chương" : "Bài";
+      out[`ko|${g.appGroup}|${i}`] = d.lessons.map((l) => ({
+        no: l.lesson, title: `${kind} ${l.lesson}`, kind,
+        words: l.words.map((w) => (d.type === "grammar" ? [w.pattern, w.use] : [w.ko, w.vi])),
+      }));
+    });
   }
   return out;
 }

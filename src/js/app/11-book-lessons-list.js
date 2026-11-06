@@ -29,7 +29,10 @@
   function lessonsOf(code, gi, vi) {
     const g = (BOOK_CATALOG[code] || [])[gi];
     const d = g && BOOK_LESSONS[code + "|" + g[0]];
-    return (d && d[vi]) || [];
+    const titles = (d && d[vi]) || [], vl = typeof vocabLessonsOf === "function" ? vocabLessonsOf(code, gi, vi) : [];
+    if (!vl.length) return titles;
+    // quyển có dữ liệu từ vựng: mỗi bài hiện đúng số bài trong sách; có tên riêng thì dùng tên đó
+    return vl.map((L, i) => [titles[i] ? titles[i][0] : L.words.length + " từ vựng", titles[i] ? titles[i][1] : "", L.no, L.kind]);
   }
   function renderLessonList(lang) {
     const v = ui.libVol;
@@ -43,7 +46,7 @@
       const free = freeVol && li === 0, open = free || owned;
       const pill = free ? '<span class="ls-pill free">🆓 MIỄN PHÍ</span>' : open ? '<span class="ls-pill open">👑 PREMIUM · ĐÃ MỞ</span>' : '<span class="ls-pill lock">🔒 PREMIUM</span>';
       const feat = isSeoul1 && li === 0 ? '<p class="ls-feat">Từ vựng · Flashcard · Trắc nghiệm · Luyện nghe · Trò chơi</p>' : "";
-      return `<button type="button" data-action="lesson-open" data-code="${lang.code}" data-g="${v.g}" data-v="${v.v}" data-l="${li}" class="ls-row" aria-label="Bài ${li + 1}: ${esc(l[0])}"><span class="ls-no" style="--ls-bg:${bg}">${li + 1}</span><span class="ls-body"><p class="ls-name">Bài ${li + 1} · ${esc(l[0])}</p><p class="ls-en">${esc(l[1])}</p>${feat}${pill}</span><span class="ls-go" aria-hidden="true">${open ? "▶" : "🔒"}</span></button>`;
+      return `<button type="button" data-action="lesson-open" data-code="${lang.code}" data-g="${v.g}" data-v="${v.v}" data-l="${li}" class="ls-row" aria-label="${l[3] || "Bài"} ${l[2] || li + 1}: ${esc(l[0])}"><span class="ls-no" style="--ls-bg:${bg}">${l[2] || li + 1}</span><span class="ls-body"><p class="ls-name">${l[3] || "Bài"} ${l[2] || li + 1} · ${esc(l[0])}</p><p class="ls-en">${esc(l[1])}</p>${feat}${pill}</span><span class="ls-go" aria-hidden="true">${open ? "▶" : "🔒"}</span></button>`;
     };
     let body;
     if (list.length) body = `<div class="ls-list">${list.map(rowHtml).join("")}</div>`;
