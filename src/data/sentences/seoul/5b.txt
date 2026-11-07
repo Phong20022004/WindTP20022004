@@ -1,0 +1,300 @@
+# Câu mẫu (đọc hiểu) Seoul Korean 5B.
+## 7
+가전제품|{가전제품} 가게에서 냉장고를 샀어요.|Tôi mua tủ lạnh ở cửa hàng đồ gia dụng.
+경기가 회복되다|올해는 {경기가 회복되고} 있어요.|Năm nay kinh tế đang phục hồi.
+경제면|아버지는 신문의 {경제면}을 먼저 읽으세요.|Bố tôi đọc trang kinh tế của tờ báo trước.
+경제지|{경제지}에는 주식 기사가 많아요.|Báo kinh tế có nhiều bài về cổ phiếu.
+계간지|그 잡지는 {계간지}라서 일 년에 네 번 나와요.|Tạp chí đó phát hành theo quý nên một năm ra bốn số.
+고려하다|여러 가지 조건을 {고려해서} 결정했어요.|Tôi đã quyết định sau khi cân nhắc nhiều điều kiện.
+고유가|{고유가} 때문에 교통비가 많이 들어요.|Vì giá dầu cao nên tốn nhiều chi phí đi lại.
+과식하다|어제 {과식해서} 배가 아파요.|Hôm qua tôi ăn quá nhiều nên đau bụng.
+국제면|{국제면}에서 외국 소식을 읽어요.|Tôi đọc tin nước ngoài ở trang quốc tế.
+꾸준히|매일 {꾸준히} 운동해요.|Tôi tập thể dục đều đặn mỗi ngày.
+대비|작년 {대비} 매출이 늘었어요.|So với năm ngoái doanh số đã tăng.
+대중 매체|{대중 매체}는 우리 생활에 영향을 줘요.|Phương tiện đại chúng ảnh hưởng đến cuộc sống của chúng ta.
+들이받다|차가 가로수를 {들이받았어요}.|Chiếc xe đã tông vào cây ven đường.
+매출|이번 달 {매출}이 많이 올랐어요.|Doanh số tháng này đã tăng nhiều.
+매출액|회사의 {매출액}을 발표했어요.|Đã công bố doanh thu của công ty.
+문화면|{문화면}에서 영화 소식을 봤어요.|Tôi đọc tin phim ở trang văn hóa.
+물가가 인상되다|요즘 {물가가 인상돼서} 힘들어요.|Dạo này giá cả tăng nên vất vả.
+반문하다|그 사람은 왜냐고 {반문했어요}.|Người đó hỏi ngược lại là vì sao.
+본문|{본문}을 읽고 질문에 답하세요.|Hãy đọc bài khóa rồi trả lời câu hỏi.
+부문|그 회사는 여러 {부문}으로 나뉘어 있어요.|Công ty đó được chia thành nhiều bộ phận.
+분기|이번 {분기}에는 이익이 늘었어요.|Quý này lợi nhuận đã tăng.
+불황|{불황} 때문에 가게가 문을 닫았어요.|Vì suy thoái nên cửa hàng đã đóng cửa.
+비만|{비만}은 건강에 안 좋아요.|Béo phì không tốt cho sức khỏe.
+빙판|{빙판} 길에서 넘어졌어요.|Tôi bị ngã trên đường đóng băng.
+사설|신문 {사설}을 읽고 의견을 썼어요.|Tôi đọc xã luận của báo rồi viết ý kiến.
+사회면|{사회면}에는 사건 기사가 많아요.|Trang xã hội có nhiều bài về vụ việc.
+상반기|{상반기}에는 해외 출장이 많았어요.|Nửa đầu năm tôi đi công tác nước ngoài nhiều.
+생필품|{생필품} 가격이 올랐어요.|Giá nhu yếu phẩm đã tăng.
+선보이다|그 회사는 새 제품을 {선보였어요}.|Công ty đó đã ra mắt sản phẩm mới.
+스포츠면|동생은 {스포츠면}만 읽어요.|Em tôi chỉ đọc trang thể thao.
+신제품|{신제품}이 다음 주에 나와요.|Sản phẩm mới tuần sau ra mắt.
+실업률|{실업률}이 조금 내렸어요.|Tỷ lệ thất nghiệp đã giảm chút ít.
+연예면|{연예면}에서 가수 소식을 봤어요.|Tôi đọc tin ca sĩ ở trang giải trí.
+월간지|저는 {월간지}를 구독해요.|Tôi đặt mua tạp chí hàng tháng.
+유기농|{유기농} 채소는 조금 비싸요.|Rau hữu cơ hơi đắt.
+일간지|{일간지}는 매일 나와요.|Báo ngày phát hành hằng ngày.
+자취하다|대학교 근처에서 {자취해요}.|Tôi sống tự lập gần trường đại học.
+저렴하다|이 가게는 가격이 {저렴해요}.|Cửa hàng này giá rẻ.
+적자가 나다|올해 회사에 {적자가 났어요}.|Năm nay công ty bị thua lỗ.
+정치면|{정치면}에는 선거 기사가 있어요.|Trang chính trị có bài về bầu cử.
+주간지|{주간지}는 일주일에 한 번 나와요.|Tuần san một tuần ra một lần.
+침착하다|사고가 나도 {침착해야} 해요.|Dù xảy ra tai nạn cũng phải bình tĩnh.
+폭우|{폭우} 때문에 길이 막혔어요.|Vì mưa lớn nên đường bị tắc.
+흑자가 나다|이번 달에는 {흑자가 났어요}.|Tháng này có lãi.
+환율|요즘 {환율}이 많이 올랐어요.|Dạo này tỷ giá đã tăng nhiều.
+## 8
+굴뚝|집 {굴뚝}에서 연기가 나요.|Khói bốc ra từ ống khói nhà.
+단독 주택|저는 마당이 있는 {단독 주택}에 살고 싶어요.|Tôi muốn sống trong nhà riêng có sân.
+대문|{대문} 앞에서 친구를 기다렸어요.|Tôi đợi bạn trước cổng nhà.
+대청마루|여름에는 {대청마루}에서 낮잠을 자요.|Mùa hè tôi ngủ trưa ở sảnh gỗ.
+마당|아이들이 {마당}에서 놀아요.|Bọn trẻ chơi ở sân.
+미지근하다|물이 {미지근해서} 마시기 좋아요.|Nước âm ấm nên uống rất dễ.
+배탈이 나다|찬 음식을 먹고 {배탈이 났어요}.|Tôi ăn đồ lạnh nên bị đau bụng.
+서재|아버지는 {서재}에서 책을 읽으세요.|Bố đọc sách trong phòng làm việc.
+습하다|장마철에는 날씨가 {습해요}.|Mùa mưa thời tiết ẩm ướt.
+썰렁하다|난방을 안 해서 방이 {썰렁해요}.|Vì không sưởi nên phòng lạnh lẽo.
+아궁이|할머니는 {아궁이}에 불을 때세요.|Bà nhóm lửa ở bếp lò.
+아늑하다|작은 방이 {아늑해요}.|Căn phòng nhỏ ấm cúng.
+아랫목|겨울에는 {아랫목}이 따뜻해요.|Mùa đông chỗ gần bếp lò ấm áp.
+안방|부모님은 {안방}에서 주무세요.|Bố mẹ ngủ ở phòng chính.
+오손도손|가족이 {오손도손} 이야기해요.|Cả nhà trò chuyện đầm ấm.
+으슬으슬|감기에 걸려서 {으슬으슬} 추워요.|Tôi bị cảm nên rùng mình ớn lạnh.
+장독대|{장독대}에 고추장이 있어요.|Có tương ớt ở chỗ để chum tương.
+한옥|{한옥}에서 하룻밤을 지냈어요.|Tôi đã ở một đêm trong nhà truyền thống Hàn Quốc.
+한지|{한지}로 창문을 만들어요.|Người ta làm cửa sổ bằng giấy Hanji.
+화단|{화단}에 꽃을 심었어요.|Tôi đã trồng hoa ở bồn hoa.
+황토|{황토} 방은 건강에 좋아요.|Phòng đất vàng tốt cho sức khỏe.
+굽다|생선을 {구워서} 먹어요.|Tôi nướng cá để ăn.
+끓이다|저녁에 찌개를 {끓여요}.|Buổi tối tôi nấu canh hầm.
+볶다|양파를 기름에 {볶아요}.|Tôi xào hành tây với dầu.
+삶다|감자를 {삶아서} 먹어요.|Tôi luộc khoai tây để ăn.
+찌다|만두를 {쪄서} 먹었어요.|Tôi đã hấp bánh bao để ăn.
+튀기다|닭고기를 기름에 {튀겨요}.|Tôi rán thịt gà bằng dầu.
+데치다|시금치를 끓는 물에 {데쳐요}.|Tôi chần rau chân vịt trong nước sôi.
+무치다|나물을 양념에 {무쳐요}.|Tôi trộn rau với gia vị.
+다지다|마늘을 곱게 {다져요}.|Tôi băm nhỏ tỏi.
+고소하다|참기름 냄새가 {고소해요}.|Mùi dầu mè béo thơm.
+달콤하다|이 과자는 {달콤해요}.|Bánh này ngọt ngào.
+담백하다|이 국물은 맛이 {담백해요}.|Nước dùng này vị thanh đạm.
+매콤하다|떡볶이가 {매콤해요}.|Bánh gạo cay cay.
+새콤하다|귤이 {새콤해요}.|Quýt chua chua.
+얼큰하다|비 오는 날에는 {얼큰한} 국물이 좋아요.|Ngày mưa thích món canh cay nồng.
+짭짤하다|김치가 {짭짤해요}.|Kimchi mằn mặn.
+양념|불고기 {양념}을 만들어요.|Tôi làm gia vị cho món bulgogi.
+재료|요리 {재료}를 준비해요.|Tôi chuẩn bị nguyên liệu nấu ăn.
+저고리|한복 {저고리}가 예뻐요.|Áo jeogori của Hanbok đẹp.
+치마|한복 {치마}는 길고 넓어요.|Váy Hanbok dài và rộng.
+온돌|한국의 전통 난방은 {온돌}이에요.|Hệ thống sưởi truyền thống của Hàn Quốc là ondol.
+보일러|겨울에는 {보일러}를 켜요.|Mùa đông tôi bật lò sưởi.
+## 9
+강남|{강남}에는 높은 빌딩이 많아요.|Ở Gangnam có nhiều tòa nhà cao.
+강북|저는 {강북}에 살아요.|Tôi sống ở phía bắc sông Hàn.
+개발|도시 {개발}이 빨리 진행돼요.|Việc phát triển đô thị diễn ra nhanh.
+경복궁|{경복궁}은 서울의 대표적인 궁이에요.|Gyeongbokgung là cung điện tiêu biểu của Seoul.
+공공요금|{공공요금}이 올라서 부담이에요.|Phí dịch vụ công tăng nên thấy gánh nặng.
+공존하다|서울에서는 전통과 현대가 {공존해요}.|Ở Seoul truyền thống và hiện đại cùng tồn tại.
+광화문|{광화문} 광장에서 만나요.|Hãy gặp nhau ở quảng trường Gwanghwamun.
+교통 체증|출근 시간에는 {교통 체증}이 심해요.|Giờ đi làm tắc đường nghiêm trọng.
+녹지|도시에 {녹지}가 많아야 해요.|Đô thị cần có nhiều không gian xanh.
+대기 오염|{대기 오염}이 심해서 마스크를 써요.|Ô nhiễm không khí nặng nên tôi đeo khẩu trang.
+대중교통|저는 {대중교통}으로 출근해요.|Tôi đi làm bằng phương tiện công cộng.
+덕수궁|{덕수궁} 돌담길을 걸었어요.|Tôi đã đi bộ trên con đường tường đá Deoksugung.
+도심|{도심}에는 사무실이 많아요.|Ở trung tâm thành phố có nhiều văn phòng.
+문화재|{문화재}를 잘 보존해야 해요.|Phải bảo tồn tốt di sản văn hóa.
+범죄율|이 도시는 {범죄율}이 낮아요.|Thành phố này tỷ lệ tội phạm thấp.
+보존하다|옛 건물을 {보존해요}.|Bảo tồn tòa nhà cổ.
+복원하다|무너진 성곽을 {복원했어요}.|Đã phục dựng tường thành bị sập.
+북촌 한옥마을|{북촌 한옥마을}은 관광객이 많아요.|Làng Hanok Bukchon có nhiều khách du lịch.
+수도권|{수도권}에 인구가 몰려 있어요.|Dân số tập trung ở vùng thủ đô.
+신도시|분당은 서울 근처의 {신도시}예요.|Bundang là thành phố mới gần Seoul.
+안정|생활의 {안정}을 원해요.|Tôi mong muốn cuộc sống ổn định.
+위생|음식점은 {위생}이 중요해요.|Nhà hàng thì vệ sinh rất quan trọng.
+인구 집중|{인구 집중}은 큰 문제예요.|Dân số tập trung là vấn đề lớn.
+치안|한국은 {치안}이 좋은 편이에요.|Hàn Quốc có an ninh khá tốt.
+확보|주차 공간을 {확보}했어요.|Đã đảm bảo chỗ đỗ xe.
+훼손|문화재 {훼손}은 큰 잘못이에요.|Làm hư hại di sản văn hóa là lỗi lớn.
+나들이|주말에 가족과 {나들이}를 갔어요.|Cuối tuần tôi đi dã ngoại với gia đình.
+도보 관광|{도보 관광}으로 시내를 구경했어요.|Tôi tham quan nội thành bằng cách đi bộ.
+돌담길|연인들이 {돌담길}을 걸어요.|Các cặp đôi đi dạo trên con đường tường đá.
+명소|이곳은 서울의 유명한 {명소}예요.|Nơi này là danh thắng nổi tiếng của Seoul.
+소극장|대학로에는 {소극장}이 많아요.|Ở Daehangno có nhiều nhà hát nhỏ.
+성곽|서울 {성곽}을 따라 걸었어요.|Tôi đã đi dọc theo tường thành Seoul.
+야경|남산에서 서울의 {야경}을 봤어요.|Tôi đã ngắm cảnh đêm Seoul từ Namsan.
+연극|친구와 {연극}을 봤어요.|Tôi đã xem kịch với bạn.
+왕조|조선 {왕조}는 오백 년 동안 이어졌어요.|Vương triều Joseon kéo dài năm trăm năm.
+울창하다|산에 나무가 {울창해요}.|Cây trên núi um tùm.
+운치|비 오는 날의 한옥은 {운치}가 있어요.|Nhà Hanok ngày mưa có nét thi vị.
+위치하다|그 궁은 시내 중심에 {위치해요}.|Cung điện đó nằm ở trung tâm thành phố.
+일제 강점기|{일제 강점기}는 힘든 시기였어요.|Thời kỳ Nhật chiếm đóng là giai đoạn khó khăn.
+자취|옛 사람들의 {자취}가 남아 있어요.|Còn lưu lại dấu vết của người xưa.
+정자|공원에 {정자}가 있어요.|Trong công viên có một cái đình.
+조망하다|산 위에서 도시를 {조망해요}.|Tôi ngắm toàn cảnh thành phố từ trên núi.
+지형|이 지역은 {지형}이 험해요.|Khu vực này có địa hình hiểm trở.
+## 10
+간판|가게 {간판}이 눈에 띄어요.|Biển hiệu cửa hàng nổi bật.
+거절하다|부탁을 정중하게 {거절했어요}.|Tôi đã từ chối lời nhờ vả một cách lịch sự.
+경멸하다|거짓말하는 사람을 {경멸해요}.|Tôi khinh miệt người nói dối.
+고민거리|요즘 {고민거리}가 많아요.|Dạo này tôi có nhiều điều trăn trở.
+고백하다|그 사람에게 사랑을 {고백했어요}.|Tôi đã tỏ tình với người đó.
+공손하다|할머니께 {공손하게} 인사해요.|Tôi chào bà một cách lễ phép.
+구별하다|두 단어를 {구별하기} 어려워요.|Khó phân biệt hai từ này.
+귀담아듣다|친구의 충고를 {귀담아들었어요}.|Tôi chăm chú lắng nghe lời khuyên của bạn.
+긍정적|그 사람은 항상 {긍정적}이에요.|Người đó luôn tích cực.
+기분 전환|{기분 전환}을 위해 산책했어요.|Tôi đi dạo để thay đổi tâm trạng.
+꼬집다|문제점을 정확히 {꼬집었어요}.|Anh ấy đã chỉ ra chính xác vấn đề.
+단호하다|그는 {단호하게} 거절했어요.|Anh ấy đã từ chối một cách dứt khoát.
+대인 관계|{대인 관계}가 좋은 사람이에요.|Là người có quan hệ giao tiếp tốt.
+당당하다|그 사람은 언제나 {당당해요}.|Người đó lúc nào cũng đường hoàng tự tin.
+대처하다|문제에 침착하게 {대처했어요}.|Tôi đã đối phó với vấn đề một cách bình tĩnh.
+맞장구치다|친구의 이야기에 {맞장구쳤어요}.|Tôi hùa theo câu chuyện của bạn.
+모욕하다|사람들 앞에서 {모욕하면} 안 돼요.|Không được xúc phạm người khác trước đám đông.
+무안하다|실수해서 {무안했어요}.|Tôi mắc lỗi nên thấy ngượng.
+배려하다|항상 남을 {배려해요}.|Tôi luôn quan tâm đến người khác.
+상처|말 한마디가 {상처}가 될 수 있어요.|Một lời nói có thể thành vết thương.
+서운하다|친구가 잊어서 {서운했어요}.|Bạn quên nên tôi thấy buồn.
+설득하다|부모님을 {설득했어요}.|Tôi đã thuyết phục bố mẹ.
+소통|가족 간의 {소통}이 중요해요.|Sự giao tiếp giữa các thành viên gia đình quan trọng.
+수용하다|상대방의 의견을 {수용해요}.|Tôi tiếp nhận ý kiến của đối phương.
+서먹하다|오랜만에 만나서 {서먹했어요}.|Lâu mới gặp nên thấy ngượng ngùng.
+신뢰|친구 사이에는 {신뢰}가 중요해요.|Giữa bạn bè sự tin tưởng quan trọng.
+억울하다|잘못이 없는데 혼나서 {억울해요}.|Tôi không có lỗi mà bị mắng nên thấy oan ức.
+위로하다|슬퍼하는 친구를 {위로했어요}.|Tôi đã an ủi người bạn đang buồn.
+응원하다|친구의 꿈을 {응원해요}.|Tôi cổ vũ cho ước mơ của bạn.
+진심|{진심}으로 사과했어요.|Tôi xin lỗi bằng cả tấm lòng.
+칭찬|선생님께 {칭찬}을 받았어요.|Tôi được thầy cô khen.
+험담하다|다른 사람을 {험담하지} 마세요.|Đừng nói xấu người khác.
+화해하다|친구와 {화해했어요}.|Tôi đã làm hòa với bạn.
+공감하다|그 이야기에 깊이 {공감했어요}.|Tôi rất đồng cảm với câu chuyện đó.
+경청하다|상대방의 말을 {경청해요}.|Tôi chăm chú lắng nghe lời đối phương.
+갈등|가족 사이에 {갈등}이 생겼어요.|Đã phát sinh mâu thuẫn trong gia đình.
+비난하다|실수한 사람을 {비난하지} 마세요.|Đừng chỉ trích người đã mắc lỗi.
+양보하다|동생에게 자리를 {양보했어요}.|Tôi nhường chỗ cho em.
+용서하다|친구의 잘못을 {용서했어요}.|Tôi đã tha thứ lỗi của bạn.
+타협하다|서로 조금씩 양보해서 {타협했어요}.|Cả hai nhường nhau một chút và đã thỏa hiệp.
+솔직하다|그 사람은 {솔직해서} 좋아요.|Người đó thẳng thắn nên tôi thích.
+겸손하다|그는 성공해도 {겸손해요}.|Anh ấy dù thành công vẫn khiêm tốn.
+## 11
+엄격하다|아버지는 {엄격하세요}.|Bố nghiêm khắc.
+영웅|이순신은 한국의 {영웅}이에요.|Yi Sun-sin là anh hùng của Hàn Quốc.
+예외|규칙에는 {예외}가 있어요.|Quy tắc có ngoại lệ.
+오염되다|강물이 {오염되었어요}.|Nước sông đã bị ô nhiễm.
+용맹하다|그 장군은 {용맹했어요}.|Vị tướng đó dũng mãnh.
+우물 안 개구리|{우물 안 개구리}가 되지 마세요.|Đừng làm ếch ngồi đáy giếng.
+인간미|그 사람은 {인간미}가 있어요.|Người đó có tình người.
+임금|옛날에는 {임금}이 나라를 다스렸어요.|Ngày xưa nhà vua cai trị đất nước.
+자수성가|그는 {자수성가}한 사업가예요.|Anh ấy là doanh nhân tự lập nên sự nghiệp.
+잔인하다|{잔인한} 영화는 보기 싫어요.|Tôi không muốn xem phim tàn nhẫn.
+재산|{재산}이 많아도 행복하지 않을 수 있어요.|Dù nhiều tài sản cũng có thể không hạnh phúc.
+정직하다|{정직한} 사람이 되고 싶어요.|Tôi muốn trở thành người trung thực.
+정의롭다|그는 {정의로운} 사람이에요.|Anh ấy là người chính nghĩa.
+지혜롭다|할아버지는 {지혜로우세요}.|Ông nội thông thái.
+처벌하다|법을 어기면 {처벌해요}.|Vi phạm pháp luật thì bị xử phạt.
+청렴하다|{청렴한} 공무원이 필요해요.|Cần những công chức liêm khiết.
+충성스럽다|그 신하는 {충성스러웠어요}.|Vị thần tử đó trung thành.
+친근하다|그 선생님은 {친근해요}.|Thầy giáo đó thân thiện gần gũi.
+쾌활하다|동생은 성격이 {쾌활해요}.|Em tôi tính cách vui vẻ.
+투옥되다|그 사람은 감옥에 {투옥되었어요}.|Người đó bị bỏ tù.
+편협하다|{편협한} 생각을 버리세요.|Hãy bỏ suy nghĩ hẹp hòi.
+포용하다|다른 사람의 실수를 {포용해요}.|Tôi bao dung lỗi lầm của người khác.
+핑계|늦은 {핑계}를 대지 마세요.|Đừng viện cớ đến muộn.
+현명하다|그의 결정은 {현명했어요}.|Quyết định của anh ấy sáng suốt.
+호탕하다|할아버지는 {호탕하게} 웃으세요.|Ông cười sảng khoái.
+효자|그 사람은 {효자}예요.|Anh ấy là người con hiếu thảo.
+개척하다|새로운 길을 {개척했어요}.|Tôi đã khai phá con đường mới.
+겨루다|두 팀이 결승에서 {겨뤄요}.|Hai đội tranh tài ở trận chung kết.
+결연하다|{결연한} 표정으로 말했어요.|Anh ấy nói với vẻ mặt quả quyết.
+과시하다|재산을 {과시하지} 마세요.|Đừng khoe khoang tài sản.
+단념하다|꿈을 {단념하지} 않았어요.|Tôi đã không từ bỏ ước mơ.
+대담하다|그 사람은 {대담해요}.|Người đó táo bạo.
+도모하다|서로의 발전을 {도모해요}.|Chúng tôi cùng mưu cầu sự phát triển.
+무모하다|그런 계획은 {무모해요}.|Kế hoạch như thế thật liều lĩnh.
+미숙하다|아직 일이 {미숙해요}.|Tôi vẫn còn non kinh nghiệm trong công việc.
+소신|그는 {소신}이 분명해요.|Anh ấy có chính kiến rõ ràng.
+시련|누구나 {시련}을 겪어요.|Ai cũng trải qua thử thách.
+업적|그의 {업적}은 대단해요.|Thành tựu của ông ấy thật to lớn.
+역경|{역경}을 이겨냈어요.|Tôi đã vượt qua nghịch cảnh.
+신중하다|그는 매사에 {신중해요}.|Anh ấy thận trọng trong mọi việc.
+오만하다|{오만한} 태도는 좋지 않아요.|Thái độ ngạo mạn thì không tốt.
+완고하다|할아버지는 고집이 {완고하세요}.|Ông nội cố chấp bảo thủ.
+유연하다|생각이 {유연해야} 해요.|Suy nghĩ phải linh hoạt.
+이끌다|그는 팀을 {이끌고} 있어요.|Anh ấy đang dẫn dắt đội.
+편견|{편견}을 버려야 해요.|Phải bỏ định kiến.
+혁신적이다|그 아이디어는 {혁신적이에요}.|Ý tưởng đó mang tính đột phá.
+## 12
+논란|그 문제는 {논란}이 되고 있어요.|Vấn đề đó đang gây tranh cãi.
+들뜨다|여행 전날에는 마음이 {들떠요}.|Ngày trước chuyến đi lòng tôi háo hức.
+마스크|미세먼지 때문에 {마스크}를 써요.|Vì bụi mịn nên tôi đeo khẩu trang.
+무분별하다|{무분별한} 개발은 위험해요.|Phát triển bừa bãi thì nguy hiểm.
+밤샘|시험 때문에 {밤샘} 공부를 했어요.|Vì kỳ thi nên tôi đã thức trắng đêm học.
+부작용|그 약은 {부작용}이 있어요.|Loại thuốc đó có tác dụng phụ.
+불임|{불임}으로 고민하는 부부가 많아요.|Có nhiều cặp vợ chồng trăn trở vì vô sinh.
+불치병|{불치병} 환자를 도와요.|Tôi giúp bệnh nhân mắc bệnh nan y.
+상속|재산을 자녀에게 {상속}해요.|Để thừa kế tài sản cho con.
+세포|{세포}는 몸의 기본 단위예요.|Tế bào là đơn vị cơ bản của cơ thể.
+손상되다|머리카락이 많이 {손상되었어요}.|Tóc đã bị hư tổn nhiều.
+온난화|지구 {온난화}가 심해지고 있어요.|Sự nóng lên toàn cầu ngày càng nghiêm trọng.
+우려|환경 오염에 대한 {우려}가 커요.|Mối lo ngại về ô nhiễm môi trường lớn.
+위험성|이 기술에는 {위험성}이 있어요.|Công nghệ này có tính nguy hiểm.
+유전자|{유전자} 연구가 발달했어요.|Nghiên cứu gen đã phát triển.
+의도적|그 사람은 {의도적}으로 거짓말했어요.|Người đó cố ý nói dối.
+이식하다|병원에서 장기를 {이식해요}.|Ở bệnh viện người ta cấy ghép nội tạng.
+인공 수정|{인공 수정}으로 아기를 낳았어요.|Cô ấy sinh em bé bằng thụ tinh nhân tạo.
+인권 침해|{인권 침해}는 법으로 금지돼요.|Xâm phạm nhân quyền bị luật cấm.
+진통|아기를 낳기 전에 {진통}이 와요.|Trước khi sinh em bé sẽ có cơn đau.
+축복|아기의 탄생을 {축복}해요.|Chúc phúc cho sự ra đời của em bé.
+해결책|문제의 {해결책}을 찾았어요.|Tôi đã tìm ra giải pháp cho vấn đề.
+혜택|학생들에게 많은 {혜택}을 줘요.|Cho học sinh nhiều ưu đãi.
+훼손하다|자연을 {훼손하지} 마세요.|Đừng hủy hoại thiên nhiên.
+흔적|사고의 {흔적}이 남아 있어요.|Còn lại dấu vết của vụ tai nạn.
+가격|이 노트북은 {가격}이 비싸요.|Chiếc laptop này giá đắt.
+거창하다|계획이 너무 {거창해요}.|Kế hoạch quá đồ sộ.
+구명조끼|배를 타면 {구명조끼}를 입어야 해요.|Đi tàu thì phải mặc áo phao.
+기능|이 전화기는 {기능}이 많아요.|Chiếc điện thoại này có nhiều chức năng.
+기술력|한국의 {기술력}은 세계적이에요.|Năng lực công nghệ của Hàn Quốc tầm cỡ thế giới.
+대형|{대형} 마트에서 장을 봐요.|Tôi đi chợ ở siêu thị lớn.
+방수|이 시계는 {방수}가 돼요.|Chiếc đồng hồ này chống nước.
+보급률|스마트폰 {보급률}이 높아요.|Tỷ lệ phổ cập điện thoại thông minh cao.
+성능|새 컴퓨터는 {성능}이 좋아요.|Máy tính mới có hiệu năng tốt.
+소형|{소형} 자동차를 샀어요.|Tôi đã mua xe nhỏ.
+시행착오|{시행착오}를 거쳐 성공했어요.|Tôi đã thành công sau nhiều lần thử và sai.
+실용성|이 가방은 {실용성}이 높아요.|Chiếc cặp này có tính thực dụng cao.
+용도|이 도구의 {용도}를 알려 주세요.|Hãy cho tôi biết công dụng của dụng cụ này.
+용량|저장 {용량}이 부족해요.|Dung lượng lưu trữ không đủ.
+위성|{위성}으로 날씨를 관측해요.|Quan sát thời tiết bằng vệ tinh.
+점차|날씨가 {점차} 따뜻해져요.|Thời tiết dần dần ấm lên.
+정밀하다|이 기계는 {정밀해요}.|Chiếc máy này chính xác.
+추세|물가가 오르는 {추세}예요.|Giá cả đang có xu hướng tăng.
+통신|{통신} 기술이 발전했어요.|Công nghệ truyền thông đã phát triển.
+할부|냉장고를 십이 개월 {할부}로 샀어요.|Tôi mua tủ lạnh trả góp mười hai tháng.
+## 13
+개미|{개미}는 열심히 일해요.|Kiến làm việc chăm chỉ.
+거실|가족이 {거실}에서 텔레비전을 봐요.|Cả nhà xem tivi ở phòng khách.
+견디다|힘든 시간을 {견뎠어요}.|Tôi đã chịu đựng quãng thời gian khó khăn.
+광장|{광장}에 사람들이 모였어요.|Mọi người đã tụ tập ở quảng trường.
+꾸러미|선물 {꾸러미}를 받았어요.|Tôi đã nhận được một gói quà.
+눈물겹다|그 이야기는 {눈물겨웠어요}.|Câu chuyện đó cảm động đến rơi nước mắt.
+눈치|저는 {눈치}가 빨라요.|Tôi nhạy bén nhìn sắc mặt.
+단편 소설|{단편 소설}을 한 편 읽었어요.|Tôi đã đọc một truyện ngắn.
+답답하다|방 안이 {답답해요}.|Trong phòng bí bách.
+대하소설|{대하소설}은 아주 길어요.|Tiểu thuyết trường giang rất dài.
+독자|이 책은 {독자}가 많아요.|Cuốn sách này có nhiều độc giả.
+등장인물|이 소설의 {등장인물}은 열 명이에요.|Nhân vật trong tiểu thuyết này có mười người.
+부끄럽다|사람들 앞에서 노래하는 게 {부끄러워요}.|Hát trước mọi người tôi thấy xấu hổ.
+불만|서비스에 {불만}이 있어요.|Tôi có bất mãn về dịch vụ.
+섭섭하다|친구가 안 와서 {섭섭했어요}.|Bạn không đến nên tôi thấy buồn.
+속상하다|시험을 못 봐서 {속상해요}.|Thi không tốt nên tôi buồn lòng.
+씨앗|봄에 꽃 {씨앗}을 심어요.|Mùa xuân tôi gieo hạt hoa.
+어버이날|{어버이날}에 카네이션을 드렸어요.|Vào ngày của Cha Mẹ tôi tặng hoa cẩm chướng.
+옥상|{옥상}에서 별을 봤어요.|Tôi đã ngắm sao trên sân thượng.
+장편 소설|{장편 소설}을 읽는 데 일주일이 걸렸어요.|Tôi mất một tuần để đọc tiểu thuyết dài.
+중편 소설|이 작품은 {중편 소설}이에요.|Tác phẩm này là truyện vừa.
+필자|이 글의 {필자}는 유명한 작가예요.|Tác giả bài viết này là nhà văn nổi tiếng.
+허겁지겁|늦어서 {허겁지겁} 뛰어갔어요.|Vì muộn nên tôi vội vàng chạy đi.
+홀가분하다|시험이 끝나서 {홀가분해요}.|Thi xong nên tôi thấy nhẹ nhõm.
+화자|이 시의 {화자}는 어린아이예요.|Người kể trong bài thơ này là một đứa trẻ.
+한숨 쉬다|그는 걱정이 많아서 {한숨 쉬어요}.|Anh ấy lo nhiều nên thở dài.
+고요하다|밤의 호수가 {고요해요}.|Hồ nước ban đêm tĩnh lặng.
+괴로워하다|그는 실수를 {괴로워해요}.|Anh ấy day dứt vì lỗi lầm.
